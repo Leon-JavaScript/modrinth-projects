@@ -1,4 +1,8 @@
 # 🛠️ DevClient Tools – Lightweight QoL & Developer Utility Pack
+
+> [!NOTE]
+> Support for Minecraft versions above 1.21.8 is planned for future releases.
+
 DevClient Tools is a purely client-side modpack tailored for players and developers who want a cleaner, more efficient Minecraft experience — without altering core gameplay. Whether you're building, testing server plugins, or simply playing with enhanced clarity, this pack provides the tools you need without adding unnecessary bulk.
 
 ## 🔍 Developer-Oriented Features
