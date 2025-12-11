@@ -1,0 +1,74 @@
+name: Hypixel Skyblock Simple Issue
+description: Report a bug, request a feature, or ask a question about Hypixel Skyblock Simple
+title: "[Hypixel SB Simple] "
+labels: ["Hypixel Skyblock [Simple]"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue report for **Hypixel Skyblock Simple**!
+        
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: What type of issue are you reporting?
+      options:
+        - Bug Report
+        - Feature Request
+        - Mod Compatibility Issue
+        - Configuration Question
+        - Other
+    validations:
+      required: true
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please provide a clear and detailed description of your issue or request.
+      placeholder: Describe what happened, what you expected, or what you'd like to see added.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce (if applicable)
+      description: If this is a bug, please provide steps to reproduce the issue.
+      placeholder: |
+        1. Launch the modpack
+        2. Join Hypixel Skyblock
+        3. ...
+      
+  - type: input
+    id: modpack-version
+    attributes:
+      label: Modpack Version
+      description: Which version of Hypixel Skyblock Simple are you using?
+      placeholder: e.g., 1.21.8-1.0
+      
+  - type: textarea
+    id: mods-modified
+    attributes:
+      label: Modified Mods/Configs
+      description: Have you added, removed, or modified any mods or configurations from the default modpack?
+      placeholder: List any modifications you've made
+      
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context, screenshots, or logs that might be helpful.
+      placeholder: Drag and drop screenshots or paste logs here
+      
+  - type: checkboxes
+    id: acknowledgments
+    attributes:
+      label: Acknowledgments
+      description: Please confirm the following
+      options:
+        - label: I have checked existing issues to ensure this is not a duplicate
+          required: true
+        - label: I understand that all mods are used at my own risk and are not officially endorsed by Hypixel
+          required: true

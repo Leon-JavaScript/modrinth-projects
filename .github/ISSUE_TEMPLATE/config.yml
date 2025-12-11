@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Modrinth - Hypixel Skyblock Simple
+    url: https://modrinth.com/modpack/simple-hypixel-skyblock
+    about: Download or browse the Hypixel Skyblock Simple modpack on Modrinth
+  - name: Modrinth - DevClient Tools
+    url: https://modrinth.com/modpack/devclient-tools
+    about: Download or browse the DevClient Tools modpack on Modrinth
