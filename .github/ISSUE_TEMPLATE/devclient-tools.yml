@@ -1,6 +1,6 @@
 name: DevClient Tools Issue
 description: Report a bug, request a feature, or ask a question about DevClient Tools
-title: "[DevClient] "
+title: "[DevClient Tools] "
 labels: ["DevClient Tools"]
 body:
   - type: markdown
