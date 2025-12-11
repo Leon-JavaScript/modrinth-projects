@@ -1,0 +1,42 @@
+{
+  "version": 4,
+  "subtitlesEnabled": false,
+  "sounds": [
+    {
+      "soundId": "minecraft:entity.blaze.shoot",
+      "volume": 0.3
+    },
+    {
+      "soundId": "minecraft:entity.ender_dragon.death",
+      "volume": 0.6
+    },
+    {
+      "soundId": "minecraft:entity.generic.explode",
+      "volume": 0.2
+    },
+    {
+      "soundId": "minecraft:entity.ghast.hurt",
+      "volume": 0.3
+    },
+    {
+      "soundId": "minecraft:entity.ghast.shoot",
+      "volume": 0.07
+    },
+    {
+      "soundId": "minecraft:entity.lightning_bolt.thunder",
+      "volume": 0.25
+    },
+    {
+      "soundId": "minecraft:entity.silverfish.death",
+      "volume": 0.45
+    },
+    {
+      "soundId": "minecraft:entity.wither.shoot",
+      "volume": 0.3
+    },
+    {
+      "soundId": "minecraft:entity.zombie.ambient",
+      "volume": 0.35
+    }
+  ]
+}
