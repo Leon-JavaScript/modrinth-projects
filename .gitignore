@@ -1,7 +1,1 @@
 *.mrpack
-
-# DevClient Tools
-devclient-tools/overrides/config/axiom/.axiominternal.hocon
-devclient-tools/overrides/config/axiom/imgui.ini
-devclient-tools/overrides/config/fabric
-devclient-tools/overrides/config/viafabricplus/accounts.json
