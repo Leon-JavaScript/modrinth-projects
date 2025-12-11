@@ -113,7 +113,7 @@
 			"goodEnchantsColour": -22016
 		},
 		"dungeons": {
-			"dungeonFinderPlayerStats": false,
+			"dungeonFinderPlayerStats": true,
 			"oldMasterStars": false,
 			"fancyDiamondHeadNames": false,
 			"hideClickOnTimeTooltips": true

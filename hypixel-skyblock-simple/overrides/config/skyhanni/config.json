@@ -622,7 +622,7 @@
     "configButtonOnPause": false,
     "widenConfig": false,
     "titlePosition": {
-      "x": 204,
+      "x": 217,
       "y": 160,
       "scale": 1.0,
       "centerX": false,
@@ -5176,7 +5176,7 @@
       "powderMessages": false,
       "assumeMayor": "DISABLED",
       "disableAssumeMayor": true,
-      "alwaysYearOfThePig": true,
+      "alwaysYearOfThePig": false,
       "alwaysFunnyTime": false,
       "neverFunnyTime": false,
       "alwaysHoppitys": false,

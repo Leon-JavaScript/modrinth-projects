@@ -1,14 +1,15 @@
 {
     // The version of the config file. Do not change this unless you know what you are doing.
-    "rconfig:version": 0,
+    "rconfig:version": 1,
     "profileSpying": true,
-    "profileChatClick": true,
+    "profileChatClick": false,
     "profileChatClickOther": false,
     // Valid Values: USD, EUR, JPY, GBP, AUD, CAD, CHF, CNH, HKD, NZD, CZK, ZWL, INR, BTC, ETH, DOGE
     "currency": "EUR",
     "alignCategoryButtonsLeft": true,
     "showPronouns": true,
-    "partyFinderMessage": false,
+    // Valid Values: 
+    "partyFinderMessage": "DISABLED",
     "disableOutsideHypixel": false,
     "skillOverflow": true,
     "displayScaling": false,

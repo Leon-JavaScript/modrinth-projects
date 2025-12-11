@@ -1,23 +1,20 @@
 {
   "commands": {
-    "/i": "/is",
+    "/s": "/skyblock",
     "/ca": "/chat all",
-    "/cp": "/chat party",
-    "/s": "/skyblock"
+    "/cp": "/chat party"
   },
   "commandArgs": {
-    "/v": "/visit",
-    "/pa": "/p accept",
-    "/m": "/msg"
+    "/v": "/visit"
   },
   "keyBindings": {
-    "key.keyboard.keypad.1": "/warp dungeon_hub",
-    "key.keyboard.f": "/equipment",
-    "key.keyboard.z": "/wardrobe 2",
-    "key.keyboard.keypad.9": "/is",
-    "key.keyboard.keypad.7": "/warp forge",
     "key.keyboard.x": "/pets",
+    "key.keyboard.z": "/wardrobe",
+    "key.keyboard.keypad.7": "/warp forge",
+    "key.keyboard.keypad.8": "/warp hub",
     "key.keyboard.keypad.6": "/warp garden",
-    "key.keyboard.keypad.8": "/warp hub"
+    "key.keyboard.keypad.9": "/is",
+    "key.keyboard.keypad.1": "/warp dungeon_hub",
+    "key.keyboard.f": "/equipment"
   }
 }

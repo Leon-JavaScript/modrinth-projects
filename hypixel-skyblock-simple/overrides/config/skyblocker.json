@@ -192,21 +192,9 @@
       "maxSuggestions": 3,
       "historyLength": 3,
       "enableCommands": false,
-      "bazaarHistory": [
-        "raw",
-        "Sugar Cane",
-        "Ice Essence"
-      ],
-      "auctionHistory": [
-        "Juju Shortbow",
-        "Runeblade Talisman",
-        "Snowman"
-      ],
-      "museumHistory": [
-        "Scorpion Foil",
-        "Icy Sinker",
-        "headless"
-      ]
+      "bazaarHistory": [],
+      "auctionHistory": [],
+      "museumHistory": []
     },
     "bazaarQuickQuantities": {
       "enabled": false,
@@ -347,7 +335,7 @@
     "fancyPartyFinder": false,
     "croesusHelper": true,
     "salvageHelper": true,
-    "onlyHighlightDonatedItems": false,
+    "onlyHighlightDonatedItems": true,
     "sellableItemsHighlighter": true,
     "bloodCampHelper": true,
     "playerSecretsTracker": true,
@@ -441,7 +429,7 @@
       "sendMimicMessage": true
     },
     "princeMessage": {
-      "sendPrinceMessage": false
+      "sendPrinceMessage": true
     },
     "doorHighlight": {
       "enableDoorHighlight": true,
