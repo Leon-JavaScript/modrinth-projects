@@ -65,7 +65,7 @@ jobs:
           version: '${{ needs.build.outputs.version }}'
           version-type: 'release'
           loaders: |-
-            minecraft
+            fabric
           game-versions: |-
             ${{ needs.build.outputs.mc_version }}
           files: |
