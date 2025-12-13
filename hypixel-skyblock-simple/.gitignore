@@ -2,6 +2,7 @@ overrides/config/fabric
 overrides/config/firmament/profiles
 overrides/config/notenoughupdates
 overrides/config/roughlyenoughitems/hints.json
+overrides/config/roughlyenoughitems/pinyin.properties
 overrides/config/skyblockapi
 overrides/config/skyblocker/backpack-preview
 overrides/config/skyblocker/config_backups
