@@ -1,0 +1,74 @@
+name: Publish DevClient Tools to Modrinth
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      project_name: ${{ steps.project_info.outputs.project_name }}
+      version: ${{ steps.project_info.outputs.version }}
+      mc_version: ${{ steps.project_info.outputs.mc_version }}
+      artifact_name: ${{ steps.project_info.outputs.artifact_name }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Extract project info from modrinth.index.json
+        id: project_info
+        run: |
+          cd devclient-tools
+          PROJECT_NAME=$(jq -r '.name' modrinth.index.json)
+          VERSION=$(jq -r '.versionId' modrinth.index.json)
+          MC_VERSION=$(jq -r '.dependencies.minecraft' modrinth.index.json)
+          ARTIFACT_NAME="${PROJECT_NAME} ${VERSION}.mrpack"
+          echo "project_name=$PROJECT_NAME" >> $GITHUB_OUTPUT
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "mc_version=$MC_VERSION" >> $GITHUB_OUTPUT
+          echo "artifact_name=$ARTIFACT_NAME" >> $GITHUB_OUTPUT
+          echo "Project: $PROJECT_NAME"
+          echo "Version: $VERSION"
+          echo "Minecraft: $MC_VERSION"
+
+      - name: Create .mrpack archive
+        run: |
+          cd devclient-tools
+          zip -r "../${{ steps.project_info.outputs.artifact_name }}" .
+          cd ..
+          mkdir -p artifacts
+          mv "${{ steps.project_info.outputs.artifact_name }}" artifacts/
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: devclient-tools-mrpack
+          path: artifacts/${{ steps.project_info.outputs.artifact_name }}
+          retention-days: 7
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v7
+        with:
+          name: devclient-tools-mrpack
+          path: artifacts
+
+      - name: Upload to Modrinth
+        uses: Kira-NT/mc-publish@v3.3
+        with:
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          modrinth-id: ${{ vars.MODRINTH_DEVCLIENT_ID }}
+          name: '${{ needs.build.outputs.project_name }} ${{ needs.build.outputs.version }}'
+          version: '${{ needs.build.outputs.version }}'
+          version-type: 'release'
+          loaders: |-
+            minecraft
+          game-versions: |-
+            ${{ needs.build.outputs.mc_version }}
+          files: |
+            ./artifacts/${{ needs.build.outputs.artifact_name }}
+          retry-attempts: 2
+          retry-delay: 10000
