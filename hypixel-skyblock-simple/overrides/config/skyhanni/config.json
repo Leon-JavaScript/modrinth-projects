@@ -45,6 +45,7 @@
         "BANK",
         "BITS",
         "COPPER",
+        "SOWDUST",
         "GEMS",
         "HEAT",
         "COLD",
@@ -82,6 +83,7 @@
             "BANK",
             "BITS",
             "COPPER",
+            "SOWDUST",
             "GEMS",
             "HEAT",
             "COLD",
@@ -869,6 +871,8 @@
         "melon": 400.0,
         "cocoaBeans": 400.0,
         "sugarCane": 330.0,
+        "sunMoonFlower": 155.0,
+        "wildRose": 155.0,
         "cactus": 464.0,
         "mushroom": 259.0
       },
@@ -912,7 +916,11 @@
         "sugarCaneYaw": -135.0,
         "sugarCanePitch": 0.0,
         "wheatYaw": 90.0,
-        "wheatPitch": 0.0
+        "wheatPitch": 0.0,
+        "sunMoonFlowerYaw": 90.0,
+        "sunMoonFlowerPitch": 0.0,
+        "wildRoseYaw": 90.0,
+        "wildRosePitch": 0.0
       }
     },
     "farmingLane": {
@@ -1035,7 +1043,10 @@
           "COCOA_BEANS",
           "SUGAR_CANE",
           "CACTUS",
-          "MUSHROOM"
+          "MUSHROOM",
+          "SUNFLOWER",
+          "MOONFLOWER",
+          "WILD_ROSE"
         ],
         "position": {
           "x": -200,
@@ -1426,6 +1437,23 @@
         "ignoreCustomScale": false
       }
     },
+    "hoeLevelDisplay": {
+      "enabled": false,
+      "overflow": true,
+      "position": {
+        "x": 100,
+        "y": 100,
+        "scale": 1.0,
+        "centerX": true,
+        "centerY": true,
+        "ignoreCustomScale": false
+      }
+    },
+    "dnaAnalyzerSolver": {
+      "enabled": true,
+      "useMiddleClick": true,
+      "hideTooltips": true
+    },
     "plotPrice": false,
     "fungiCutterWarn": true,
     "burrowingSporesNotificationType": "TITLE",
@@ -1791,7 +1819,17 @@
           }
         },
         "enigmaRoseFlowerpot": true,
-        "ubikReminder": true
+        "ubikReminder": true,
+        "ubikGui": false,
+        "ubikOnlyWhenReady": false,
+        "timerPosition": {
+          "x": 100,
+          "y": 10,
+          "scale": 1.0,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        }
       }
     },
     "motes": {
@@ -3969,8 +4007,19 @@
       "multiGuesses": true,
       "burrowsNearbyDetection": true,
       "lineToNext": true,
+      "guessFromArrow": true,
+      "warnIfInaccurateArrowGuess": false,
       "burrowNearestWarp": true,
       "keyBindWarp": 80,
+      "warpDistanceDifference": 10,
+      "warpGuiPosition": {
+        "x": 327,
+        "y": 125,
+        "scale": 2.6,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      },
       "ignoredWarps": {
         "crypt": true,
         "wizard": false,
@@ -5358,6 +5407,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 110,
+  "lastVersion": 111,
   "lastMinecraftVersion": "1.21.8"
 }
