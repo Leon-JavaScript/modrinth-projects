@@ -30,7 +30,7 @@
       "enableBazaarPrice": false,
       "enableCraftingCost": "BUY_ORDER",
       "enableObtainedDate": false,
-      "enableMuseumInfo": false,
+      "enableMuseumInfo": true,
       "enableExoticTooltip": false,
       "enableAccessoriesHelper": true,
       "dungeonQuality": true,
@@ -249,6 +249,7 @@
     "enableDateCalculator": true,
     "enableCopyUnderbidPrice": false,
     "enableBuildersWandPreview": true,
+    "enableAnvilHelper": true,
     "mythologicalRitual": {
       "enableMythologicalRitualHelper": false
     },
@@ -287,7 +288,6 @@
         "CRYSTAL_HOLLOWS",
         "DUNGEON",
         "KUUDRAS_HOLLOW",
-        "GLACITE_MINESHAFT",
         "GALATEA",
         "UNKNOWN"
       ],
@@ -417,6 +417,7 @@
       "enableItemWaypoints": true,
       "enableBatWaypoints": true,
       "enableWitherWaypoints": true,
+      "enableRedstoneKeyWaypoints": true,
       "enableLeverWaypoints": true,
       "enableFairySoulWaypoints": true,
       "enableStonkWaypoints": true,
@@ -424,6 +425,11 @@
       "enablePearlWaypoints": true,
       "enablePrinceWaypoints": true,
       "enableDefaultWaypoints": true
+    },
+    "secretSync": {
+      "receiveRoomMatch": true,
+      "receiveRoomSecretCount": true,
+      "hideReceivedWaypoints": true
     },
     "mimicMessage": {
       "sendMimicMessage": true
@@ -510,6 +516,7 @@
     "commissionHighlight": true,
     "callMismyla": true,
     "redialOnBadSignal": true,
+    "enablePickobulusHelper": true,
     "dwarvenMines": {
       "solveFetchur": true,
       "solvePuzzler": true,
