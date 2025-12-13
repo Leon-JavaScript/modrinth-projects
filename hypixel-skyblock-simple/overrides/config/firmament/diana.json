@@ -1,12 +1,1 @@
-{
-    "ancestral-spade": true,
-    "ancestral-teleport": {
-        "button": {
-            "keyCode": 80
-        },
-        "modifiers": {
-            "modifiers": 0
-        }
-    },
-    "nearby-waypoints": false
-}
+{"ancestral-spade":true,"ancestral-teleport":{"button":{"keyCode":80},"modifiers":{"modifiers":0}},"nearby-waypoints":false}
