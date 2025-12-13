@@ -25,6 +25,7 @@ overrides/config/skyblockpv/reminders.json
 overrides/config/skyhanni/backup
 overrides/config/skyhanni/logs
 overrides/config/skyhanni/repo
+overrides/config/skyhanni/currentCommit.json
 overrides/config/skyhanni/friends.json
 overrides/config/skyhanni/pets.json
 overrides/config/skyhanni/sacks-*-backup.json
