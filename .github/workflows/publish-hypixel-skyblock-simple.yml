@@ -43,7 +43,7 @@ jobs:
         uses: actions/upload-artifact@v6
         with:
           name: hypixel-skyblock-simple-mrpack
-          path: artifacts/${{ steps.project_info.outputs.artifact_name }}
+          path: artifacts/
           retention-days: 1
 
   publish:
