@@ -34,13 +34,16 @@ jobs:
       - name: Create .mrpack archive
         run: |
           cd hypixel-skyblock-simple
-          zip -r "../${{ steps.project_info.outputs.artifact_name }}" .
+          zip -r ../package.mrpack .
+          cd ..
+          mkdir -p artifacts
+          mv package.mrpack "artifacts/${{ steps.project_info.outputs.artifact_name }}"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v6
         with:
           name: hypixel-skyblock-simple-mrpack
-          path: ${{ steps.project_info.outputs.artifact_name }}
+          path: artifacts/${{ steps.project_info.outputs.artifact_name }}
           retention-days: 1
 
   publish:
