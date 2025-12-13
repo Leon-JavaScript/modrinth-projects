@@ -8,8 +8,8 @@
     "currency": "EUR",
     "alignCategoryButtonsLeft": true,
     "showPronouns": true,
-    // Valid Values: 
-    "partyFinderMessage": "DISABLED",
+    // Valid Values: OFF, OPEN_PV, BREAKDOWN
+    "partyFinderMessage": "OFF",
     "disableOutsideHypixel": false,
     "skillOverflow": true,
     "displayScaling": false,
