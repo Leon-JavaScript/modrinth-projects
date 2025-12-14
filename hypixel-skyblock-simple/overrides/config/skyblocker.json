@@ -112,7 +112,7 @@
     "slotText": {
       "slotTextMode": "ENABLED",
       "textEnabled": {
-        "rancher_boots": true,
+        "rancher_boots": false,
         "hotm_perk_level": false
       },
       "slotTextToggled": false
