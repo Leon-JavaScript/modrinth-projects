@@ -64,19 +64,7 @@
     },
     "lockedSlots": [],
     "protectedItems": [],
-    "customItemNames": {
-      "40ebeeec-97b4-4105-ad5f-fe5af5206514": {
-        "text": "",
-        "extra": [
-          {
-            "text": "Heroic Aspect of the Void",
-            "color": "dark_purple"
-          }
-        ],
-        "italic": false,
-        "color": "white"
-      }
-    },
+    "customItemNames": {},
     "customDyeColors": {},
     "customArmorTrims": {},
     "customAnimatedDyes": {},
