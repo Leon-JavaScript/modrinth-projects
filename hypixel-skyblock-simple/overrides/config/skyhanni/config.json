@@ -647,7 +647,7 @@
   },
   "garden": {
     "skyMart": {
-      "copperPrice": true,
+      "copperPrice": false,
       "itemScale": 1.0,
       "copperPricePos": {
         "x": 211,
@@ -740,7 +740,9 @@
           "OVERGROWN_GRASS",
           "GREEN_BANDANA",
           "DEDICATION_IV",
-          "COPPER_DYE"
+          "COPPER_DYE",
+          "HYPERCHARGE_CHIP",
+          "QUICKDRAW_CHIP"
         ],
         "displayNumbersFirst": true,
         "displayIcons": false,
@@ -979,19 +981,6 @@
       "etaGoalRank": "10000",
       "ignoreLow": false,
       "showOutsideGarden": false
-    },
-    "dicerRngDropTracker": {
-      "enabled": false,
-      "compact": false,
-      "hideChat": false,
-      "position": {
-        "x": 16,
-        "y": -232,
-        "scale": 1.0,
-        "centerX": false,
-        "centerY": true,
-        "ignoreCustomScale": false
-      }
     },
     "moneyPerHours": {
       "display": false,
@@ -1452,10 +1441,10 @@
     "dnaAnalyzerSolver": {
       "enabled": true,
       "useMiddleClick": true,
+      "blockAccidentalClosing": true,
       "hideTooltips": true
     },
     "plotPrice": false,
-    "fungiCutterWarn": true,
     "burrowingSporesNotificationType": "TITLE",
     "cropSpeedMeterPos": {
       "x": 278,
@@ -3311,13 +3300,7 @@
       },
       "superpairs": {
         "clickedItemsVisible": {
-          "enabled": true,
-          "highlight": {
-            "enabled": true,
-            "matchedPairColor": "0:150:0:255:0",
-            "uncoveredPairColor": "0:150:255:255:0",
-            "secondClickPairColor": "0:150:255:0:255"
-          }
+          "enabled": true
         },
         "display": false,
         "displayPosition": {
@@ -5407,6 +5390,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 111,
+  "lastVersion": 113,
   "lastMinecraftVersion": "1.21.8"
 }
