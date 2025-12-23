@@ -1,0 +1,43 @@
+name: Sort Modrinth Files
+
+on:
+  push:
+    paths:
+      - '**/modrinth.index.json'
+
+jobs:
+  sort-files:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Sort modrinth.index.json files
+        run: |
+          # Find all modrinth.index.json files and sort them
+          find . -name "modrinth.index.json" -type f | while read file; do
+            echo "Sorting $file"
+            node sort-modrinth-files.js "$file"
+          done
+      
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add "**/modrinth.index.json"
+          git diff --staged --quiet || git commit -m "chore: sort modrinth.index.json files alphabetically"
+      
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
