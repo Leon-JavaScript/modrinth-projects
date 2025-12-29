@@ -3079,7 +3079,7 @@
     "messageFilter": {
       "rareDrops": false,
       "keysAndDoors": false,
-      "soloClass": false,
+      "soloClass": true,
       "soloStats": true,
       "fairy": true
     },
