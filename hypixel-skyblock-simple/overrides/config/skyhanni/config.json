@@ -623,7 +623,7 @@
     },
     "widenConfig": false,
     "titlePosition": {
-      "x": 24,
+      "x": 217,
       "y": 160,
       "scale": 1.0,
       "centerX": false,
@@ -918,7 +918,7 @@
         "sugarCanePitch": 0.0,
         "wheatYaw": 90.0,
         "wheatPitch": 0.0,
-        "sunMoonFlowerYaw": 90.0,
+        "sunMoonFlowerYaw": -135.0,
         "sunMoonFlowerPitch": 0.0,
         "wildRoseYaw": 90.0,
         "wildRosePitch": 0.0
@@ -1212,6 +1212,7 @@
         "cooldownWarningTime": 5,
         "customCooldown": false,
         "customCooldownTime": 135,
+        "customCooldownTimeFinnegan": 75,
         "averagePestSpawnTimeout": 30,
         "pestSpawnChatMessage": false,
         "sound": {
@@ -5135,6 +5136,18 @@
       "openLastStorage": false,
       "fallbackCommand": "ec 1"
     },
+    "customTodos": {
+      "enabled": true,
+      "separateGuis": true,
+      "position": {
+        "x": 150,
+        "y": 200,
+        "scale": 1.0,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      }
+    },
     "maintainGameVolume": false,
     "fastFairySouls": false,
     "gfsPiggyBank": false,
@@ -5152,7 +5165,8 @@
     "transparentTooltips": false,
     "hideExCoopMembers": false,
     "abiphoneAcceptKey": -1,
-    "fixDoubleClicks": false
+    "fixDoubleClicks": false,
+    "fixColorParticles": false
   },
   "dev": {
     "repo": {

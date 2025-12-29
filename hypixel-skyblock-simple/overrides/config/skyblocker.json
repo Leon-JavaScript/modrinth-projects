@@ -55,6 +55,7 @@
     },
     "specialEffects": {
       "rareDungeonDropEffects": true,
+      "rareDropEffects": true,
       "rareDyeDropEffects": true
     },
     "hitbox": {
@@ -505,6 +506,10 @@
     "callMismyla": true,
     "redialOnBadSignal": true,
     "enablePickobulusHelper": true,
+    "pickobulusHelper": {
+      "enablePickobulusHud": true,
+      "hideHudOnCooldown": false
+    },
     "dwarvenMines": {
       "solveFetchur": true,
       "solvePuzzler": true,
