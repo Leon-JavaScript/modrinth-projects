@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "renderThroughWalls": false,
+    "waypointType": "outlined_highlight",
+    "name": "Healer WP",
+    "island": "dungeon",
+    "waypoints": [
+      {
+        "colorComponents": [
+          1.0,
+          0.0,
+          1.0
+        ],
+        "alpha": 0.8156863,
+        "shouldRender": false,
+        "pos": [
+          54,
+          63,
+          114
+        ],
+        "name": " "
+      }
+    ]
+  }
+]

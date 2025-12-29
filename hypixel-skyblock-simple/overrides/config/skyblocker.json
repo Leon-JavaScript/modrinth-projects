@@ -144,7 +144,7 @@
       }
     },
     "waypoints": {
-      "enableWaypoints": false,
+      "enableWaypoints": true,
       "waypointType": "WAYPOINT",
       "renderLine": true,
       "lineColor": -16711936,
