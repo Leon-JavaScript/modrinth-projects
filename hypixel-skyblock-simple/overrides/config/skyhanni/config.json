@@ -4674,7 +4674,7 @@
       "languageCode": "en"
     },
     "skyBlockXPInChat": false,
-    "hideJacob": false,
+    "hideJacob": true,
     "hideSkyMall": false,
     "hideLottery": true,
     "shortenCoinAmounts": false,
