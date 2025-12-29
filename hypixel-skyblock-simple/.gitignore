@@ -31,5 +31,6 @@ overrides/config/skyhanni/pets.json
 overrides/config/skyhanni/sacks-*-backup.json
 overrides/config/skyhanni/sacks.json
 overrides/config/skyhanni/storage.json
+overrides/config/skyhanni/visual_words.json
 overrides/config/skyocean/data/*-*-*-*-*
 overrides/config/sodium-fingerprint.json
