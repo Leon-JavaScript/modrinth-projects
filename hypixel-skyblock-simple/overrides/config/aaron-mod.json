@@ -124,7 +124,7 @@
 			"dragonSpawnTimers": true,
 			"dragonSpawnNotifications": true,
 			"dragonHealthDisplay": true,
-			"dragonAimWaypoints": false,
+			"dragonAimWaypoints": true,
 			"arrowStackWaypoints": false
 		}
 	},
