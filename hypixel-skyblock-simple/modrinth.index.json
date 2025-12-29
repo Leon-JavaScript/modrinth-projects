@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "25.2.4",
+  "versionId": "25.2.5",
   "name": "Hypixel Skyblock [Simple]",
   "summary": "",
   "files": [
@@ -441,49 +441,49 @@
       "fileSize": 2522780
     },
     {
-      "path": "mods/skyblocker-5.10.0+1.21.8.jar",
+      "path": "mods/skyblocker-5.11.0+1.21.8.jar",
       "hashes": {
-        "sha1": "75bb34a20a2182b04d34fd55c8d49096973f323b",
-        "sha512": "86c1628b89d7680a6dc3e9e31940f99d0c0fd43f967d663426fc74ed909a72151071c45023808db3d26a42057fbeea8f8b4ecb0f55e57e16cd535774a700c116"
+        "sha1": "52a5a6fa4596abd8141da2f7716d62de09fd507c",
+        "sha512": "fd8452d2dc8853a34f46cc089b72b24dd50c0019350c5a75c62d01032fd4dc4d46e5977f8f000997be1e119b09f0742964d678618499ade29c1ff57cbbf1c9dc"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/7pEcYFqd/skyblocker-5.10.0%2B1.21.8.jar"
+        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/2FKg5ePt/skyblocker-5.11.0%2B1.21.8.jar"
       ],
-      "fileSize": 18188143
+      "fileSize": 18225400
     },
     {
-      "path": "mods/SkyBlockPv-1.6.4-1.21.8.jar",
+      "path": "mods/SkyBlockPv-1.6.5-1.21.8.jar",
       "hashes": {
-        "sha1": "29af8e9d13c3db87b11926d49e92e09da7f61d8f",
-        "sha512": "fe7ca7e7b4f83a6608a984fa2ca2d609c3ee50db4eeceb064a6c896914a31078bd04451ff3bf61a50b77744341a536658d512c446540ed18f298a85e82474073"
+        "sha512": "19de20533a2701b363395da3de9ef2206b296622d305f52cfd8659bb48c98590a9455ecc3e4e2e4b774fec1d4277888c0ad279f209243759bb9d41d085e8e10c",
+        "sha1": "dc32d1fcbaff0cd2b2f2c45e8fadf38d48da253d"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/8yqXwFLl/versions/NVzdZzDH/SkyBlockPv-1.6.4-1.21.8.jar"
+        "https://cdn.modrinth.com/data/8yqXwFLl/versions/FbdR1tws/SkyBlockPv-1.6.5-1.21.8.jar"
       ],
-      "fileSize": 10409161
+      "fileSize": 11007149
     },
     {
-      "path": "mods/SkyHanni-6.2.0-mc1.21.8.jar",
+      "path": "mods/SkyHanni-6.3.0-mc1.21.8.jar",
       "hashes": {
-        "sha1": "cb20e05fcfb5ca845f22547dd975d5df0f362010",
-        "sha512": "cb22209dfdb8a1e38725c3a9b9d0b16b5f0a37d05c4e3b376c45236050a0a841a107e35467a8bf1f7fdba123e74b44dbdc193b2ddb933afc9560e12b2620b0ee"
+        "sha512": "89ca141d8519782758da34bff590cf09780f51ba06dd2c428d7af4eeac27d4af24f9260d6ac905ac346be88c7feefce962a9c2e0f732a9e6399a97d49420c69c",
+        "sha1": "ac112e270d2260f5260d1bc38c690d7c67e6758e"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/FLYvebEN/SkyHanni-6.2.0-mc1.21.8.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/tPYPfPpt/SkyHanni-6.3.0-mc1.21.8.jar"
       ],
-      "fileSize": 31945376
+      "fileSize": 33905792
     },
     {
       "path": "mods/SkyOcean-1.12.0-1.21.8.jar",
