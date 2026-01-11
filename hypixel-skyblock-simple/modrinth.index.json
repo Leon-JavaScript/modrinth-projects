@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "25.2.5",
+  "versionId": "26.1.0",
   "name": "Hypixel Skyblock [Simple]",
   "summary": "",
   "files": [
@@ -111,19 +111,19 @@
       "fileSize": 81623
     },
     {
-      "path": "mods/entityculling-fabric-1.9.4-mc1.21.8.jar",
+      "path": "mods/entityculling-fabric-1.9.5-mc1.21.8.jar",
       "hashes": {
-        "sha512": "88d05f286316246e09083dd4eddf24de3bb2eb0fdaaed2d658f869d5509fba1c9d3f70481851e63a9508e56973027f74b90690a1492921ce4d71a8ac7f7ce8b5",
-        "sha1": "362292da045a191940d5da4cc5a3f25c58f3f543"
+        "sha512": "6686e5bdc7d722edfc9d57212d1f82364fb345f9b429717c1f7e8483725510f46f99fcd8061d517fd28f43a46e9e677d10c03f1222500240fd13870ac8388537",
+        "sha1": "deaf7284a46e6f04b0294c197ca7bc158e55a298"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/NNAgCjsB/versions/XK3Wqd9x/entityculling-fabric-1.9.4-mc1.21.8.jar"
+        "https://cdn.modrinth.com/data/NNAgCjsB/versions/fa1r3lFt/entityculling-fabric-1.9.5-mc1.21.8.jar"
       ],
-      "fileSize": 1561954
+      "fileSize": 1563283
     },
     {
       "path": "mods/Essential_1-3-10-4_fabric_1-21-8.jar",
@@ -291,19 +291,19 @@
       "fileSize": 66419
     },
     {
-      "path": "mods/modmenu-15.0.0.jar",
+      "path": "mods/modmenu-15.0.1.jar",
       "hashes": {
-        "sha512": "4a118cb4bc7e44a77b50c2f6e7187d0add9b564e752b91ad8b536044cb5c3e07a4caf81114b72080e78debbc04db573798a3d48467b6ad16bc01f7c4b43fb62e",
-        "sha1": "b22a1a02a13642ec707d01bb8b14a21188d6d6fa"
+        "sha512": "b1014fd867ba271134055c87a7ca95ab71012f82fa6c40071fc967ec8c362f2a139175576f79cb7a1468d8df7e857fe466a3364f40655c675331b02c70f9fac8",
+        "sha1": "cdcf04df75f5c5cb85510807840d19fee0a2a9c5"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/mOgUt4GM/versions/am1Siv7F/modmenu-15.0.0.jar"
+        "https://cdn.modrinth.com/data/mOgUt4GM/versions/kiOz1Uxm/modmenu-15.0.1.jar"
       ],
-      "fileSize": 1083202
+      "fileSize": 1087261
     },
     {
       "path": "mods/morechathistory-1.3.1.jar",
@@ -456,34 +456,34 @@
       "fileSize": 18225400
     },
     {
-      "path": "mods/SkyBlockPv-1.6.5-1.21.8.jar",
+      "path": "mods/SkyBlockPv-1.6.7-1.21.8.jar",
       "hashes": {
-        "sha512": "19de20533a2701b363395da3de9ef2206b296622d305f52cfd8659bb48c98590a9455ecc3e4e2e4b774fec1d4277888c0ad279f209243759bb9d41d085e8e10c",
-        "sha1": "dc32d1fcbaff0cd2b2f2c45e8fadf38d48da253d"
+        "sha512": "8bdb69c65d914192879ed0795d6825acab6d77333964d982cb9a99bc3a91b788e1156f957b140e4ceb443efc827b7a0eb43aa7b65706eb359b86364e22cad03f",
+        "sha1": "665c4c7788d3e47bf33f0be7ffc41cf6896ab2fc"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/8yqXwFLl/versions/FbdR1tws/SkyBlockPv-1.6.5-1.21.8.jar"
+        "https://cdn.modrinth.com/data/8yqXwFLl/versions/yt81kWwI/SkyBlockPv-1.6.7-1.21.8.jar"
       ],
-      "fileSize": 11007149
+      "fileSize": 11007214
     },
     {
-      "path": "mods/SkyHanni-6.3.0-mc1.21.8.jar",
+      "path": "mods/SkyHanni-6.8.0-mc1.21.8.jar",
       "hashes": {
-        "sha512": "89ca141d8519782758da34bff590cf09780f51ba06dd2c428d7af4eeac27d4af24f9260d6ac905ac346be88c7feefce962a9c2e0f732a9e6399a97d49420c69c",
-        "sha1": "ac112e270d2260f5260d1bc38c690d7c67e6758e"
+        "sha512": "34ae1ae2ef081570eaad35922289f67db0b1f293264ad92b643a18a6e6befedd1a5526933ea1f5e6253095c25a03e2ad5fdda75c799782313978c61988a6a81f",
+        "sha1": "a8f61136ea2da0bd8df1348f37c729ce0bf295df"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/tPYPfPpt/SkyHanni-6.3.0-mc1.21.8.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/K1xZaQ9l/SkyHanni-6.8.0-mc1.21.8.jar"
       ],
-      "fileSize": 33905792
+      "fileSize": 31401108
     },
     {
       "path": "mods/SkyOcean-1.12.0-1.21.8.jar",
@@ -591,19 +591,19 @@
       "fileSize": 81996
     },
     {
-      "path": "mods/yet_another_config_lib_v3-3.8.1+1.21.6-fabric.jar",
+      "path": "mods/yet_another_config_lib_v3-3.8.2+1.21.6-fabric.jar",
       "hashes": {
-        "sha512": "e43747e0bea6bbbe2133b15859ababf129f59eeb5a0e253bc779b5aa2a991c9910557354598e0b3d423d5bd608fd65b2be11f78913cb5222a0cd18825f0e9bc4",
-        "sha1": "767af408ffbec8142dfbaafef1e73f658db721fc"
+        "sha512": "502a278d916580a23bf894bdf187f66b3fcdf541848c045bde581ae2df33c3e79a0d70fc4aacc54c6ed82f7c392c03a0cf2a5f13903f5c5d9b625b4334311080",
+        "sha1": "85932b3db38a6bb2161bf75b126a36c87040ce64"
       },
       "env": {
         "server": "required",
         "client": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/1eAoo2KR/versions/KyQmNIz8/yet_another_config_lib_v3-3.8.1%2B1.21.6-fabric.jar"
+        "https://cdn.modrinth.com/data/1eAoo2KR/versions/iPLhsWMM/yet_another_config_lib_v3-3.8.2%2B1.21.6-fabric.jar"
       ],
-      "fileSize": 1130643
+      "fileSize": 1130373
     },
     {
       "path": "mods/Zoomify-2.14.6+1.21.6.jar",
