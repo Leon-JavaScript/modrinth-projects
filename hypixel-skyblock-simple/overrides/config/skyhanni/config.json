@@ -774,16 +774,32 @@
     "cropMilestones": {
       "progress": false,
       "overflow": {
-        "cropMilestoneDisplay": false,
-        "bestCropTime": false,
-        "inventoryStackSize": false,
-        "inventoryTooltip": false,
+        "cropMilestoneDisplay": true,
+        "inventoryStackSize": true,
+        "inventoryTooltip": true,
         "discordRPC": false,
-        "chat": false
+        "chat": true
       },
+      "showWithoutTool": false,
       "warnClose": false,
       "highestTimeFormat": "YEAR",
-      "bestShowMaxedNeeded": false,
+      "showMaxTier": false,
+      "customGoalCrops": [],
+      "customGoalConfig": {
+        "wheat": 46.0,
+        "carrot": 46.0,
+        "potato": 46.0,
+        "wart": 46.0,
+        "pumpkin": 46.0,
+        "melon": 46.0,
+        "cocoa": 46.0,
+        "cane": 46.0,
+        "cactus": 46.0,
+        "mushroom": 46.0,
+        "moonflower": 46.0,
+        "sunflower": 46.0,
+        "rose": 46.0
+      },
       "text": [
         "TITLE",
         "MILESTONE_TIER",
@@ -997,7 +1013,6 @@
       "bountiful": true,
       "mooshroom": true,
       "armor": true,
-      "dicer": true,
       "hideTitle": false,
       "pos": {
         "x": -330,
@@ -1083,7 +1098,8 @@
         "centerX": false,
         "centerY": true,
         "ignoreCustomScale": false
-      }
+      },
+      "zorroCapeProtection": true
     },
     "armorDropTracker": {
       "enabled": false,
@@ -1242,6 +1258,8 @@
         "enabled": false,
         "hideChat": true,
         "timeDisplayed": 30,
+        "includeBits": false,
+        "coinsPerBit": 700,
         "position": {
           "x": 20,
           "y": 20,
@@ -1365,7 +1383,10 @@
       }
     },
     "sensitivityReducer": {
-      "mode": "OFF",
+      "enabled": false,
+      "mode": [
+        "TOOL"
+      ],
       "keybind": 78,
       "reducingFactor": 15.0,
       "showGui": true,
@@ -1443,6 +1464,28 @@
       "useMiddleClick": true,
       "blockAccidentalClosing": true,
       "hideTooltips": true
+    },
+    "cropFeverTracker": {
+      "enabled": false,
+      "onlyWithTool": true,
+      "onlyDuringFever": true,
+      "text": [
+        "TITLE",
+        "RNG_DROPS",
+        "SPACER_2",
+        "ITEM_DROPS",
+        "FEVER_AMOUNT",
+        "TOTAL_BLOCKS",
+        "TOTAL_PROFIT"
+      ],
+      "position": {
+        "x": 80,
+        "y": 20,
+        "scale": 1.0,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      }
     },
     "plotPrice": false,
     "burrowingSporesNotificationType": "TITLE",
@@ -2060,7 +2103,8 @@
     "compactDoubleHook": false,
     "guessHotspotRadar": false,
     "guessHotspotRadarPathFind": true,
-    "lineToHotspot": false
+    "lineToHotspot": false,
+    "muteBanshee": false
   },
   "mining": {
     "miningEvent": {
@@ -3326,12 +3370,24 @@
     "enchantParsing": {
       "colorParsing": false,
       "format": "NORMAL",
+      "ultimateEnchantColor": "LIGHT_PURPLE",
       "perfectEnchantColor": "CHROMA",
       "boldPerfectEnchant": false,
       "greatEnchantColor": "GOLD",
       "goodEnchantColor": "BLUE",
       "poorEnchantColor": "GRAY",
-      "commaFormat": "COPY_ENCHANT",
+      "advancedEnchantColors": {
+        "useAdvancedUltimateColor": false,
+        "advancedUltimateColor": "0:1:255:255:85",
+        "useAdvancedPerfectColor": false,
+        "advancedPerfectColor": "0:1:255:255:85",
+        "useAdvancedGreatColor": false,
+        "advancedGreatColor": "0:1:255:255:85",
+        "useAdvancedGoodColor": false,
+        "advancedGoodColor": "0:1:255:255:85",
+        "useAdvancedPoorColor": false,
+        "advancedPoorColor": "0:1:255:255:85"
+      },
       "hideVanillaEnchants": false,
       "hideEnchantDescriptions": false,
       "stackingEnchantProgress": false
@@ -3693,6 +3749,17 @@
       "noDrop": false,
       "selectedDrop": true
     },
+    "superCrafting": {
+      "waste": {
+        "enabled": false,
+        "threshold": 10.0,
+        "bulkThreshold": 5.0,
+        "withoutCookie": {
+          "threshold": 20.0,
+          "bulkThreshold": 10.0
+        }
+      }
+    },
     "statsTuning": {
       "selectedStats": false,
       "points": false,
@@ -3993,12 +4060,14 @@
       "highlightInquisitors": true,
       "color": "0:127:85:255:255",
       "guess": true,
-      "guessLogic": "PRECISE_GUESS",
       "multiGuesses": true,
       "burrowsNearbyDetection": true,
       "lineToNext": true,
       "guessFromArrow": true,
-      "warnIfInaccurateArrowGuess": false,
+      "warnOnFail": true,
+      "warnOnChainComp": true,
+      "renderSubGuesses": false,
+      "clearOnWorldChange": false,
       "burrowNearestWarp": true,
       "keyBindWarp": 80,
       "warpDistanceDifference": 10,
@@ -4050,7 +4119,8 @@
           "ignoreCustomScale": false
         },
         "showPercentage": false,
-        "hideChat": false
+        "hideChat": false,
+        "shardWarn": false
       },
       "allBurrowsList": {
         "save": true,
@@ -4809,8 +4879,8 @@
         "ignoreCustomScale": false
       }
     },
-    "areaNavigation": {
-      "pathfinder": {
+    "navigation": {
+      "areasList": {
         "enabled": false,
         "showAlways": false,
         "includeCurrentArea": false,
@@ -4824,21 +4894,22 @@
           "ignoreCustomScale": false
         }
       },
-      "inWorld": false,
-      "includeSmallAreas": false,
-      "enterTitle": false
-    },
-    "pathfinding": {
-      "feedbackMode": "GUI",
-      "position": {
-        "x": 200,
-        "y": 200,
-        "scale": 1.0,
-        "centerX": false,
-        "centerY": true,
-        "ignoreCustomScale": false
+      "showInWorld": false,
+      "enterTitle": false,
+      "pathfinding": {
+        "feedbackMode": "GUI",
+        "position": {
+          "x": 200,
+          "y": 200,
+          "scale": 1.0,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        },
+        "chatUpdateInterval": "PERFECT"
       },
-      "chatUpdateInterval": "PERFECT"
+      "allowInstantNavigation": true,
+      "includeSmallAreas": false
     },
     "hideArmor": {
       "mode": "OFF",
@@ -5374,6 +5445,14 @@
         "maxNodeDistance": 50,
         "showsStats": true,
         "useAsIslandArea": false
+      },
+      "chatProgressPosition": {
+        "x": 1,
+        "y": 160,
+        "scale": 1.0,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
       }
     },
     "mobDebug": {
@@ -5401,6 +5480,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 113,
+  "lastVersion": 116,
   "lastMinecraftVersion": "1.21.8"
 }
