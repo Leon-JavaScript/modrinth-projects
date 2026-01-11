@@ -8,12 +8,12 @@
     {
       "path": "mods/appleskin-fabric-mc1.21.6-3.0.6.jar",
       "hashes": {
-        "sha512": "e36c78b036676b3fac1ec3edefdcf014ccde8ce65fd3e9c1c2f9a7bbc7c94185168a2cd6c8c27564e9204cd892bfbaae9989830d1acea83e6f37187b7a43ad7d",
-        "sha1": "18fc3a8be56c802e3515ed3e2b6376eb00cd3eaf"
+        "sha1": "18fc3a8be56c802e3515ed3e2b6376eb00cd3eaf",
+        "sha512": "e36c78b036676b3fac1ec3edefdcf014ccde8ce65fd3e9c1c2f9a7bbc7c94185168a2cd6c8c27564e9204cd892bfbaae9989830d1acea83e6f37187b7a43ad7d"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/EsAfCjCV/versions/YAjCkZ29/appleskin-fabric-mc1.21.6-3.0.6.jar"
@@ -27,8 +27,8 @@
         "sha512": "7965ed7140c9f50cfcf8cf9b415de90497ae44ea4fb6dfe21704c6eba4210d0a34a4a0b0b6baf8b3e9d3b1cb70d0df79ef1ba93d04b5557f09a754959ac9c8b0"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/lhGA9TYQ/versions/XcJm5LH4/architectury-17.0.8-fabric.jar"
@@ -98,12 +98,12 @@
     {
       "path": "mods/Controlling-fabric-1.21.8-26.0.3.jar",
       "hashes": {
-        "sha512": "e1a4779633f0967243b60253b99aa3f91f1c97edd8ffe6883b5491acc2be847833aa94aef6970e293a42d50033304f931a0e1c86939bc7fe9b0e620671d76c8c",
-        "sha1": "f07bf0fe10c6c72be971c489547558de005cf597"
+        "sha1": "f07bf0fe10c6c72be971c489547558de005cf597",
+        "sha512": "e1a4779633f0967243b60253b99aa3f91f1c97edd8ffe6883b5491acc2be847833aa94aef6970e293a42d50033304f931a0e1c86939bc7fe9b0e620671d76c8c"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/xv94TkTM/versions/15AHrwi3/Controlling-fabric-1.21.8-26.0.3.jar"
@@ -117,8 +117,8 @@
         "sha512": "88d05f286316246e09083dd4eddf24de3bb2eb0fdaaed2d658f869d5509fba1c9d3f70481851e63a9508e56973027f74b90690a1492921ce4d71a8ac7f7ce8b5"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/NNAgCjsB/versions/XK3Wqd9x/entityculling-fabric-1.9.4-mc1.21.8.jar"
@@ -128,8 +128,8 @@
     {
       "path": "mods/fabric-api-0.136.1+1.21.8.jar",
       "hashes": {
-        "sha512": "eb1a6b5fc9912c68409493f10f43c3b61adda1d789ede9c83b16d0a95a2eb96bd630472866e163960479eb1b4d1196d09ade5aadc9da62624e800640c706c4a9",
-        "sha1": "56a377bdbf4d83a90d6863ca91b4776f7f09a46b"
+        "sha1": "56a377bdbf4d83a90d6863ca91b4776f7f09a46b",
+        "sha512": "eb1a6b5fc9912c68409493f10f43c3b61adda1d789ede9c83b16d0a95a2eb96bd630472866e163960479eb1b4d1196d09ade5aadc9da62624e800640c706c4a9"
       },
       "env": {
         "client": "required",
@@ -143,8 +143,8 @@
     {
       "path": "mods/fabric-language-kotlin-1.13.7+kotlin.2.2.21.jar",
       "hashes": {
-        "sha512": "0453a8a4eb8d791b5f0097a6628fae6f13b6dfba1e2bd1f91218769123808c4396a88bcdfc785f1d6bca348f267b32afc2aa9e0d5ec93a7b35bcfe295268c7bc",
-        "sha1": "ab71e8daf9a2d529204b5c28b3801713d22f3d46"
+        "sha1": "ab71e8daf9a2d529204b5c28b3801713d22f3d46",
+        "sha512": "0453a8a4eb8d791b5f0097a6628fae6f13b6dfba1e2bd1f91218769123808c4396a88bcdfc785f1d6bca348f267b32afc2aa9e0d5ec93a7b35bcfe295268c7bc"
       },
       "env": {
         "client": "required",
@@ -158,8 +158,8 @@
     {
       "path": "mods/ferritecore-8.0.0-fabric.jar",
       "hashes": {
-        "sha512": "131b82d1d366f0966435bfcb38c362d604d68ecf30c106d31a6261bfc868ca3a82425bb3faebaa2e5ea17d8eed5c92843810eb2df4790f2f8b1e6c1bdc9b7745",
-        "sha1": "53d76354587cd1965b842fdce7cff965b5c52fe5"
+        "sha1": "53d76354587cd1965b842fdce7cff965b5c52fe5",
+        "sha512": "131b82d1d366f0966435bfcb38c362d604d68ecf30c106d31a6261bfc868ca3a82425bb3faebaa2e5ea17d8eed5c92843810eb2df4790f2f8b1e6c1bdc9b7745"
       },
       "env": {
         "client": "required",
@@ -173,12 +173,12 @@
     {
       "path": "mods/freecam-fabric-1.3.4+mc1.21.6.jar",
       "hashes": {
-        "sha512": "f34f199f7b8fdfa73823aa36e470176b1bfb5d335ad933ede596e6a48fd9b675387fb7adb845c1cfaeb0e1de4e8bb274f31c77bb92c6d94116d4e061ef094173",
-        "sha1": "5f3ef37e4e048a52e45bbf2fbd126de58a27aa47"
+        "sha1": "5f3ef37e4e048a52e45bbf2fbd126de58a27aa47",
+        "sha512": "f34f199f7b8fdfa73823aa36e470176b1bfb5d335ad933ede596e6a48fd9b675387fb7adb845c1cfaeb0e1de4e8bb274f31c77bb92c6d94116d4e061ef094173"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/XeEZ3fK2/versions/t9um0ii2/freecam-fabric-1.3.4%2Bmc1.21.6.jar"
@@ -188,8 +188,8 @@
     {
       "path": "mods/Gamma-Utils-2.3.6+mc1.21.8.jar",
       "hashes": {
-        "sha512": "47444b18b8dca6f76519171db9b359cfd6f1d2518feffc7c30b791310b38ea3f4f2efbbb82f498d90070ee0db916655b508236ee83256261c74bc8100fb6572c",
-        "sha1": "a4c54ab5be38e75d8fc32900baef63a61a3129e5"
+        "sha1": "a4c54ab5be38e75d8fc32900baef63a61a3129e5",
+        "sha512": "47444b18b8dca6f76519171db9b359cfd6f1d2518feffc7c30b791310b38ea3f4f2efbbb82f498d90070ee0db916655b508236ee83256261c74bc8100fb6572c"
       },
       "env": {
         "client": "required",
@@ -203,8 +203,8 @@
     {
       "path": "mods/ImmediatelyFast-Fabric-1.12.3+1.21.8.jar",
       "hashes": {
-        "sha512": "3244cb99510c59cefad9a0a3250643055fad118fa24a05b892552ac2d854766991cee6d7fe8f302a877a944b8fe4247b46ea5e1477f0f754a097eac46b2a6122",
-        "sha1": "a89738af736bc59c4158d95606095c0338bf8112"
+        "sha1": "a89738af736bc59c4158d95606095c0338bf8112",
+        "sha512": "3244cb99510c59cefad9a0a3250643055fad118fa24a05b892552ac2d854766991cee6d7fe8f302a877a944b8fe4247b46ea5e1477f0f754a097eac46b2a6122"
       },
       "env": {
         "client": "required",
@@ -222,8 +222,8 @@
         "sha512": "ef3e0820c7c831c352cbd5afa4a1f4ff73db0fa3c4e4428ba35ad2faeb8e7bce8ae4805a04934be82099012444a70c0a2cf2049f2af95fe688ca84d94d1c4672"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/gvQqBUqZ/versions/qxIL7Kb8/lithium-fabric-0.18.1%2Bmc1.21.8.jar"
@@ -233,12 +233,12 @@
     {
       "path": "mods/modmenu-15.0.0.jar",
       "hashes": {
-        "sha512": "4a118cb4bc7e44a77b50c2f6e7187d0add9b564e752b91ad8b536044cb5c3e07a4caf81114b72080e78debbc04db573798a3d48467b6ad16bc01f7c4b43fb62e",
-        "sha1": "b22a1a02a13642ec707d01bb8b14a21188d6d6fa"
+        "sha1": "b22a1a02a13642ec707d01bb8b14a21188d6d6fa",
+        "sha512": "4a118cb4bc7e44a77b50c2f6e7187d0add9b564e752b91ad8b536044cb5c3e07a4caf81114b72080e78debbc04db573798a3d48467b6ad16bc01f7c4b43fb62e"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/mOgUt4GM/versions/am1Siv7F/modmenu-15.0.0.jar"
@@ -248,8 +248,8 @@
     {
       "path": "mods/moreculling-fabric-1.21.8-1.4.0-beta.2.jar",
       "hashes": {
-        "sha512": "8c429895fa268c611f6421b8fb744857eba56ce178949e503682dccd29c6e85246824df061fd475cb449f6173c01e65c8aecef25b0a24b98e5b0667a80afc041",
-        "sha1": "30123de3b8a09db46968d721c7892f5fb2b6d292"
+        "sha1": "30123de3b8a09db46968d721c7892f5fb2b6d292",
+        "sha512": "8c429895fa268c611f6421b8fb744857eba56ce178949e503682dccd29c6e85246824df061fd475cb449f6173c01e65c8aecef25b0a24b98e5b0667a80afc041"
       },
       "env": {
         "client": "required",
@@ -263,12 +263,12 @@
     {
       "path": "mods/myresourcepack-1.2.7+1.21.6.jar",
       "hashes": {
-        "sha512": "028df4983b164005a55b8d7da4180b002c64c568b00ad01ab9fd351f18687db3b0cf2f17d48851463a85fd9ceeaae8cb114ada2d18f3f7f12c6f7dd003212e39",
-        "sha1": "58b72a67bce547c1ee5476ba8f89f5fadb95ddab"
+        "sha1": "58b72a67bce547c1ee5476ba8f89f5fadb95ddab",
+        "sha512": "028df4983b164005a55b8d7da4180b002c64c568b00ad01ab9fd351f18687db3b0cf2f17d48851463a85fd9ceeaae8cb114ada2d18f3f7f12c6f7dd003212e39"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/PTj85Anz/versions/r7R8vGBd/myresourcepack-1.2.7%2B1.21.6.jar"
@@ -278,8 +278,8 @@
     {
       "path": "mods/NoChatReports-FABRIC-1.21.8-v2.15.0.jar",
       "hashes": {
-        "sha512": "444d7d69e3f769805de684f42be6f8413fe2464c314d79b95ee27e4cc5a532c6b0f28f639a14f274223661a1cde12e405a4171e7b2f69ed8b363b03fd6bcf663",
-        "sha1": "3a46f907bbdb6af78da01b501e69f9558cdb0197"
+        "sha1": "3a46f907bbdb6af78da01b501e69f9558cdb0197",
+        "sha512": "444d7d69e3f769805de684f42be6f8413fe2464c314d79b95ee27e4cc5a532c6b0f28f639a14f274223661a1cde12e405a4171e7b2f69ed8b363b03fd6bcf663"
       },
       "env": {
         "client": "required",
@@ -297,8 +297,8 @@
         "sha512": "66c20678e8329b0129407ab045c171e3e22a5ca13544b1fbcf5adb95f70f6bb6cb9fb4d9a2231cac7b95e32b6b26ae732b616dc437f9c927325bb20c20a55ac1"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/eXts2L7r/versions/1S1kjZ9W/placeholder-api-2.7.2%2B1.21.8.jar"
@@ -308,12 +308,12 @@
     {
       "path": "mods/Searchables-fabric-1.21.8-1.0.2.jar",
       "hashes": {
-        "sha512": "01599b0d43b65813cbb1f2f68c38eb75fe2efd0db07e9cd3be4e233207cd721db917b6026fc5f41756c49d3e39c85c918b798176aee1bc93258f29b7faf769a2",
-        "sha1": "235f5a429e3dc9e26841ec0afe23bb6657d52553"
+        "sha1": "235f5a429e3dc9e26841ec0afe23bb6657d52553",
+        "sha512": "01599b0d43b65813cbb1f2f68c38eb75fe2efd0db07e9cd3be4e233207cd721db917b6026fc5f41756c49d3e39c85c918b798176aee1bc93258f29b7faf769a2"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/fuuu3xnx/versions/LLzPBiwT/Searchables-fabric-1.21.8-1.0.2.jar"
@@ -323,12 +323,12 @@
     {
       "path": "mods/sodium-fabric-0.7.3+mc1.21.8.jar",
       "hashes": {
-        "sha512": "2c7fe998cd7d20c6decdc944df733db870ab364a64cfdbd4c504c1f4f11d3e41dc1b29555e73fbafc051b4c4fbfbd7b5262d13b9d874f4b1b8860de8aefeac53",
-        "sha1": "c9ed2b00385ea191e81ea4da51c008755fe90a26"
+        "sha1": "c9ed2b00385ea191e81ea4da51c008755fe90a26",
+        "sha512": "2c7fe998cd7d20c6decdc944df733db870ab364a64cfdbd4c504c1f4f11d3e41dc1b29555e73fbafc051b4c4fbfbd7b5262d13b9d874f4b1b8860de8aefeac53"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/AANobbMI/versions/7pwil2dy/sodium-fabric-0.7.3%2Bmc1.21.8.jar"
@@ -353,12 +353,12 @@
     {
       "path": "mods/ukus-armor-hud-0.8.1+mc1.21.6.jar",
       "hashes": {
-        "sha512": "8a3cd75eb21ecd704cd928c2c443d1d5cf5dede04bd36ab058922aaae2bbfa4b5198f9f016ff65f11746ab10ed269b0a5ea45f9b9bb8986592573414a6eb8127",
-        "sha1": "39c1026fa67fa6c34d8c6e3828cd3f66df77acf3"
+        "sha1": "39c1026fa67fa6c34d8c6e3828cd3f66df77acf3",
+        "sha512": "8a3cd75eb21ecd704cd928c2c443d1d5cf5dede04bd36ab058922aaae2bbfa4b5198f9f016ff65f11746ab10ed269b0a5ea45f9b9bb8986592573414a6eb8127"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/wF189hn9/versions/T4dxks62/ukus-armor-hud-0.8.1%2Bmc1.21.6.jar"
@@ -368,12 +368,12 @@
     {
       "path": "mods/ViaFabricPlus-4.2.5.jar",
       "hashes": {
-        "sha512": "5f1a50b418645a477dcf48549ab07ceae380251994f48df5ca48be15c202811663623c1267debfbdef5e5b260a8b73258b53c3132b7b488cd38b31c319336f2d",
-        "sha1": "b223f5ac68c42493d655d6a093a9563e06204bdf"
+        "sha1": "b223f5ac68c42493d655d6a093a9563e06204bdf",
+        "sha512": "5f1a50b418645a477dcf48549ab07ceae380251994f48df5ca48be15c202811663623c1267debfbdef5e5b260a8b73258b53c3132b7b488cd38b31c319336f2d"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/rIC2XJV4/versions/A9NeiMwQ/ViaFabricPlus-4.2.5.jar"
@@ -413,12 +413,12 @@
     {
       "path": "mods/XaerosWorldMap_1.39.13_Fabric_1.21.8.jar",
       "hashes": {
-        "sha512": "02b661e124bb5a85934cd6092e7aaac9eac6509e1333793be8a8b3c198c4fac2d73beb801d8d9130924452feee0196c8e979c5797774266e0488a96fbbef931c",
-        "sha1": "073dd437a4418cf1464824dd723441a3f589d9b5"
+        "sha1": "073dd437a4418cf1464824dd723441a3f589d9b5",
+        "sha512": "02b661e124bb5a85934cd6092e7aaac9eac6509e1333793be8a8b3c198c4fac2d73beb801d8d9130924452feee0196c8e979c5797774266e0488a96fbbef931c"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/NcUtCpym/versions/d1Pc1nIN/XaerosWorldMap_1.39.13_Fabric_1.21.8.jar"
@@ -428,8 +428,8 @@
     {
       "path": "mods/yet_another_config_lib_v3-3.8.1+1.21.6-fabric.jar",
       "hashes": {
-        "sha512": "e43747e0bea6bbbe2133b15859ababf129f59eeb5a0e253bc779b5aa2a991c9910557354598e0b3d423d5bd608fd65b2be11f78913cb5222a0cd18825f0e9bc4",
-        "sha1": "767af408ffbec8142dfbaafef1e73f658db721fc"
+        "sha1": "767af408ffbec8142dfbaafef1e73f658db721fc",
+        "sha512": "e43747e0bea6bbbe2133b15859ababf129f59eeb5a0e253bc779b5aa2a991c9910557354598e0b3d423d5bd608fd65b2be11f78913cb5222a0cd18825f0e9bc4"
       },
       "env": {
         "client": "required",
@@ -458,12 +458,12 @@
     {
       "path": "resourcepacks/Essential UI 1.21.7.zip",
       "hashes": {
-        "sha512": "d759c827faf718233ef292439c8314c9dc8b781be932f546d29be624fdb699cffc84ed5eeab15009a0d4b9192d23e25669809fdaf3514ffcccbcc107b8c2ab4f",
-        "sha1": "c5487a075ee3a19bfca2ea9b168b957a6cdf4ea5"
+        "sha1": "c5487a075ee3a19bfca2ea9b168b957a6cdf4ea5",
+        "sha512": "d759c827faf718233ef292439c8314c9dc8b781be932f546d29be624fdb699cffc84ed5eeab15009a0d4b9192d23e25669809fdaf3514ffcccbcc107b8c2ab4f"
       },
       "env": {
-        "server": "required",
-        "client": "required"
+        "client": "required",
+        "server": "required"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/FsSrime2/versions/b5jTDbEz/Essential%20UI%201.21.7.zip"
