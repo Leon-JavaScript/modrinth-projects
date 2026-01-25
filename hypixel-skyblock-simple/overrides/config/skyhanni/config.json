@@ -1149,9 +1149,9 @@
       "displayEnabled": false,
       "displayOutsideGarden": false,
       "warnAlmostEmpty": false,
-      "upgradePrice": false,
+      "upgradePrice": true,
       "roundDown": true,
-      "highlightUpgrade": false,
+      "highlightUpgrade": true,
       "inventoryNumbers": false,
       "notifyLow": {
         "enabled": false,
