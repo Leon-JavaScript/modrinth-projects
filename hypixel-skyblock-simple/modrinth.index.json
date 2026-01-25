@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "26.1.0",
+  "versionId": "26.2.0",
   "name": "Hypixel Skyblock [Simple]",
   "summary": "",
   "files": [
@@ -471,19 +471,19 @@
       "fileSize": 11007214
     },
     {
-      "path": "mods/SkyHanni-6.8.0-mc1.21.8.jar",
+      "path": "mods/SkyHanni-6.12.0-mc1.21.8.jar",
       "hashes": {
-        "sha1": "a8f61136ea2da0bd8df1348f37c729ce0bf295df",
-        "sha512": "34ae1ae2ef081570eaad35922289f67db0b1f293264ad92b643a18a6e6befedd1a5526933ea1f5e6253095c25a03e2ad5fdda75c799782313978c61988a6a81f"
+        "sha1": "12fd693e9bd577735b28ad2eda289daa5ee8bc65",
+        "sha512": "ec60598c8bd0ed7c979aee5bc3376b96ea5fe16e0366d1747fdc8d40b766df562f6efdafa8f9007f3579c3b1e016e2decf4c7b5c388314d1f3ed83bf016258fa"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/K1xZaQ9l/SkyHanni-6.8.0-mc1.21.8.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/g0FOZYHM/SkyHanni-6.12.0-mc1.21.8.jar"
       ],
-      "fileSize": 31401108
+      "fileSize": 31573725
     },
     {
       "path": "mods/SkyOcean-1.12.0-1.21.8.jar",
@@ -606,19 +606,19 @@
       "fileSize": 1130373
     },
     {
-      "path": "mods/Zoomify-2.14.6+1.21.6.jar",
+      "path": "mods/zoomify-2.15.1+1.21.6.jar",
       "hashes": {
-        "sha1": "924f94ba37694b279f5f20abd6fb2aa36ebc0965",
-        "sha512": "39f77acf495eecac0b33541df443131c12a017d8ba94144927a82cd62d6e8dcbb3c3b7abfe70076210cf9dd34012480da300b3753f34802d1731c8f3d293c668"
+        "sha1": "d2b6f7e726f63d63ab6bed47f3adb101a87c032d",
+        "sha512": "c6a3a07a79fef77b25108a5ff961dae2716b07318e21e5526c8cb7fabab86e1af3535d9e7a352ad5a44c5d33b6893ef91fcbe6f19df9a021113405e70f6e39bb"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/w7ThoJFB/versions/qMqviL3t/Zoomify-2.14.6%2B1.21.6.jar"
+        "https://cdn.modrinth.com/data/w7ThoJFB/versions/OwKsg9JX/zoomify-2.15.1%2B1.21.6.jar"
       ],
-      "fileSize": 1865830
+      "fileSize": 874532
     },
     {
       "path": "resourcepacks/bluelava1.21.zip",

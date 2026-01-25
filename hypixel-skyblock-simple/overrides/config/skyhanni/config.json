@@ -1257,6 +1257,12 @@
       "pestProfitTracker": {
         "enabled": false,
         "hideChat": true,
+        "onlyWhenHolding": [
+          "SPRAYONATOR",
+          "VACUUM",
+          "TIMEOUT"
+        ],
+        "hideWhileFarming": true,
         "timeDisplayed": 30,
         "includeBits": false,
         "coinsPerBit": 700,
@@ -1320,11 +1326,38 @@
           "ignoreCustomScale": false
         }
       },
+      "mantidDisplay": {
+        "enabled": true,
+        "whenToShow": [
+          "MANTID"
+        ],
+        "groupSimilarExpire": 30,
+        "pos": {
+          "x": 200,
+          "y": 50,
+          "scale": 1.0,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        }
+      },
       "muteVacuum": false,
-      "pestChanceDisplay": false,
+      "pestChanceDisplay": "DISABLED",
       "pestChanceDisplayPosition": {
         "x": 5,
         "y": -115,
+        "scale": 1.0,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      }
+    },
+    "greenhouse": {
+      "showDisplay": false,
+      "onlyShowWhenOverdue": false,
+      "position": {
+        "x": 180,
+        "y": 40,
         "scale": 1.0,
         "centerX": false,
         "centerY": true,
@@ -2104,7 +2137,8 @@
     "guessHotspotRadar": false,
     "guessHotspotRadarPathFind": true,
     "lineToHotspot": false,
-    "muteBanshee": false
+    "muteBanshee": false,
+    "flayHideDistance": 2.0
   },
   "mining": {
     "miningEvent": {
@@ -2297,6 +2331,20 @@
       "tooltipHider": {
         "hideDirt": false,
         "hideEverything": false
+      },
+      "scrapGFS": {
+        "enabled": false,
+        "position": {
+          "x": 100,
+          "y": 100,
+          "scale": 1.0,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        },
+        "fetchAmount": 16,
+        "onlyIfNoScrap": true,
+        "bzIfSacksEmpty": true
       },
       "profitPerExcavation": false,
       "glacitePowderStack": false
@@ -3840,6 +3888,7 @@
       "formatType": "SHORT",
       "itemToShow": 15,
       "hideBelow": 100000,
+      "ignoreSoulbound": false,
       "position": {
         "x": 107,
         "y": 141,
@@ -4708,7 +4757,10 @@
         "SHEEP",
         "COW",
         "PIG",
-        "CHICKEN"
+        "CHICKEN",
+        "FROG",
+        "HORSE",
+        "GOAT"
       ]
     },
     "rareDropMessages": {
@@ -4747,9 +4799,11 @@
     "skyBlockXPInChat": false,
     "hideJacob": true,
     "hideSkyMall": false,
+    "showEffectivePowder": false,
     "hideLottery": true,
     "shortenCoinAmounts": false,
-    "hideClickableHint": false
+    "hideClickableHint": false,
+    "darkAuctionItemDisplay": false
   },
   "misc": {
     "pets": {
@@ -5237,7 +5291,8 @@
     "hideExCoopMembers": false,
     "abiphoneAcceptKey": -1,
     "fixDoubleClicks": false,
-    "fixColorParticles": false
+    "fixColorParticles": false,
+    "rainbowActionBar": false
   },
   "dev": {
     "repo": {
@@ -5480,6 +5535,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 116,
+  "lastVersion": 118,
   "lastMinecraftVersion": "1.21.8"
 }
