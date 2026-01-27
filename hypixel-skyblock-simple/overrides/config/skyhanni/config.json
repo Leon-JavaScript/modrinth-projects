@@ -4059,7 +4059,7 @@
     "shiftClickForEquipment": false,
     "shiftClickNpcSell": false,
     "shiftClickBrewing": false,
-    "stonkOfStonkPrice": false,
+    "stonkOfStonkPrice": true,
     "ministerInCalendar": false,
     "hexAsColorInLore": false,
     "essenceShopHelper": false,
