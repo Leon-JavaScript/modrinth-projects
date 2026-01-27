@@ -623,7 +623,7 @@
     },
     "widenConfig": false,
     "titlePosition": {
-      "x": 217,
+      "x": 24,
       "y": 160,
       "scale": 1.0,
       "centerX": false,
@@ -765,6 +765,142 @@
       "highlightVisitors": false,
       "blockInteracting": "DONT"
     },
+    "eliteFarmersLeaderboards": {
+      "display": [],
+      "displayPositions": [
+        {
+          "x": 180,
+          "y": 10,
+          "scale": 1.0,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        }
+      ],
+      "farmingWeightLeaderboard": {
+        "display": {
+          "overtakeETA": false,
+          "overtakeETAAlways": true,
+          "ignoreLow": false,
+          "text": [
+            "WEIGHT_POSITION",
+            "OVERTAKE"
+          ],
+          "leaderboard": true,
+          "showOutsideGarden": false
+        },
+        "rankGoals": {
+          "rankGoal": "10000",
+          "monthlyRankGoal": "10000",
+          "useRankGoal": true
+        },
+        "showLbChange": true,
+        "offlineLbChange": false
+      },
+      "cropCollectionLeaderboard": {
+        "display": {
+          "overtakeETA": false,
+          "overtakeETAAlways": true,
+          "hideWhenNotFarming": true,
+          "text": [
+            "WEIGHT_POSITION",
+            "OVERTAKE"
+          ],
+          "leaderboard": true,
+          "showOutsideGarden": false
+        },
+        "rankGoals": {
+          "rankGoalTypes": [],
+          "rankGoalsConfig": {
+            "wheat": "10000",
+            "carrot": "10000",
+            "potato": "10000",
+            "wart": "10000",
+            "pumpkin": "10000",
+            "melon": "10000",
+            "cocoa": "10000",
+            "cane": "10000",
+            "cactus": "10000",
+            "mushroom": "10000",
+            "sunflower": "10000",
+            "moonflower": "10000",
+            "rose": "10000"
+          },
+          "monthlyRankGoalsConfig": {
+            "wheat": "10000",
+            "carrot": "10000",
+            "potato": "10000",
+            "wart": "10000",
+            "pumpkin": "10000",
+            "melon": "10000",
+            "cocoa": "10000",
+            "cane": "10000",
+            "cactus": "10000",
+            "mushroom": "10000",
+            "sunflower": "10000",
+            "moonflower": "10000",
+            "rose": "10000"
+          },
+          "useRankGoal": true
+        },
+        "showLbChange": true,
+        "offlineLbChange": false
+      },
+      "pestKillsLeaderboard": {
+        "display": {
+          "hideWhenInactive": true,
+          "timeDisplayed": 30,
+          "text": [
+            "WEIGHT_POSITION",
+            "OVERTAKE"
+          ],
+          "leaderboard": true,
+          "showOutsideGarden": false
+        },
+        "rankGoals": {
+          "rankGoalTypes": [],
+          "rankGoalsConfig": {
+            "allPests": "10000",
+            "fieldMouse": "10000",
+            "fly": "10000",
+            "cricket": "10000",
+            "locust": "10000",
+            "beetle": "10000",
+            "rat": "10000",
+            "earthworm": "10000",
+            "moth": "10000",
+            "mosquito": "10000",
+            "mite": "10000",
+            "slug": "10000",
+            "dragonfly": "10000",
+            "firefly": "10000",
+            "mantis": "10000"
+          },
+          "monthlyRankGoalsConfig": {
+            "allPests": "10000"
+          },
+          "useRankGoal": true
+        },
+        "showLbChange": true,
+        "offlineLbChange": false
+      }
+    },
     "number": {
       "cropMilestone": true,
       "averageCropMilestone": true,
@@ -854,7 +990,7 @@
       }
     },
     "keyBind": {
-      "enabled": true,
+      "enabled": false,
       "excludeBarn": true,
       "attack": 32,
       "useItem": 1,
@@ -975,26 +1111,6 @@
         "centerY": true,
         "ignoreCustomScale": false
       }
-    },
-    "eliteFarmingWeights": {
-      "display": false,
-      "pos": {
-        "x": 180,
-        "y": 10,
-        "scale": 1.0,
-        "centerX": false,
-        "centerY": true,
-        "ignoreCustomScale": false
-      },
-      "leaderboard": true,
-      "eliteLBType": "DEFAULT",
-      "overtakeETA": false,
-      "showLbChange": false,
-      "overtakeETAAlways": true,
-      "useEtaGoalRank": true,
-      "etaGoalRank": "10000",
-      "ignoreLow": false,
-      "showOutsideGarden": false
     },
     "moneyPerHours": {
       "display": false,
@@ -4107,9 +4223,11 @@
       "boopParty": false
     },
     "diana": {
-      "highlightInquisitors": true,
+      "highlightRareMobs": false,
       "color": "0:127:85:255:255",
       "guess": true,
+      "beaconDistance": 10.0,
+      "textScale": 1.0,
       "multiGuesses": true,
       "burrowsNearbyDetection": true,
       "lineToNext": true,
@@ -4129,15 +4247,16 @@
         "centerY": true,
         "ignoreCustomScale": false
       },
-      "ignoredWarps": {
-        "crypt": true,
-        "wizard": false,
-        "stonks": true
-      },
-      "inquisitorSharing": {
+      "ignoredWarpsList": [
+        "CRYPT",
+        "STONKS",
+        "TAYLOR"
+      ],
+      "petWarning": false,
+      "rareMobsSharing": {
         "enabled": false,
-        "focusInquisitor": false,
-        "instantShare": false,
+        "focus": false,
+        "instantShare": true,
         "keyBindShare": 89,
         "sound": {
           "name": "random.orb",
@@ -4146,7 +4265,6 @@
         "showDespawnTime": true,
         "globalChat": false
       },
-      "petWarning": false,
       "dianaProfitTracker": {
         "enabled": false,
         "position": {
@@ -5536,6 +5654,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 118,
-  "lastMinecraftVersion": "1.21.8"
+  "lastVersion": 120,
+  "lastMinecraftVersion": "1.21.10"
 }

@@ -36,7 +36,8 @@
       "dungeonQuality": true,
       "showEssenceCost": true,
       "enableEstimatedItemValue": true,
-      "enableStackingEnchantProgress": true
+      "enableStackingEnchantProgress": true,
+      "enableEvolvingItemProgress": true
     },
     "itemInfoDisplay": {
       "itemBackgroundStyle": "CIRCULAR",
@@ -106,6 +107,11 @@
       },
       "slotTextToggled": false
     },
+    "radialMenu": {
+      "enabled": false,
+      "tooltipsWithoutShift": false,
+      "enabledMenus": {}
+    },
     "inventorySearch": {
       "enabled": "SKYBLOCK",
       "ctrlK": false,
@@ -136,6 +142,9 @@
     },
     "bars": {
       "enableBars": false,
+      "enableBarsRift": true,
+      "riftHealthHP": false,
+      "enableVanillaStyleManaBar": false,
       "intelligenceDisplay": "ORIGINAL",
       "barPositions": {
         "healthBarPosition": "LAYER1",
@@ -203,7 +212,7 @@
     },
     "compactDamage": {
       "enabled": false,
-      "precision": 1,
+      "maxPrecision": 4,
       "normalDamageColor": -1,
       "critDamageGradientStart": -171,
       "critDamageGradientEnd": -43691
@@ -340,6 +349,10 @@
       "fancyMap": true,
       "showSelfHead": true,
       "showRoomLabels": true,
+      "roomLabelType": "ROOM_NAME_AND_SECRETS_FOUND",
+      "hideCheckmarks": true,
+      "showOutline": true,
+      "backgroundBlur": false,
       "mapScaling": 1.0,
       "mapX": 2,
       "mapY": 2
@@ -395,6 +408,15 @@
     "goldor": {
       "enableGoldorWaypoints": true,
       "waypointType": "WAYPOINT"
+    },
+    "terminalHud": {
+      "enableTerminalHud": false,
+      "showTerminalStatus": true,
+      "showPlayerAtTerminal": true,
+      "showTerminals": true,
+      "showDevice": true,
+      "showLevers": true,
+      "showGate": true
     },
     "secretWaypoints": {
       "enableSecretWaypoints": false,
@@ -682,7 +704,6 @@
     "hideMimicKill": "PASS",
     "hideDeath": "PASS",
     "hideMana": false,
-    "hideDicer": "PASS",
     "hideDungeonBreaker": "PASS",
     "chatRuleConfig": {
       "announcementLength": 60

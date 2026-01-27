@@ -44,6 +44,7 @@
     "toggledNightVision": 100,
     "updateToggle": false,
     "nightVisionStep": 2,
+    "brightenFogColor": true,
     "showStatusEffect": false,
     "resetOnClose": false,
     "transition": {
@@ -68,7 +69,8 @@
     "limiter": {
       "limitCheck": true,
       "minNightVision": 0,
-      "maxNightVision": 100
+      "maxNightVision": 100,
+      "gammaCompatibility": true
     },
     "hudMessage": {
       "showMessage": true,
