@@ -1355,6 +1355,7 @@
     "greenhouse": {
       "showDisplay": false,
       "onlyShowWhenOverdue": false,
+      "highlightHarvestableStatus": true,
       "position": {
         "x": 180,
         "y": 40,
