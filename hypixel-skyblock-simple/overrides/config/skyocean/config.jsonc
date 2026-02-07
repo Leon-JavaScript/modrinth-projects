@@ -63,7 +63,7 @@
     "garden": {
         "pestBaitType": false,
         "deskPestHighlight": true,
-        "pestWarning": true,
+        "pestWarning": false,
         // Range: 1 - 60
         "pestWarningDelay": 30
     },
