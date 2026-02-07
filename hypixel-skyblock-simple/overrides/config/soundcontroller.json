@@ -11,6 +11,14 @@
       "volume": 0.6
     },
     {
+      "soundId": "minecraft:entity.enderman.teleport",
+      "volume": 0.4
+    },
+    {
+      "soundId": "minecraft:entity.firework_rocket.blast",
+      "volume": 0.3
+    },
+    {
       "soundId": "minecraft:entity.generic.explode",
       "volume": 0.2
     },
