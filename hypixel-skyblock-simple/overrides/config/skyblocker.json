@@ -248,6 +248,7 @@
     "enableCopyUnderbidPrice": false,
     "enableBuildersWandPreview": true,
     "enableAnvilHelper": true,
+    "enableAccessoriesHelperWidget": true,
     "mythologicalRitual": {
       "enableMythologicalRitualHelper": false
     },
@@ -421,6 +422,7 @@
     "secretWaypoints": {
       "enableSecretWaypoints": false,
       "waypointType": "WAYPOINT",
+      "adaptiveBoxSize": false,
       "showSecretText": true,
       "enableEntranceWaypoints": true,
       "enableSuperboomWaypoints": true,
@@ -576,6 +578,10 @@
       "autoShareCorpses": false,
       "enableCorpseProfitTracker": true,
       "forceEnglishCorpseProfitTracker": true
+    },
+    "blockBreakPrediction": {
+      "enabled": false,
+      "playSound": false
     }
   },
   "farming": {
@@ -652,11 +658,16 @@
   "slayers": {
     "highlightMinis": "GLOW",
     "highlightBosses": "GLOW",
+    "highlightColor": -47104,
     "displayBossbar": true,
     "bossSpawnAlert": true,
     "miniBossSpawnAlert": true,
+    "alertOtherMinibosses": false,
+    "showMiniBossNameInAlert": false,
     "slainTime": true,
     "enableHud": false,
+    "hideSlayerMinibossSpawn": "PASS",
+    "highlightUnclaimedRewards": true,
     "callMaddox": {
       "sendMessageOnFail": true,
       "sendMessageOnKill": false
@@ -683,12 +694,22 @@
     },
     "blazeSlayer": {
       "firePillarCountdown": "SOUND_AND_VISUAL",
-      "attunementHighlights": true
+      "attunementHighlights": true,
+      "muteBlazeSounds": true,
+      "hideHellionShield": "PASS"
+    },
+    "wolfSlayer": {
+      "muteWolfSounds": false,
+      "hideSvenPupNametag": true
+    },
+    "spiderSlayer": {
+      "muteSpiderSounds": false
     }
   },
   "chat": {
     "skyblockXpMessages": true,
     "confirmationPromptHelper": false,
+    "toastDisplayDuration": 4.0,
     "hideAbility": "FILTER",
     "hideHeal": "PASS",
     "hideAOTE": "FILTER",
