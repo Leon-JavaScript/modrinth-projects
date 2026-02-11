@@ -19,6 +19,10 @@
       "volume": 0.6
     },
     {
+      "soundId": "minecraft:entity.enderman.death",
+      "volume": 0.5
+    },
+    {
       "soundId": "minecraft:entity.enderman.teleport",
       "volume": 0.4
     },
