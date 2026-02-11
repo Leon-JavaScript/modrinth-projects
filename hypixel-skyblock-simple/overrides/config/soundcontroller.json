@@ -11,6 +11,10 @@
       "volume": 0.3
     },
     {
+      "soundId": "minecraft:entity.elder_guardian.ambient",
+      "volume": 0.4
+    },
+    {
       "soundId": "minecraft:entity.ender_dragon.death",
       "volume": 0.6
     },
