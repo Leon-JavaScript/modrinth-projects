@@ -3,6 +3,10 @@
   "subtitlesEnabled": false,
   "sounds": [
     {
+      "soundId": "minecraft:block.note_block.pling",
+      "volume": 0.1
+    },
+    {
       "soundId": "minecraft:entity.blaze.shoot",
       "volume": 0.3
     },
