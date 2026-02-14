@@ -5133,7 +5133,7 @@
       }
     },
     "jerry": {
-      "highlightJerries": false,
+      "highlightJerries": true,
       "lineJerries": false
     },
     "spook": {
