@@ -6034,7 +6034,7 @@
         "ignoreCustomScale": false
       }
     },
-    "maintainGameVolume": false,
+    "maintainGameVolume": true,
     "fastFairySouls": false,
     "gfsPiggyBank": false,
     "userLuck": true,
