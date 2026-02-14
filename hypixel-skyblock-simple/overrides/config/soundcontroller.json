@@ -3,48 +3,240 @@
   "subtitlesEnabled": false,
   "sounds": [
     {
+      "soundId": "minecraft:ambient.nether_wastes.additions",
+      "volume": 0.5
+    },
+    {
+      "soundId": "minecraft:block.end_portal.spawn",
+      "volume": 0.7
+    },
+    {
+      "soundId": "minecraft:block.end_portal_frame.fill",
+      "volume": 0.8
+    },
+    {
+      "soundId": "minecraft:block.ender_chest.open",
+      "volume": 0.5
+    },
+    {
+      "soundId": "minecraft:block.note_block.bass",
+      "volume": 0.6
+    },
+    {
+      "soundId": "minecraft:block.note_block.harp",
+      "volume": 0.35
+    },
+    {
       "soundId": "minecraft:block.note_block.pling",
+      "volume": 0.03
+    },
+    {
+      "soundId": "minecraft:block.piston.extend",
+      "volume": 0.25
+    },
+    {
+      "soundId": "minecraft:block.portal.ambient",
+      "volume": 0.3
+    },
+    {
+      "soundId": "minecraft:block.portal.travel",
+      "volume": 0.8
+    },
+    {
+      "soundId": "minecraft:block.portal.trigger",
+      "volume": 0.8
+    },
+    {
+      "soundId": "minecraft:block.snow.break",
+      "volume": 0.3
+    },
+    {
+      "soundId": "minecraft:block.stone.place",
+      "volume": 0.6
+    },
+    {
+      "soundId": "minecraft:entity.arrow.hit",
       "volume": 0.1
+    },
+    {
+      "soundId": "minecraft:entity.arrow.hit_player",
+      "volume": 0.6
+    },
+    {
+      "soundId": "minecraft:entity.arrow.shoot",
+      "volume": 0.2
+    },
+    {
+      "soundId": "minecraft:entity.bat.death",
+      "volume": 0.6
     },
     {
       "soundId": "minecraft:entity.blaze.shoot",
       "volume": 0.3
     },
     {
+      "soundId": "minecraft:entity.cat.ambient",
+      "volume": 0.25
+    },
+    {
+      "soundId": "minecraft:entity.chicken.egg",
+      "volume": 0.2
+    },
+    {
       "soundId": "minecraft:entity.elder_guardian.ambient",
       "volume": 0.4
     },
     {
+      "soundId": "minecraft:entity.elder_guardian.curse",
+      "volume": 0.5
+    },
+    {
+      "soundId": "minecraft:entity.elder_guardian.death",
+      "volume": 0.1
+    },
+    {
+      "soundId": "minecraft:entity.elder_guardian.hurt",
+      "volume": 0.1
+    },
+    {
       "soundId": "minecraft:entity.ender_dragon.death",
+      "volume": 0.01
+    },
+    {
+      "soundId": "minecraft:entity.ender_dragon.flap",
+      "volume": 0.3
+    },
+    {
+      "soundId": "minecraft:entity.ender_dragon.growl",
+      "volume": 0.05
+    },
+    {
+      "soundId": "minecraft:entity.ender_dragon.hurt",
+      "volume": 0.2
+    },
+    {
+      "soundId": "minecraft:entity.ender_dragon.shoot",
+      "volume": 0.2
+    },
+    {
+      "soundId": "minecraft:entity.enderman.ambient",
       "volume": 0.6
     },
     {
       "soundId": "minecraft:entity.enderman.death",
-      "volume": 0.5
+      "volume": 0.35
+    },
+    {
+      "soundId": "minecraft:entity.enderman.hurt",
+      "volume": 0.1
+    },
+    {
+      "soundId": "minecraft:entity.enderman.scream",
+      "volume": 0.35
+    },
+    {
+      "soundId": "minecraft:entity.enderman.stare",
+      "volume": 0.0
     },
     {
       "soundId": "minecraft:entity.enderman.teleport",
-      "volume": 0.4
+      "volume": 0.03
     },
     {
       "soundId": "minecraft:entity.experience_orb.pickup",
-      "volume": 0.3
+      "volume": 0.1
     },
     {
       "soundId": "minecraft:entity.firework_rocket.blast",
+      "volume": 0.15
+    },
+    {
+      "soundId": "minecraft:entity.firework_rocket.blast_far",
+      "volume": 0.15
+    },
+    {
+      "soundId": "minecraft:entity.firework_rocket.large_blast",
       "volume": 0.3
+    },
+    {
+      "soundId": "minecraft:entity.firework_rocket.large_blast_far",
+      "volume": 0.15
+    },
+    {
+      "soundId": "minecraft:entity.firework_rocket.launch",
+      "volume": 0.3
+    },
+    {
+      "soundId": "minecraft:entity.firework_rocket.shoot",
+      "volume": 0.3
+    },
+    {
+      "soundId": "minecraft:entity.generic.big_fall",
+      "volume": 0.6
     },
     {
       "soundId": "minecraft:entity.generic.explode",
-      "volume": 0.2
+      "volume": 0.03
+    },
+    {
+      "soundId": "minecraft:entity.generic.small_fall",
+      "volume": 0.6
+    },
+    {
+      "soundId": "minecraft:entity.generic.splash",
+      "volume": 0.07
+    },
+    {
+      "soundId": "minecraft:entity.ghast.ambient",
+      "volume": 0.4
+    },
+    {
+      "soundId": "minecraft:entity.ghast.death",
+      "volume": 0.4
     },
     {
       "soundId": "minecraft:entity.ghast.hurt",
-      "volume": 0.3
+      "volume": 0.15
+    },
+    {
+      "soundId": "minecraft:entity.ghast.scream",
+      "volume": 0.4
     },
     {
       "soundId": "minecraft:entity.ghast.shoot",
       "volume": 0.07
+    },
+    {
+      "soundId": "minecraft:entity.ghast.warn",
+      "volume": 0.4
+    },
+    {
+      "soundId": "minecraft:entity.guardian.death",
+      "volume": 0.4
+    },
+    {
+      "soundId": "minecraft:entity.guardian.hurt",
+      "volume": 0.25
+    },
+    {
+      "soundId": "minecraft:entity.horse.angry",
+      "volume": 0.2
+    },
+    {
+      "soundId": "minecraft:entity.horse.armor",
+      "volume": 0.25
+    },
+    {
+      "soundId": "minecraft:entity.horse.saddle",
+      "volume": 0.5
+    },
+    {
+      "soundId": "minecraft:entity.iron_golem.attack",
+      "volume": 0.1
+    },
+    {
+      "soundId": "minecraft:entity.iron_golem.hurt",
+      "volume": 0.4
     },
     {
       "soundId": "minecraft:entity.lightning_bolt.impact",
@@ -55,16 +247,112 @@
       "volume": 0.0
     },
     {
+      "soundId": "minecraft:entity.phantom.ambient",
+      "volume": 0.1
+    },
+    {
+      "soundId": "minecraft:entity.phantom.bite",
+      "volume": 0.2
+    },
+    {
+      "soundId": "minecraft:entity.phantom.death",
+      "volume": 0.25
+    },
+    {
+      "soundId": "minecraft:entity.phantom.flap",
+      "volume": 0.2
+    },
+    {
+      "soundId": "minecraft:entity.phantom.hurt",
+      "volume": 0.3
+    },
+    {
+      "soundId": "minecraft:entity.phantom.swoop",
+      "volume": 0.1
+    },
+    {
+      "soundId": "minecraft:entity.player.big_fall",
+      "volume": 0.6
+    },
+    {
+      "soundId": "minecraft:entity.player.hurt",
+      "volume": 0.7
+    },
+    {
+      "soundId": "minecraft:entity.player.small_fall",
+      "volume": 0.6
+    },
+    {
       "soundId": "minecraft:entity.silverfish.death",
       "volume": 0.45
     },
     {
+      "soundId": "minecraft:entity.villager.death",
+      "volume": 0.4
+    },
+    {
+      "soundId": "minecraft:entity.villager.hurt",
+      "volume": 0.2
+    },
+    {
+      "soundId": "minecraft:entity.villager.no",
+      "volume": 0.2
+    },
+    {
+      "soundId": "minecraft:entity.villager.trade",
+      "volume": 0.2
+    },
+    {
+      "soundId": "minecraft:entity.villager.yes",
+      "volume": 0.2
+    },
+    {
       "soundId": "minecraft:entity.wither.shoot",
-      "volume": 0.3
+      "volume": 0.1
+    },
+    {
+      "soundId": "minecraft:entity.wither.spawn",
+      "volume": 0.05
+    },
+    {
+      "soundId": "minecraft:entity.wolf.death",
+      "volume": 0.4
     },
     {
       "soundId": "minecraft:entity.zombie.ambient",
       "volume": 0.35
+    },
+    {
+      "soundId": "minecraft:entity.zombie.attack_iron_door",
+      "volume": 0.05
+    },
+    {
+      "soundId": "minecraft:entity.zombie.attack_wooden_door",
+      "volume": 0.05
+    },
+    {
+      "soundId": "minecraft:entity.zombie.break_wooden_door",
+      "volume": 0.05
+    },
+    {
+      "soundId": "minecraft:entity.zombie.infect",
+      "volume": 0.15
+    },
+    {
+      "soundId": "minecraft:entity.zombie_villager.converted",
+      "volume": 0.15
+    },
+    {
+      "soundId": "minecraft:entity.zombie_villager.cure",
+      "volume": 0.15
+    },
+    {
+      "soundId": "minecraft:item.flintandsteel.use",
+      "volume": 0.5
+    },
+    {
+      "soundId": "minecraft:ui.button.click",
+      "volume": 0.7
     }
   ]
 }
