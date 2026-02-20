@@ -623,7 +623,7 @@
     },
     "widenConfig": false,
     "titlePosition": {
-      "x": 257,
+      "x": 64,
       "y": 160,
       "scale": 1.0,
       "centerX": false,
@@ -1642,6 +1642,14 @@
         "centerY": true,
         "ignoreCustomScale": false
       }
+    },
+    "trackerUptimeSettings": {
+      "types": [
+        "CROP",
+        "PEST",
+        "VISITOR"
+      ],
+      "afkTimeout": 300
     },
     "hoeLevelDisplay": {
       "enabled": false,
@@ -4022,7 +4030,7 @@
         }
       },
       "addons": {
-        "enabled": true,
+        "enabled": false,
         "highlightNextClick": true,
         "nextColor": "0:255:85:255:85",
         "secondColor": "0:128:255:255:85",
@@ -5781,7 +5789,7 @@
         "centerY": true,
         "ignoreCustomScale": false
       },
-      "solver": false,
+      "solver": true,
       "mobDiedMessage": true,
       "warpToTrapper": false,
       "acceptQuest": false,

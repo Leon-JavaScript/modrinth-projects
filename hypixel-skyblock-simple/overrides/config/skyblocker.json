@@ -256,9 +256,9 @@
       "enableJerryTimer": true
     },
     "experiments": {
-      "enableChronomatronSolver": false,
-      "enableSuperpairsSolver": false,
-      "enableUltrasequencerSolver": false,
+      "enableChronomatronSolver": true,
+      "enableSuperpairsSolver": true,
+      "enableUltrasequencerSolver": true,
       "blockIncorrectClicks": false
     },
     "fishing": {
