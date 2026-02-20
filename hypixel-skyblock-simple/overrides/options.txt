@@ -223,7 +223,7 @@ key_keybind.name.EMOTE_SLOT_6:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
 key_keybind.name.ZOOM:key.keyboard.unknown
-soundCategory_master:0.5
+soundCategory_master:0.3
 soundCategory_music:0.0
 soundCategory_record:0.25
 soundCategory_weather:0.1
@@ -233,7 +233,7 @@ soundCategory_neutral:0.5
 soundCategory_player:0.05
 soundCategory_ambient:0.2
 soundCategory_voice:1.0
-soundCategory_ui:0.5
+soundCategory_ui:0.3
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true
