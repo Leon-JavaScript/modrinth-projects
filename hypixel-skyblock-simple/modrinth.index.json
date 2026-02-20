@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "26.4.0",
+  "versionId": "26.4.1",
   "name": "Hypixel Skyblock [Simple]",
   "summary": "",
   "files": [
@@ -127,18 +127,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/k2ZPuTBm/versions/t9nNPgPA/Essential_1-3-10-4_fabric_1-21-10.jar"
+        "https://cdn.modrinth.com/data/k2ZPuTBm/versions/IIzs7CY2/Essential_1-3-10-6_fabric_1-21-10.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 55229176,
+      "fileSize": 52303153,
       "hashes": {
-        "sha1": "e0447e1342c80a3a110aec0fbd04f501dcd54cbc",
-        "sha512": "9b20cd871a4ec716bcf70f83e03edb6a56d8b2c3e1e4f217ab6ea491137ab19eee9e0f407f1ceca1954daa0e75e614b48c3befa16883fb80368c891f787526dd"
+        "sha1": "6de24c269e3ebe61691bd94779470225d3ccc3ac",
+        "sha512": "f7dc700d488eb331f70416ff84654cc7509125e03f0ad687c78f72c5c632a3f04129fae7dbab3e2ec6e23f51622b9c50629e4bc23acbcdc138acd9adac19c119"
       },
-      "path": "mods/Essential_1-3-10-4_fabric_1-21-10.jar"
+      "path": "mods/Essential_1-3-10-6_fabric_1-21-10.jar"
     },
     {
       "downloads": [
@@ -172,7 +172,7 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/ncKjyGm3/versions/r4NI6C7n/fadeless-2.0.5-1.21.9.jar.disabled"
+        "https://cdn.modrinth.com/data/ncKjyGm3/versions/r4NI6C7n/fadeless-2.0.5-1.21.9.jar"
       ],
       "env": {
         "client": "required",
@@ -232,7 +232,7 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/XeEZ3fK2/versions/W6tFgWep/freecam-fabric-1.3.5%2Bmc1.21.10.jar.disabled"
+        "https://cdn.modrinth.com/data/XeEZ3fK2/versions/W6tFgWep/freecam-fabric-1.3.5%2Bmc1.21.10.jar"
       ],
       "env": {
         "client": "required",
@@ -442,18 +442,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/3chhIuwd/skyblocker-6.0.2%2B1.21.10.jar"
+        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/w6CVK1Tc/skyblocker-6.0.3%2B1.21.10.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 18640637,
+      "fileSize": 18648596,
       "hashes": {
-        "sha1": "2b6f78950f545562c6ea8b490e4c169a2196ad5b",
-        "sha512": "5522a315c1b5dc61c33259da363d202a2d95358d11b871a2126f65fb8c94d329d8f5279bb107244b89fa144178203c433e4897ebb462752342db0f8118aae6a8"
+        "sha1": "ec9677c38a4a874165d1a35583ac80494a73439e",
+        "sha512": "8ff0711f628fcd7babfe0e9f3f42b82412678f4dd02bf4b4886c678a8d596567fc36e46b822854a48f3ec12a8fca41e1d0e8754e923ff23eb4c6394cc2ae4cc1"
       },
-      "path": "mods/skyblocker-6.0.2+1.21.10.jar"
+      "path": "mods/skyblocker-6.0.3+1.21.10.jar"
     },
     {
       "downloads": [
@@ -472,18 +472,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/rNUUxcRE/SkyHanni-6.18.0-mc1.21.10.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/tyiuperK/SkyHanni-6.19.0-mc1.21.10.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 32105386,
+      "fileSize": 33273596,
       "hashes": {
-        "sha1": "7c40be13fe096e1c1c5a448d4f615acb2e9de2b8",
-        "sha512": "d474a4b8696943c5302c1b943c2e7ac3370c21c404aaf24c8f2b66f4c1ab5d4374195ed44f80502f1739be8e02081c0b7767d1c0c88201e4f18e5cb138a18820"
+        "sha1": "23bb44f1d6a98764b1ca28efd137fe038cc9d694",
+        "sha512": "553649ab12ba6507a992274ef15c06506386532e47d8a7a18208e3f9091233a15295799eb89e74596a887404045dcb562b4ac7e61c9d670a7984656e60982027"
       },
-      "path": "mods/SkyHanni-6.18.0-mc1.21.10.jar"
+      "path": "mods/SkyHanni-6.19.0-mc1.21.10.jar"
     },
     {
       "downloads": [
