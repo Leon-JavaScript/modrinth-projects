@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "subtitlesEnabled": true,
+  "subtitlesEnabled": false,
   "sounds": [
     {
       "soundId": "minecraft:ambient.cave",
