@@ -50,8 +50,8 @@ sprintWindow:7
 darkMojangStudiosBackground:true
 hideLightningFlashes:false
 hideSplashTexts:false
-mouseSensitivity:0.8286384976525822
-damageTiltStrength:0.5046948356807514
+mouseSensitivity:0.8
+damageTiltStrength:0.5
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
@@ -223,7 +223,7 @@ key_keybind.name.EMOTE_SLOT_6:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
 key_keybind.name.ZOOM:key.keyboard.unknown
-soundCategory_master:0.3
+soundCategory_master:0.5
 soundCategory_music:0.0
 soundCategory_record:0.25
 soundCategory_weather:0.1
