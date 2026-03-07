@@ -1,6 +1,25 @@
 {
   "rules": [
     {
+      "announcementMessage": {
+        "message": "Umberella despawned.",
+        "displayDuration": 4000
+      },
+      "customSound": {
+        "sound_id": "minecraft:block.anvil.land"
+      },
+      "locations": [
+        "crimson_isle"
+      ],
+      "hideOriginalMessage": false,
+      "regex": false,
+      "ignoreCase": true,
+      "filter": "Your Umberella despawned.",
+      "name": "Umberella",
+      "enabled": true,
+      "partialMatch": false
+    },
+    {
       "locations": [
         "hub"
       ],
