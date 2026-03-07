@@ -59,11 +59,6 @@
       "rareDropEffects": true,
       "rareDyeDropEffects": true
     },
-    "hitbox": {
-      "oldCactusHitbox": false,
-      "oldLeverHitbox": false,
-      "oldMushroomHitbox": false
-    },
     "lockedSlots": [],
     "protectedItems": [],
     "customItemNames": {},

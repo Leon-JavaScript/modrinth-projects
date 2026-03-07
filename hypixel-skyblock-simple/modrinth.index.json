@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "26.4.1",
+  "versionId": "26.4.2",
   "name": "Hypixel Skyblock [Simple]",
   "summary": "",
   "files": [
@@ -382,6 +382,21 @@
     },
     {
       "downloads": [
+        "https://cdn.modrinth.com/data/42tSijuX/versions/aWCIqrZA/rei-search-bar-calculations-1.1.0%2B1.21.6-10.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 271122,
+      "hashes": {
+        "sha1": "2c32fe65433ed11dd83cade28689b4ff3a6c8f71",
+        "sha512": "ef083520621fd63333ee00aede861e57686627614d37e7c2be0a0abaf450fc0c58ac8f9b1c4e3c8ac3a79fc76a96573bad2f366a5245f01ccffb13edc2eaba8c"
+      },
+      "path": "mods/rei-search-bar-calculations-1.1.0+1.21.6-10.jar"
+    },
+    {
+      "downloads": [
         "https://cdn.modrinth.com/data/sbgVdyNC/versions/maurFPUc/rewardclaim-2.2.0.jar"
       ],
       "env": {
@@ -442,63 +457,63 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/w6CVK1Tc/skyblocker-6.0.3%2B1.21.10.jar"
+        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/NSu0Cv9W/skyblocker-6.1.1%2B1.21.10.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 18648596,
+      "fileSize": 18656637,
       "hashes": {
-        "sha1": "ec9677c38a4a874165d1a35583ac80494a73439e",
-        "sha512": "8ff0711f628fcd7babfe0e9f3f42b82412678f4dd02bf4b4886c678a8d596567fc36e46b822854a48f3ec12a8fca41e1d0e8754e923ff23eb4c6394cc2ae4cc1"
+        "sha1": "1927877428aab9c629e1afa7b877052cb34f8cb0",
+        "sha512": "861c0ae7d238e8749a6524adbdc6cf286c73f78faf4336737751f4a4e522aed683171ecb8fabf3dee94847b65471bc74cd5d17829f6c58ceb0d914c30f716916"
       },
-      "path": "mods/skyblocker-6.0.3+1.21.10.jar"
+      "path": "mods/skyblocker-6.1.1+1.21.10.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/8yqXwFLl/versions/7iYmgq8W/SkyBlockPv-1.6.7-1.21.10.jar"
+        "https://cdn.modrinth.com/data/8yqXwFLl/versions/ssMlZYEp/SkyBlockPv-1.7.3-1.21.10.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 11068284,
+      "fileSize": 12306239,
       "hashes": {
-        "sha1": "25c01d44ad93a82edbcda84c8b4f94dc5ceb043a",
-        "sha512": "0d76fd073a2d0dbb6cd2d59db7679b3c160d92a612396a31ba6f293f7d00c5610d44bbfa19fd78bac233d59df7587187915d5c4416117798b19a107ff94f5039"
+        "sha1": "4776a0b42ab8a8cd5f65a9cf61b45e41134369c3",
+        "sha512": "f1ed5f64ab210a27f410891bcdec295ba04967c111eb226ee5585fbc964f4d184163916126a48493bcd5583c7670bd2e3110739f64871fe0d419b825e0ffe2b0"
       },
-      "path": "mods/SkyBlockPv-1.6.7-1.21.10.jar"
+      "path": "mods/SkyBlockPv-1.7.3-1.21.10.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/tyiuperK/SkyHanni-6.19.0-mc1.21.10.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/cIZTk08p/SkyHanni-7.5.0-mc1.21.10.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 33273596,
+      "fileSize": 33931850,
       "hashes": {
-        "sha1": "23bb44f1d6a98764b1ca28efd137fe038cc9d694",
-        "sha512": "553649ab12ba6507a992274ef15c06506386532e47d8a7a18208e3f9091233a15295799eb89e74596a887404045dcb562b4ac7e61c9d670a7984656e60982027"
+        "sha1": "adf107c380304460cc73d9be8e7f9221a3aeb4bd",
+        "sha512": "11d8dacb4a9aa77335f730d309f63fe9e52f7b3708e5c6291129f2c4c38f61f39594bc6f2170e445539c5654e87f86bb72c299f72653d842ccd3382db4f069b5"
       },
-      "path": "mods/SkyHanni-6.19.0-mc1.21.10.jar"
+      "path": "mods/SkyHanni-7.5.0-mc1.21.10.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/dIczrQAR/versions/ow3sbEq5/SkyOcean-1.12.0-1.21.10.jar"
+        "https://cdn.modrinth.com/data/dIczrQAR/versions/r0nUHcqN/SkyOcean-1.13.1-1.21.10.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 10672757,
+      "fileSize": 11308050,
       "hashes": {
-        "sha1": "053e90e23963e72c7477ff7c7691988d2c8cbde9",
-        "sha512": "89dff1ec5f0bd8daf6a411cfa2cca09f59c36bf142a2b1c5114e2bc6b70fcf61bd0b05e07f0ec828b5568ca4cfec64b2e3bf82d5e2a43c73eb631247b78bfe36"
+        "sha1": "e1f17ac2e006f35464a6cc2e47c618284f5b4f4e",
+        "sha512": "c64829f40e1eb8f71ab16d44d1ef18f4f6244cfe0ccfb19a505723d3fb8e4654ecb9a03369289bcad263ceb8e3322c9c53d791f2eedeec75e97733c6c94cc383"
       },
-      "path": "mods/SkyOcean-1.12.0-1.21.10.jar"
+      "path": "mods/SkyOcean-1.13.1-1.21.10.jar"
     },
     {
       "downloads": [
