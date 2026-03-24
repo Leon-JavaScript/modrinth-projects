@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 8,
   "general": {
     "enableTips": false,
     "acceptReparty": true,
@@ -241,9 +241,12 @@
     "enableWardrobeHelper": true,
     "enableDateCalculator": true,
     "enableCopyUnderbidPrice": false,
-    "enableBuildersWandPreview": true,
     "enableAnvilHelper": true,
     "enableAccessoriesHelperWidget": true,
+    "buildersWand": {
+      "enableBuildersWandPreview": true,
+      "previewOpacity": 0.5
+    },
     "mythologicalRitual": {
       "enableMythologicalRitualHelper": false
     },
@@ -439,6 +442,12 @@
       "receiveRoomSecretCount": true,
       "hideReceivedWaypoints": true
     },
+    "rareRoomAlert": {
+      "enabled": false,
+      "showForTrinity": true,
+      "showForTomioka": false,
+      "showForDuncan": false
+    },
     "mimicMessage": {
       "sendMimicMessage": true
     },
@@ -580,25 +589,27 @@
     }
   },
   "farming": {
-    "garden": {
-      "farmingHud": {
-        "enableHud": false,
-        "x": 0,
-        "y": 0,
-        "type": "BOTH"
-      },
-      "dicerTitlePrevent": true,
-      "pestHighlighter": true,
-      "lockMouseTool": true,
-      "lockMouseGroundOnly": true,
-      "gardenPlotsWidget": true,
-      "closeScreenOnPlotClick": false,
+    "farmingHud": {
+      "enabled": false,
+      "type": "BOTH"
+    },
+    "pestHighlighter": {
+      "enabled": true,
+      "vinylHighlighter": true,
       "enableStereoHarmonyHelperForContest": false
     },
+    "mouseLock": {
+      "lockMouseTool": false,
+      "lockMouseGroundOnly": false
+    },
+    "plotsWidget": {
+      "enabled": true,
+      "closeScreenOnPlotClick": false
+    },
     "visitorHelper": {
-      "visitorHelper": false,
-      "visitorHelperGardenOnly": false,
-      "showStacksInVisitorHelper": true
+      "enabled": false,
+      "showInGardenOnly": false,
+      "showInStacks": true
     }
   },
   "hunting": {
@@ -623,7 +634,8 @@
       "enableGlowingMushroomHelper": true,
       "solveHungryHiker": true,
       "solveTreasureHunter": true,
-      "enableCallTrevorMessage": true
+      "enableCallTrevorMessage": true,
+      "enablePeltAnimalHighlighter": true
     },
     "rift": {
       "mirrorverseWaypoints": true,

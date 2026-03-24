@@ -1,6 +1,6 @@
 {
   "about": {
-    "autoUpdates": true,
+    "checkForUpdates": true,
     "fullAutoUpdates": false,
     "updateStream": "BETA",
     "licenses": {}
@@ -647,7 +647,7 @@
     },
     "widenConfig": false,
     "titlePosition": {
-      "x": 184,
+      "x": -82,
       "y": 160,
       "scale": 1.0,
       "centerX": false,
@@ -746,7 +746,7 @@
         "preventRefusingLowLoss": false,
         "preventAcceptingHighLoss": true,
         "preventRefusingNew": true,
-        "opacity": 180,
+        "transparency": 180,
         "optionOutline": true
       },
       "dropsStatistics": {
@@ -1019,17 +1019,18 @@
       }
     },
     "keyBind": {
-      "enabled": true,
+      "enabled": false,
       "excludeBarn": true,
       "attack": 32,
       "useItem": 1,
-      "left": 263,
-      "right": 262,
-      "forward": 265,
-      "back": 264,
+      "left": 74,
+      "right": 76,
+      "forward": 73,
+      "back": 75,
       "jump": 0,
       "sneak": 340
     },
+    "noRodBreak": true,
     "optimalSpeeds": {
       "showOnHUD": false,
       "warning": false,
@@ -1263,6 +1264,42 @@
       "position": {
         "x": 16,
         "y": -232,
+        "scale": 1.0,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      }
+    },
+    "gardenBpsTracker": {
+      "showDisplay": false,
+      "uptimeDisplayText": [
+        "TITLE",
+        "BPS",
+        "BLOCKS_BROKEN"
+      ],
+      "perTrackerConfig": {
+        "timedTracker": {
+          "resetSession": true,
+          "session": 5,
+          "days": 8,
+          "weeks": 5,
+          "months": 13,
+          "years": 0,
+          "others": 10
+        },
+        "trackerConfig": {
+          "defaultDisplayMode": "REMEMBER_LAST",
+          "showUptime": true,
+          "onlyShowSession": true,
+          "afkTimeout": 60,
+          "trackerSearchEnabled": false,
+          "priceSource": "BAZAAR_INSTANT_BUY"
+        },
+        "useUniversalConfig": false
+      },
+      "pos": {
+        "x": 5,
+        "y": -180,
         "scale": 1.0,
         "centerX": false,
         "centerY": true,
@@ -1862,6 +1899,7 @@
     },
     "pabloHelper": false,
     "sirihHelper": false,
+    "avoriusHelper": true,
     "volcanoExplosivity": false,
     "positionVolcano": {
       "x": 20,
@@ -2301,13 +2339,12 @@
       "showAnywhere": false,
       "crystalHollows": true,
       "crimsonIsle": true,
+      "warnPersonalCap": true,
+      "warnGlobalCap": true,
+      "timeAlert": true,
+      "alertTime": 330,
       "winterIsland": true,
       "forStranded": true,
-      "wormLimitAlert": true,
-      "manualResetTimer": -1,
-      "alertTime": 330,
-      "fishingCapAlert": true,
-      "fishingCapAmount": 30,
       "pos": {
         "x": 10,
         "y": 10,
@@ -3630,7 +3667,9 @@
     "spider": {
       "highlightInvincible": false,
       "highlightInvincibleColor": "0:60:255:255:0",
-      "phaseDisplay": false
+      "phaseDisplay": false,
+      "lineToBoss": false,
+      "slayerLineWidth": 3
     },
     "endermen": {
       "beacon": {
@@ -3816,7 +3855,7 @@
     "questWarning": false,
     "questWarningTitle": false,
     "hideIrrelevantMobs": false,
-    "hideIrrelevantMobsOpacity": 40,
+    "hideIrrelevantMobsTransparency": 40,
     "timeToKillMessage": false,
     "questCompleteMessage": false,
     "compactTimeMessage": false,
@@ -4548,7 +4587,7 @@
       "enabled": false,
       "protectRarelySoldItems": false,
       "itemsBlockClicks": true,
-      "opacity": 180,
+      "transparency": 180,
       "itemsBypass": true,
       "itemsGreenLine": true
     },
@@ -4571,6 +4610,27 @@
       "selectedDrop": true
     },
     "superCrafting": {
+      "presets": {
+        "enabled": false,
+        "presets": [
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512
+        ],
+        "signPosition": {
+          "x": 100,
+          "y": 100,
+          "scale": 1.0,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        }
+      },
       "waste": {
         "enabled": false,
         "threshold": 10.0,
@@ -4773,7 +4833,6 @@
       "tierAsStackSize": false,
       "highlightDisabledAttributes": false,
       "huntingBoxValue": false,
-      "exportToSkyShards": true,
       "displayPosition": {
         "x": 174,
         "y": 139,
@@ -4839,7 +4898,8 @@
     "snakeGameKeybinds": false,
     "highlightActiveBeaconEffect": false,
     "savePrivateIslandChests": false,
-    "middleClickFix": true
+    "middleClickFix": true,
+    "museumCategoryHighlight": true
   },
   "event": {
     "bingo": {
@@ -4905,8 +4965,8 @@
       },
       "ignoredWarpsList": [
         "CRYPT",
-        "STONKS",
-        "TAYLOR"
+        "TAYLOR",
+        "STONKS"
       ],
       "petWarning": false,
       "rareMobsSharing": {
@@ -5238,7 +5298,7 @@
         "warpClickEnabled": false,
         "warpClickDestination": "nucleus"
       },
-      "playerOpacity": 40,
+      "playerTransparency": 40,
       "highlightHoppityShop": false,
       "hoppityShopReminder": false,
       "petWarning": true,
@@ -5971,6 +6031,15 @@
       }
     },
     "tracker": {
+      "timedTracker": {
+        "resetSession": true,
+        "session": 5,
+        "days": 8,
+        "weeks": 5,
+        "months": 13,
+        "years": 0,
+        "others": 10
+      },
       "itemTracker": {
         "showRecentDrops": true,
         "excludeHiddenItemsInPrice": false,
@@ -6127,7 +6196,6 @@
     "serverRestartTitle": false,
     "restorePieceOfWizardPortalLore": false,
     "accountUpgradeReminder": false,
-    "fixPatcherLines": false,
     "showTimeInLimbo": false,
     "showTimeInLimboPosition": {
       "x": 400,
@@ -6195,6 +6263,11 @@
     "rainbowActionBar": false
   },
   "dev": {
+    "mainToggles": {
+      "damageIndicator": true,
+      "mobDetection": true,
+      "pingApi": true
+    },
     "repo": {
       "repoAutoUpdate": true,
       "location": {
@@ -6240,8 +6313,6 @@
       "alwaysOutdated": false,
       "eventCounter": false,
       "bypassAdvancedPlayerTabList": -1,
-      "currentAreaDebug": true,
-      "rayTracedOreBlock": true,
       "oreEventMessages": false,
       "powderMessages": false,
       "assumeMayor": "DISABLED",
@@ -6312,37 +6383,11 @@
       "centerY": true,
       "ignoreCustomScale": false
     },
-    "debugLocationPos": {
-      "x": 1,
-      "y": 160,
-      "scale": 1.0,
-      "centerX": false,
-      "centerY": true,
-      "ignoreCustomScale": false
-    },
-    "debugItemPos": {
-      "x": 90,
-      "y": 70,
-      "scale": 1.0,
-      "centerX": false,
-      "centerY": true,
-      "ignoreCustomScale": false
-    },
-    "debugOrePos": {
-      "x": 1,
-      "y": 200,
-      "scale": 1.0,
-      "centerX": false,
-      "centerY": true,
-      "ignoreCustomScale": false
-    },
     "fancyContributors": false,
     "contributorNametags": false,
     "flipContributors": false,
     "rotateContributors": false,
     "numberFormatOverride": false,
-    "pingApi": true,
-    "damageIndicatorBackend": true,
     "ntpServer": "time.google.com",
     "minecraftConsoles": {
       "printUnfilteredDebugs": false,
@@ -6358,7 +6403,13 @@
         "filterOptiFine": true,
         "filterAmsHelperTransformer": true,
         "filterAsmHelperApplying": true,
-        "filterBiomeIdBounds": true
+        "filterBiomeIdBounds": true,
+        "filterInvalidSkinSignature": true,
+        "filterDynamicTransformsUbo": true,
+        "filterCommandAmbiguity": true,
+        "filterNarratorError": true,
+        "filterMixinMessages": true,
+        "filterUnknownTeam": true
       }
     },
     "devTool": {
@@ -6439,7 +6490,6 @@
       }
     },
     "mobDebug": {
-      "enable": true,
       "mobDetection": {
         "logEvents": false,
         "showRayHit": false,
@@ -6463,6 +6513,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 125,
+  "lastVersion": 127,
   "lastMinecraftVersion": "1.21.10"
 }
