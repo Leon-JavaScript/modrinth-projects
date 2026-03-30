@@ -1,5 +1,7 @@
 {
   "quality": {
+    "hidden_fluid_culling": true,
+    "improved_fluid_shaping": false,
     "weather_quality": "DEFAULT",
     "leaves_quality": "DEFAULT",
     "enable_vignette": false

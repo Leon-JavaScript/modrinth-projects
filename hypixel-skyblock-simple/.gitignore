@@ -1,3 +1,4 @@
+overrides/config/catharsis
 overrides/config/fabric
 overrides/config/firmament/profiles
 overrides/config/notenoughupdates
@@ -23,10 +24,12 @@ overrides/config/skyblocker/slayer_personal_best.json
 overrides/config/skyblocker/slayers_data.json
 overrides/config/skyblocker/time_tower.txt
 overrides/config/skyblocker/update_notifications_v2.json
+overrides/config/skyblocker/waypoints.json
 overrides/config/skyblockpv/reminders.json
 overrides/config/skyhanni/backup
 overrides/config/skyhanni/logs
 overrides/config/skyhanni/repo
+overrides/config/skyhanni/achievements.json
 overrides/config/skyhanni/currentCommit.json
 overrides/config/skyhanni/friends.json
 overrides/config/skyhanni/pets.json
