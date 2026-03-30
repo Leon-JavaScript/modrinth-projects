@@ -11,7 +11,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 2844823,
       "hashes": {
@@ -41,7 +41,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 269545,
       "hashes": {
@@ -56,7 +56,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 1714229,
       "hashes": {
@@ -71,7 +71,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 5937349,
       "hashes": {
@@ -97,11 +97,26 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/ETlrkaYF/versions/G94OTz7b/cwb-fabric-3.0.0-build.14%2Bmc1.21.11.jar"
+        "https://cdn.modrinth.com/data/xv94TkTM/versions/A6W4m3vi/Controlling-fabric-1.21.11-29.0.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
+      },
+      "fileSize": 83259,
+      "hashes": {
+        "sha1": "afbbbb9248d9afe6224886c62ee1b35732f056f3",
+        "sha512": "fae3f7be237b901783b873ecc3167e04fdc24819f16539610565993b7916691058b8d6e1aba4c13c0c75503bbd07a8ec4d2d6ce2bf5f94433fdee58933b049d9"
+      },
+      "path": "mods/Controlling-fabric-1.21.11-29.0.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/ETlrkaYF/versions/G94OTz7b/cwb-fabric-3.0.0-build.14%2Bmc1.21.11.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
       },
       "fileSize": 78535,
       "hashes": {
@@ -116,7 +131,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 1580001,
       "hashes": {
@@ -131,7 +146,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 52323932,
       "hashes": {
@@ -176,14 +191,14 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 68360,
       "hashes": {
         "sha1": "c915116ce5b347c9f6d6ea31bd0552367ed407ce",
         "sha512": "f60607aa38891129f77c3e5905afe806689411c6bb7e207866fc804f7ebfc84b3589fcab8d8e74980f7a0cfc663444bb4b84ff890bb8092dfbe82e98337a0eec"
       },
-      "path": "mods/fadeless-2.0.7-1.21.11.jar.disabled"
+      "path": "mods/fadeless-2.0.7-1.21.11.jar"
     },
     {
       "downloads": [
@@ -206,7 +221,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 5626478,
       "hashes": {
@@ -221,14 +236,14 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 1146167,
       "hashes": {
         "sha1": "fa808166a5a266048a29cb235dd78fc24342e631",
         "sha512": "150d54dac8c8be01051799d62de25e76359a424ba2a1da4905024f9585a7af17b186d74b07bd0c3bdd12c12cd5c76cf251f2d5361d041eec3be5ba9b972eb5ca"
       },
-      "path": "mods/freecam-fabric-1.3.6+mc1.21.11.jar.disabled"
+      "path": "mods/freecam-fabric-1.3.6+mc1.21.11.jar"
     },
     {
       "downloads": [
@@ -236,7 +251,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 102032,
       "hashes": {
@@ -251,7 +266,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 310445,
       "hashes": {
@@ -262,11 +277,26 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/mOgUt4GM/versions/Tyk71iSw/modmenu-17.0.0.jar"
+        "https://cdn.modrinth.com/data/OmQzuQFa/versions/sZzDWvYD/LazyDFU-%5BUNOFFICIAL%5D-1.21.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
+      },
+      "fileSize": 14889,
+      "hashes": {
+        "sha1": "50cbd8e163d013cc4ac989869588a9da65b610e3",
+        "sha512": "e4a40286ece7a8ede41d9754b56b905653f5e8676ad80f03dc444f8c0b083abf325e90c18fe3b332cd9be2e8968407b3e320572e5138e3c3763bd4d81dadefee"
+      },
+      "path": "mods/LazyDFU-[UNOFFICIAL]-1.21.11.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/mOgUt4GM/versions/Tyk71iSw/modmenu-17.0.0.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
       },
       "fileSize": 1115809,
       "hashes": {
@@ -281,7 +311,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 3573,
       "hashes": {
@@ -296,7 +326,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 340975,
       "hashes": {
@@ -341,7 +371,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 104577,
       "hashes": {
@@ -356,7 +386,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 846892,
       "hashes": {
@@ -386,7 +416,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 7331093,
       "hashes": {
@@ -401,7 +431,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 2522780,
       "hashes": {
@@ -412,11 +442,26 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/E6eA8eXs/skyblocker-6.2.0%2B1.21.11.jar"
+        "https://cdn.modrinth.com/data/fuuu3xnx/versions/8t7XWQgt/Searchables-fabric-1.21.11-1.0.4.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
+      },
+      "fileSize": 79919,
+      "hashes": {
+        "sha1": "32d0edf6f65aa9d7b33312a14cd5125aad189850",
+        "sha512": "e9b3d4d1fe7297d4476db1c9f909c209da360c46e7a5a0fef691e43d8fe6a2ba28fdb9e5afc393289785f0ed392252c98896b231901f29e31d01d430a3b55a07"
+      },
+      "path": "mods/Searchables-fabric-1.21.11-1.0.4.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/E6eA8eXs/skyblocker-6.2.0%2B1.21.11.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
       },
       "fileSize": 18844878,
       "hashes": {
@@ -431,7 +476,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 12310381,
       "hashes": {
@@ -446,7 +491,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 35822281,
       "hashes": {
@@ -461,7 +506,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 11329827,
       "hashes": {
@@ -476,7 +521,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 394219,
       "hashes": {
@@ -491,7 +536,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 1870358,
       "hashes": {
@@ -506,7 +551,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 72802,
       "hashes": {
@@ -521,7 +566,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 124065,
       "hashes": {
@@ -536,7 +581,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 83107,
       "hashes": {
@@ -566,7 +611,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
       "fileSize": 873443,
       "hashes": {

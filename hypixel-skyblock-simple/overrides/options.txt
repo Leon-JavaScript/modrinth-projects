@@ -1,7 +1,7 @@
 version:4671
 ao:true
 biomeBlendRadius:2
-chunkSectionFadeInTime:0.75
+chunkSectionFadeInTime:0.3
 cutoutLeaves:true
 enableVsync:false
 entityDistanceScaling:1.0
@@ -13,8 +13,8 @@ fovEffectScale:0.5
 darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
-graphicsPreset:"fancy"
-prioritizeChunkUpdates:0
+graphicsPreset:"custom"
+prioritizeChunkUpdates:1
 fullscreen:false
 guiScale:3
 maxAnisotropyBit:1
@@ -27,7 +27,7 @@ narrator:0
 particles:1
 reducedDebugInfo:false
 renderClouds:"false"
-cloudRange:128
+cloudRange:64
 renderDistance:10
 simulationDistance:6
 screenEffectScale:0.0
@@ -62,7 +62,7 @@ damageTiltStrength:0.5
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["aaron-mod:chroma_text","file/EssentialUI 1.21.11.zip","file/Low Fire.zip"]
+resourcePacks:["vanilla","aaron-mod:chroma_text","file/EssentialUI 1.21.11.zip"]
 incompatibleResourcePacks:[]
 lastServer:stuck.hypixel.net
 lang:en_us

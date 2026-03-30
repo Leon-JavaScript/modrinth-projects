@@ -219,7 +219,7 @@
       ],
       "auto": "NOTHING",
       "showSkyCryptButton": true,
-      "showEliteBotButton": true
+      "showEliteSkyBlockButton": true
     },
     "hotbar": {
       "editable": false,
@@ -1021,13 +1021,13 @@
     "keyBind": {
       "enabled": false,
       "excludeBarn": true,
-      "attack": 32,
+      "attack": 0,
       "useItem": 1,
-      "left": 74,
-      "right": 76,
-      "forward": 73,
-      "back": 75,
-      "jump": 0,
+      "left": 65,
+      "right": 68,
+      "forward": 87,
+      "back": 83,
+      "jump": 32,
       "sneak": 340
     },
     "noRodBreak": true,
@@ -4953,7 +4953,7 @@
       "renderSubGuesses": false,
       "clearOnWorldChange": false,
       "burrowNearestWarp": true,
-      "keyBindWarp": 80,
+      "keyBindWarp": -1,
       "warpDistanceDifference": 10,
       "warpGuiPosition": {
         "x": 327,
@@ -5487,7 +5487,7 @@
     },
     "lobbyWaypoints": {
       "easterEgg": {
-        "allWaypoints": true,
+        "allWaypoints": false,
         "allEntranceWaypoints": false,
         "onlyClosest": true
       },
@@ -6260,7 +6260,8 @@
     "abiphoneAcceptKey": -1,
     "fixDoubleClicks": false,
     "fixColorParticles": false,
-    "rainbowActionBar": false
+    "rainbowActionBar": false,
+    "achievementMessages": true
   },
   "dev": {
     "mainToggles": {
@@ -6513,5 +6514,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 128
+  "lastVersion": 128,
+  "lastMinecraftVersion": "1.21.11"
 }
