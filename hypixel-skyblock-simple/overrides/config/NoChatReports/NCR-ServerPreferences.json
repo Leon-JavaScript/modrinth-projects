@@ -1,5 +1,6 @@
 {
   "signingModes": {
-    "mc.hypixel.net:25565": "NEVER"
+    "mc.hypixel.net:25565": "NEVER",
+    "alpha.hypixel.net:25565": "NEVER"
   }
 }
