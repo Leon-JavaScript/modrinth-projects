@@ -62,8 +62,8 @@ damageTiltStrength:0.5
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","aaron-mod:chroma_text","file/EssentialUI 1.21.11.zip"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","aaron-mod:chroma_text","file/Low Fire.zip","file/EssentialUI 1.21.11.zip"]
+incompatibleResourcePacks:["file/Low Fire.zip"]
 lastServer:stuck.hypixel.net
 lang:en_us
 chatVisibility:0
@@ -165,6 +165,8 @@ key_key.debug.profilingChart:key.keyboard.1
 key_key.debug.fpsCharts:key.keyboard.2
 key_key.debug.networkCharts:key.keyboard.3
 key_key.aaron-mod.zoom:key.keyboard.unknown
+key_key.entityculling.toggle:key.keyboard.unknown
+key_key.entityculling.toggleBoxes:key.keyboard.unknown
 key_firmament.config.wardrobe-keybinds.change-page:key.keyboard.unknown
 key_firmament.config.wardrobe-keybinds.next-page:key.keyboard.unknown
 key_firmament.config.wardrobe-keybinds.previous-page:key.keyboard.unknown
@@ -201,9 +203,9 @@ key_firmament.config.power-user.slot-numbers:key.keyboard.unknown
 key_firmament.config.block-zapper-overlay.undo-key:key.keyboard.unknown
 key_firmament.config.diana.ancestral-teleport:key.keyboard.unknown
 key_key.freecam.toggle:key.keyboard.f4
-key_key.freecam.playerControl:key.keyboard.unknown
-key_key.freecam.tripodReset:key.keyboard.unknown
-key_key.freecam.configGui:key.keyboard.unknown
+key_key.freecam.controlPlayer.toggle:key.keyboard.unknown
+key_key.freecam.tripod.reset:key.keyboard.unknown
+key_key.freecam.config.open:key.keyboard.unknown
 key_key.gammautils.gammaToggle:key.keyboard.g
 key_key.gammautils.increaseGamma:key.keyboard.up
 key_key.gammautils.decreaseGamma:key.keyboard.down
@@ -251,7 +253,7 @@ key_keybind.name.EMOTE_SLOT_6:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_7:key.keyboard.unknown
 key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
 key_keybind.name.ZOOM:key.keyboard.unknown
-soundCategory_master:0.5
+soundCategory_master:0.3
 soundCategory_music:0.0
 soundCategory_record:0.25
 soundCategory_weather:0.1

@@ -222,8 +222,8 @@
       "showEliteSkyBlockButton": true
     },
     "hotbar": {
-      "editable": false,
-      "hotbar": {
+      "enabled": false,
+      "position": {
         "x": 20,
         "y": 20,
         "scale": 1.0,
@@ -1918,7 +1918,13 @@
       "centerY": true,
       "ignoreCustomScale": false
     },
-    "magmaBossDisplay": false
+    "magmaBossDisplay": false,
+    "vanquisherShare": {
+      "enabled": false,
+      "instantShare": true,
+      "keybindSharing": 89,
+      "readGlobalChat": false
+    }
   },
   "rift": {
     "timer": {
@@ -3605,6 +3611,23 @@
       },
       "showManaBuff": false,
       "hideParticles": false
+    },
+    "deployable": {
+      "enabled": false,
+      "highestTierOnly": true,
+      "displayTypes": [
+        "FLUX",
+        "LANTERN",
+        "UMBERELLA"
+      ],
+      "position": {
+        "x": -160,
+        "y": -70,
+        "scale": 1.0,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      }
     },
     "broodmother": {
       "countdown": false,
@@ -6514,6 +6537,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 128,
+  "lastVersion": 129,
   "lastMinecraftVersion": "1.21.11"
 }
