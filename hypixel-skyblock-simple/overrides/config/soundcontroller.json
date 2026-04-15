@@ -83,6 +83,10 @@
       "volume": 0.6
     },
     {
+      "soundId": "minecraft:entity.blaze.ambient",
+      "volume": 0.2
+    },
+    {
       "soundId": "minecraft:entity.blaze.shoot",
       "volume": 0.3
     },
