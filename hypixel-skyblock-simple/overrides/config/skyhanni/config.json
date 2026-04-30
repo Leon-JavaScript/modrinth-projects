@@ -698,7 +698,7 @@
         }
       },
       "shoppingList": {
-        "enabled": true,
+        "enabled": false,
         "position": {
           "x": -330,
           "y": 5,
