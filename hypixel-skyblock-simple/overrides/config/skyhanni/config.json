@@ -2203,7 +2203,7 @@
         },
         "enigmaRoseFlowerpot": true,
         "ubikReminder": true,
-        "ubikGui": false,
+        "ubikGui": true,
         "ubikOnlyWhenReady": false,
         "ubikQuickClose": false,
         "timerPosition": {
