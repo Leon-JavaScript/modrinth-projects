@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "26.5.1",
+  "versionId": "26.5.2",
   "name": "Hypixel Skyblock [Simple]",
   "summary": "",
   "files": [
@@ -71,7 +71,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 6000503,
       "hashes": {
@@ -131,7 +131,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 1585638,
       "hashes": {
@@ -172,18 +172,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/Ha28R6CL/versions/21TRTKmh/fabric-language-kotlin-1.13.10%2Bkotlin.2.3.20.jar"
+        "https://cdn.modrinth.com/data/Ha28R6CL/versions/2i87JpYj/fabric-language-kotlin-1.13.11%2Bkotlin.2.3.21.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 7796348,
+      "fileSize": 7813444,
       "hashes": {
-        "sha1": "9873294abf498f509453d37b0a5ba019f4570ffb",
-        "sha512": "e4eaf7594de08eb4f3ea8af2e939f3ee61d07597afb4d5f420c3fbadcb381c7bbad4b1afd5919b3087b73ed9636fb018b1c978858a112bd4f6acdcb42e9eedaa"
+        "sha1": "b6190b247c557c493dc4204121744f289a1d1837",
+        "sha512": "fa5ed2613f7216999cc0c5ddc71906f082a32b52507d7160acbdcf0eb8de12993ba302e5afde6681d025008ecc66c7533fc0c21deb672ef681b2194fb9be4245"
       },
-      "path": "mods/fabric-language-kotlin-1.13.10+kotlin.2.3.20.jar"
+      "path": "mods/fabric-language-kotlin-1.13.11+kotlin.2.3.21.jar"
     },
     {
       "downloads": [
@@ -198,7 +198,7 @@
         "sha1": "c915116ce5b347c9f6d6ea31bd0552367ed407ce",
         "sha512": "f60607aa38891129f77c3e5905afe806689411c6bb7e207866fc804f7ebfc84b3589fcab8d8e74980f7a0cfc663444bb4b84ff890bb8092dfbe82e98337a0eec"
       },
-      "path": "mods/fadeless-2.0.7-1.21.11.jar.disabled"
+      "path": "mods/fadeless-2.0.7-1.21.11.jar"
     },
     {
       "downloads": [
@@ -236,14 +236,14 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 1140789,
       "hashes": {
         "sha1": "81f7696903135f5e94894f12d4b9b2b685fa9b7d",
         "sha512": "4624ce132bd09828e21b92d089af502b92bee4f62767ecbe9d9c44da6673f554ac9596c79fef001409ebe4349b0cabd5822e34217a65e76bc22b221b7d5bf17a"
       },
-      "path": "mods/freecam-fabric-1.4.0-alpha.3+mc1.21.11.jar.disabled"
+      "path": "mods/freecam-fabric-1.4.0-alpha.3+mc1.21.11.jar"
     },
     {
       "downloads": [
@@ -457,18 +457,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/bXdpmba0/skyblocker-6.3.0%2B1.21.11.jar"
+        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/MKoFTAfF/skyblocker-6.4.0%2B1.21.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 18898055,
+      "fileSize": 18934016,
       "hashes": {
-        "sha1": "b47f37b7a2d4ebdf4f9ab7f6eab3844f10470f09",
-        "sha512": "aff2022bedf8560b9c8d414d6f9860e6763137be74d21ba3116b9a201cd655709e54855746d59fb73deb6e655ba603e4625a329fe4cd4cbe4af45435a06652ff"
+        "sha1": "fb263a7a4a0c0ca6a002d911fcb370c6d4c2fe43",
+        "sha512": "ccfafc70d36d744e9e613e0a4e7fc8122bc43c91b08b6648c392553f15e5fc01b196ff46c4b59a03103a99d385aeef0ee3b9e320a8c7b77056d33dbedd45800a"
       },
-      "path": "mods/skyblocker-6.3.0+1.21.11.jar"
+      "path": "mods/skyblocker-6.4.0+1.21.11.jar"
     },
     {
       "downloads": [
@@ -476,7 +476,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 11292238,
       "hashes": {
@@ -487,18 +487,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/cosLs9jw/SkyHanni-7.15.0-mc1.21.11.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/NSYHw01z/SkyHanni-7.19.0-mc1.21.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 39729313,
+      "fileSize": 39875149,
       "hashes": {
-        "sha1": "aff826871de698d5e5bdc1d960afa6a4ff08ea6e",
-        "sha512": "725d7f267df317dca3526d3f6a8b7ace40b013a84a8789ce4ee2dc11c6e94f7f1a7a5aa7a763e01a40e94722b23b3eef9e857dbc48b5c2bff8885b0ded0b38f6"
+        "sha1": "7a41cd52e89d121b8d23e0aa1dcc60dd027c4d24",
+        "sha512": "50e5ac9f628a4746e48246b798621b8283bd261ed5ab0ca3153a198a1396fa7358b81107f47eefe45c14f970b2657f30a1ea3939b2a3dd86101db33237a4dad1"
       },
-      "path": "mods/SkyHanni-7.15.0-mc1.21.11.jar"
+      "path": "mods/SkyHanni-7.19.0-mc1.21.11.jar"
     },
     {
       "downloads": [
@@ -506,7 +506,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 10363454,
       "hashes": {
@@ -637,18 +637,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/FsSrime2/versions/yLuQvrT0/EssentialUI%201.21.11.zip"
+        "https://cdn.modrinth.com/data/FsSrime2/versions/HyZQ43dJ/EssentialUI%2026.1.zip"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 184610,
+      "fileSize": 47336,
       "hashes": {
-        "sha1": "c59e067aa5799097fb77edab8ee4d990046ca8af",
-        "sha512": "f1cfbbdae8aba4df9f61262870631a179dd8cfc57f5098341645d9c53c4691e9b40670d9120510e2ac8078fa667d3d35d23fe454a6399db5a67093bc3a3015fc"
+        "sha1": "fefd12b24dd59602f2396c803b78a07b8f6472c2",
+        "sha512": "7bc744aa50961d5ea84da52f4fdaa13ba7b9584fd326957e8a73014e89ee3a942898b9aa93ffa774a58a0af279a0aa88d489ead341da6344e16c182f91809b8e"
       },
-      "path": "resourcepacks/EssentialUI 1.21.11.zip"
+      "path": "resourcepacks/EssentialUI 26.1.zip"
     },
     {
       "downloads": [
@@ -682,7 +682,7 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/1jZGHJ05/versions/b2thoYzs/Low%20Fire.zip"
+        "https://cdn.modrinth.com/data/1jZGHJ05/versions/3k0zcJ1l/Low%20Fire.zip"
       ],
       "env": {
         "client": "required",
@@ -690,14 +690,14 @@
       },
       "fileSize": 44659,
       "hashes": {
-        "sha1": "8ccac3c7aa47fb9b710c0423e8664b99431cecf6",
-        "sha512": "a9d711431df2e0d097ace778aabefcf46657c932d579e72110f56132b2b01bfd376a5a28dd16f92ec72ef5d6e461caf8fc82a18282433accc017d169e5b6c1b2"
+        "sha1": "bc2157beba9bb8c668e5ac0537c84f5ec6fb8ef9",
+        "sha512": "786d587ce0c878b5018e12bfc6b82e30f774b232001f8900619a4dd5279eb87f99472e58f98857d5f22e559a42f2087b7ec0e46e6a8263044eaa996ff9295bdd"
       },
       "path": "resourcepacks/Low Fire.zip"
     }
   ],
   "dependencies": {
-    "fabric-loader": "0.19.1",
+    "fabric-loader": "0.19.2",
     "minecraft": "1.21.11"
   }
 }

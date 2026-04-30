@@ -62,8 +62,8 @@ damageTiltStrength:0.5
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","aaron-mod:chroma_text","file/Low Fire.zip","file/EssentialUI 1.21.11.zip"]
-incompatibleResourcePacks:["file/Low Fire.zip"]
+resourcePacks:["vanilla","aaron-mod:chroma_text","file/EssentialUI 26.1.zip","file/Low Fire.zip"]
+incompatibleResourcePacks:[]
 lastServer:stuck.hypixel.net
 lang:en_us
 chatVisibility:0
@@ -227,7 +227,7 @@ key_key.skyblocker.itemProtection:key.keyboard.unknown
 key_key.skyblocker.valueBreadownPopup:key.keyboard.i
 key_key.skyblocker.slottext:key.keyboard.left.alt
 key_key.skyblocker.wikiLookup.official:key.keyboard.unknown
-key_key.skyblocker.wikiLookup.fandom:key.keyboard.unknown
+key_key.skyblocker.wikiLookup.independent:key.keyboard.unknown
 key_key.skyblocker.toggleA:key.keyboard.unknown
 key_key.skyblocker.defaultTgl:key.keyboard.unknown
 key_skyocean.keybind.crafthelper:key.keyboard.v

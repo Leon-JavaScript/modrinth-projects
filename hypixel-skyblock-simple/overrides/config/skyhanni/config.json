@@ -1,7 +1,5 @@
 {
   "about": {
-    "checkForUpdates": true,
-    "fullAutoUpdates": false,
     "updateStream": "BETA",
     "licenses": {}
   },
@@ -1020,6 +1018,8 @@
     },
     "keyBind": {
       "enabled": false,
+      "mousemat": false,
+      "fishingRod": false,
       "excludeBarn": true,
       "attack": 0,
       "useItem": 1,
@@ -1361,7 +1361,7 @@
         "ignoreCustomScale": false
       },
       "outsideGardenPos": {
-        "x": -363,
+        "x": 272,
         "y": 13,
         "scale": 1.0,
         "centerX": false,
@@ -2027,7 +2027,8 @@
           "enabled": false,
           "onlyOnFarmland": false,
           "hideParticles": false,
-          "muteOthersSounds": true
+          "muteOthersSounds": true,
+          "respawnSequence": true
         }
       },
       "mirrorverse": {
@@ -2922,6 +2923,21 @@
           "FAIR_1",
           "JASP_1"
         ]
+      },
+      "mineshaftTimerConfig": {
+        "enabled": false,
+        "cautionThreshold": 30,
+        "warningThreshold": 10,
+        "showTimeInMineshaft": true,
+        "showEstimatedTimeLeft": true,
+        "position": {
+          "x": 10,
+          "y": 10,
+          "scale": 1.0,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        }
       }
     },
     "notifications": {
@@ -3678,6 +3694,7 @@
       }
     },
     "cocoonOverlay": {
+      "requireCocoonPossible": false,
       "showCocoonTimerTillHatch": false,
       "showCocoonContainedMobName": false
     },
@@ -3854,6 +3871,12 @@
       "percent": 80,
       "repeat": false
     },
+    "slayerTimeMessages": {
+      "timeToKill": false,
+      "timeToKillPersonalBests": false,
+      "questComplete": false,
+      "compact": false
+    },
     "remainingKills": false,
     "remainingKillsLevel": false,
     "remainingKillsHealth": false,
@@ -3879,9 +3902,6 @@
     "questWarningTitle": false,
     "hideIrrelevantMobs": false,
     "hideIrrelevantMobsTransparency": 40,
-    "timeToKillMessage": false,
-    "questCompleteMessage": false,
-    "compactTimeMessage": false,
     "cocoonTitle": false,
     "cocoonDing": false,
     "spawnParticleHider": [],
@@ -4958,8 +4978,7 @@
         "centerX": false,
         "centerY": true,
         "ignoreCustomScale": false
-      },
-      "boopParty": false
+      }
     },
     "diana": {
       "highlightRareMobs": false,
@@ -5002,7 +5021,19 @@
           "pitch": 1.0
         },
         "showDespawnTime": true,
-        "globalChat": false
+        "globalChat": false,
+        "shareMobToggles": {
+          "sphinx": true,
+          "minosInquisitor": true,
+          "manticore": true,
+          "kingMinos": true
+        },
+        "receiveMobToggles": {
+          "sphinx": true,
+          "minosInquisitor": true,
+          "manticore": true,
+          "kingMinos": true
+        }
       },
       "dianaProfitTracker": {
         "enabled": false,
@@ -5445,7 +5476,7 @@
       },
       "bouncyBallLine": true,
       "bouncyBallLineColor": "0:245:255:0:196",
-      "bouncyBallLandingSpot": true
+      "bouncyBallLandingSpot": false
     },
     "yearOfThePig": {
       "shinyOrbTracker": {
@@ -5512,7 +5543,7 @@
       "easterEgg": {
         "allWaypoints": false,
         "allEntranceWaypoints": false,
-        "onlyClosest": true
+        "onlyClosest": false
       },
       "halloweenBasket": {
         "enabled": false,
@@ -5900,7 +5931,50 @@
         "ignoreCustomScale": false
       },
       "hideMobsNametagNearby": false,
-      "infernoFuelBlocker": true
+      "infernoFuelBlocker": true,
+      "infernoProfitTracker": {
+        "enabled": false,
+        "position": {
+          "x": 250,
+          "y": 250,
+          "scale": 1.0,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        },
+        "showAfterCollection": true,
+        "perTrackerConfig": {
+          "trackerConfig": {
+            "itemTracker": {
+              "showRecentDrops": true,
+              "excludeHiddenItemsInPrice": false,
+              "showTable": true,
+              "itemsShown": 10,
+              "profitPerHour": true,
+              "hideInEstimatedItemValue": true,
+              "hideOutsideInventory": false,
+              "warnings": {
+                "chat": true,
+                "minimumChat": 5000000,
+                "title": true,
+                "minimumTitle": 5000000
+              },
+              "textOrder": [
+                "AMOUNT",
+                "NAME",
+                "TOTAL_PRICE"
+              ]
+            },
+            "defaultDisplayMode": "REMEMBER_LAST",
+            "showUptime": true,
+            "onlyShowSession": true,
+            "afkTimeout": 60,
+            "trackerSearchEnabled": false,
+            "priceSource": "BAZAAR_INSTANT_BUY"
+          },
+          "useUniversalConfig": false
+        }
+      }
     },
     "stranded": {
       "highlightPlaceableNpcs": false,
@@ -6177,6 +6251,10 @@
       "replacePercentages": false,
       "replaceRiftSeconds": true
     },
+    "boopParty": {
+      "boopParty": false,
+      "boopPartyBingo": false
+    },
     "resetSearchGuiOnClose": true,
     "showOutsideSB": [],
     "autoJoinSkyblock": false,
@@ -6200,6 +6278,7 @@
     },
     "brewingStandOverlay": false,
     "crashOnDeath": false,
+    "crashOnTttFail": false,
     "skyblockXPBar": false,
     "xpInInventory": false,
     "hidePiggyScoreboard": true,
@@ -6266,6 +6345,7 @@
     },
     "maintainGameVolume": true,
     "fastFairySouls": false,
+    "spiderRelicPathfinder": false,
     "gfsPiggyBank": false,
     "userLuck": true,
     "warnAboutPcTimeOffset": false,
@@ -6321,6 +6401,7 @@
       "showItemCategory": false,
       "showItemName": false,
       "copyInternalName": -1,
+      "copyCosmeticsSkullData": -1,
       "showNpcPrice": false,
       "showBaseValues": false,
       "showCraftPrice": false,
@@ -6334,6 +6415,7 @@
       "highlightMissingRepo": false,
       "logRepoErrors": false,
       "printMissingBazaarItems": false,
+      "updateSource": "MODRINTH",
       "alwaysOutdated": false,
       "eventCounter": false,
       "bypassAdvancedPlayerTabList": -1,
@@ -6537,6 +6619,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 129,
+  "lastVersion": 132,
   "lastMinecraftVersion": "1.21.11"
 }

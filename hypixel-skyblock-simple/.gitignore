@@ -25,6 +25,7 @@ overrides/config/skyblocker/slayer_personal_best.json
 overrides/config/skyblocker/slayers_data.json
 overrides/config/skyblocker/time_tower.txt
 overrides/config/skyblocker/update_notifications_v2.json
+overrides/config/skyblocker/vacuum_cache.json
 overrides/config/skyblocker/waypoints.json
 overrides/config/skyblockpv/reminders.json
 overrides/config/skyhanni/backup
@@ -42,3 +43,4 @@ overrides/config/skyhanni/vacuum_cache.json
 overrides/config/skyhanni/visual_words.json
 overrides/config/skyocean/data/*-*-*-*-*
 overrides/config/sodium-fingerprint.json
+debug-profile.json

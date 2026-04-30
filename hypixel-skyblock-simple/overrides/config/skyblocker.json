@@ -24,6 +24,7 @@
     },
     "itemTooltip": {
       "enableNPCPrice": false,
+      "enableGeorgePrice": true,
       "enableMotesPrice": true,
       "enableAvgBIN": false,
       "avg": "THREE_DAY",
@@ -537,7 +538,7 @@
     "redialOnBadSignal": true,
     "enablePickobulusHelper": true,
     "pickobulusHelper": {
-      "enablePickobulusHud": true,
+      "enablePickobulusHud": false,
       "hideHudOnCooldown": false
     },
     "dwarvenMines": {
@@ -593,7 +594,10 @@
   "farming": {
     "farmingHud": {
       "enabled": false,
-      "type": "BOTH"
+      "counter": true,
+      "coins": true,
+      "type": "BOTH",
+      "experience": true
     },
     "pestHighlighter": {
       "enabled": true,
@@ -644,6 +648,7 @@
       "blobbercystGlow": true,
       "enigmaSoulWaypoints": false,
       "highlightFoundEnigmaSouls": true,
+      "autoDetectMcGrubber": true,
       "mcGrubberStacks": 0
     },
     "end": {
@@ -723,6 +728,7 @@
     "hideHeal": "PASS",
     "hideAOTE": "FILTER",
     "hideImplosion": "FILTER",
+    "hideSpiritSceptre": "PASS",
     "hideMoltenWave": "PASS",
     "hideAds": "FILTER",
     "hideTeleportPad": "PASS",
