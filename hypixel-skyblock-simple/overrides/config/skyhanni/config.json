@@ -1017,7 +1017,7 @@
       }
     },
     "keyBind": {
-      "enabled": false,
+      "enabled": true,
       "mousemat": false,
       "fishingRod": false,
       "excludeBarn": true,
