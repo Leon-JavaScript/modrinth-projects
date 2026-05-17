@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "26.5.2",
+  "versionId": "26.5.3",
   "name": "Hypixel Skyblock [Simple]",
   "summary": "",
   "files": [
@@ -67,18 +67,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/fc4wBpRx/versions/R1sGaLsr/Catharsis-1.0.0-beta.14-1.21.11.jar"
+        "https://cdn.modrinth.com/data/fc4wBpRx/versions/IBFIJ4kv/Catharsis-1.0.0-beta.15-1.21.11.jar"
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
-      "fileSize": 6000503,
+      "fileSize": 6360293,
       "hashes": {
-        "sha1": "f4874bf77ba88bbba796a16327317c60d88a91c0",
-        "sha512": "aab3ecf93ab55dfc7ae361fc4dc228270737fab71cd589c0d016bdebcfe741d64c5154eaae919e8179a5a264d0506f965a16e9e8431ec3ff2d4ac43cef774288"
+        "sha1": "ef0b2427af2d2a8bddf6c0ad89253cfc24e84552",
+        "sha512": "48abd227bc047eb44ae2898de74b57c49f502dbe6507ce99fd04658668ba8c5cec0188d067daaa27041e10fae84b6ca4353fd7e699e06462ce5791a1b305ea47"
       },
-      "path": "mods/Catharsis-1.0.0-beta.14-1.21.11.jar"
+      "path": "mods/Catharsis-1.0.0-beta.15-1.21.11.jar"
     },
     {
       "downloads": [
@@ -127,18 +127,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/NNAgCjsB/versions/WORDhU8n/entityculling-fabric-1.10.1-mc1.21.11.jar"
+        "https://cdn.modrinth.com/data/NNAgCjsB/versions/j9D8p9DR/entityculling-fabric-1.10.2-mc1.21.11.jar"
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
-      "fileSize": 1585638,
+      "fileSize": 1604207,
       "hashes": {
-        "sha1": "4e595b6162d24c3d8d65bc6417cf79daac5bde0d",
-        "sha512": "93fac75432afb97f286827190b3e0363775e013946e22bc62cd86b1d0e0c10c1e7dbd520ca22a9445acb1f50afca38c12d41a4f9a4d3685218287bb7cad237b8"
+        "sha1": "07425f2321600143113f02a3cc19900d6560244f",
+        "sha512": "853eccc596bc0c4ee18afa8dd02f07744b71aa7709e8486c1a9d193fe951c61218581239e72e3731b95f1837d9b94b72ac03cbbe731454984a28330850480830"
       },
-      "path": "mods/entityculling-fabric-1.10.1-mc1.21.11.jar"
+      "path": "mods/entityculling-fabric-1.10.2-mc1.21.11.jar"
     },
     {
       "downloads": [
@@ -157,18 +157,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/P7dR8mSH/versions/i5tSkVBH/fabric-api-0.141.3%2B1.21.11.jar"
+        "https://cdn.modrinth.com/data/P7dR8mSH/versions/5zJNhXV2/fabric-api-0.141.4%2B1.21.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 2412693,
+      "fileSize": 2413332,
       "hashes": {
-        "sha1": "50de67eb221f0b38216da8668b09ca311327040e",
-        "sha512": "c20c017e23d6d2774690d0dd774cec84c16bfac5461da2d9345a1cd95eee495b1954333c421e3d1c66186284d24a433f6b0cced8021f62e0bfa617d2384d0471"
+        "sha1": "13d3885dfec40313e2b3bf9ee639353272b9b48a",
+        "sha512": "c092d48c6453bec3264f80f6a35bb334aba3112b5cd6c0e0b2676ce4d81e702cb1e522337f3a732348e757cc2226da3c601a314ae8766334f16af71a13bcc98d"
       },
-      "path": "mods/fabric-api-0.141.3+1.21.11.jar"
+      "path": "mods/fabric-api-0.141.4+1.21.11.jar"
     },
     {
       "downloads": [
@@ -217,18 +217,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/IJNUBZ2a/versions/bXane87F/Firmament-44.0.1%2Bmc1.21.11.jar"
+        "https://cdn.modrinth.com/data/IJNUBZ2a/versions/UStVdgbF/Firmament-44.2.0%2Bmc1.21.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 5626478,
+      "fileSize": 5680123,
       "hashes": {
-        "sha1": "21b111a577a36344f746782d3c4e43e218ecb23d",
-        "sha512": "c1cdc9466fe7ac33050657cef88001afffb11b991d0c1f5a28f41bde66fb0063f9d49049d771e8ca80403f319c99979a8a85679a35a25090a0bdba20c379f6a3"
+        "sha1": "55647624c4225670849bb69b4bc062d6315b6da9",
+        "sha512": "9ea55c7b80095ebf4ca0472b616f5bf368cf7a206f454fab3e21268761de9e3a6df6b2c4403b34bce2f7255d53d04680e82c0406c2199a857eaa80bbd8d05428"
       },
-      "path": "mods/Firmament-44.0.1+mc1.21.11.jar"
+      "path": "mods/Firmament-44.2.0+mc1.21.11.jar"
     },
     {
       "downloads": [
@@ -457,63 +457,63 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/MKoFTAfF/skyblocker-6.4.0%2B1.21.11.jar"
+        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/ifkfQ5sx/skyblocker-6.4.1%2B1.21.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 18934016,
+      "fileSize": 18935620,
       "hashes": {
-        "sha1": "fb263a7a4a0c0ca6a002d911fcb370c6d4c2fe43",
-        "sha512": "ccfafc70d36d744e9e613e0a4e7fc8122bc43c91b08b6648c392553f15e5fc01b196ff46c4b59a03103a99d385aeef0ee3b9e320a8c7b77056d33dbedd45800a"
+        "sha1": "b3e627eacfa4fb481e9d14f3943fab9fa30536b2",
+        "sha512": "1bd503a52aa94f09c77413a46f03caae94f45b71ced383d829c34c0a6bf398136cf34f2bf08bf521122b186c1ff0f8124f407c67c8e36ccb729a4878aa58461e"
       },
-      "path": "mods/skyblocker-6.4.0+1.21.11.jar"
+      "path": "mods/skyblocker-6.4.1+1.21.11.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/8yqXwFLl/versions/4o1SoptR/SkyBlockPv-1.8.1-1.21.11.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 11292238,
-      "hashes": {
-        "sha1": "beda1d6ab4f5a34e5320ddd81275533e64bf2454",
-        "sha512": "55b2b4a48a30a906d5403866965cabf2a5d84acb2955f9b1e802a8efa87818959d1338b2e523212d6c7c6562ce65b020d92fbe4d76e3a1863af3493fe61c0fce"
-      },
-      "path": "mods/SkyBlockPv-1.8.1-1.21.11.jar"
-    },
-    {
-      "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/NSYHw01z/SkyHanni-7.19.0-mc1.21.11.jar"
+        "https://cdn.modrinth.com/data/8yqXwFLl/versions/4optxyu0/SkyBlockPv-1.8.2-1.21.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 39875149,
+      "fileSize": 11478115,
       "hashes": {
-        "sha1": "7a41cd52e89d121b8d23e0aa1dcc60dd027c4d24",
-        "sha512": "50e5ac9f628a4746e48246b798621b8283bd261ed5ab0ca3153a198a1396fa7358b81107f47eefe45c14f970b2657f30a1ea3939b2a3dd86101db33237a4dad1"
+        "sha1": "1efaaff69df769ed19838fa038095b67fc43dab6",
+        "sha512": "410516079015040a14f1a846cdf8785bbb2ec083dd236bf281b132e9ead328d8a40a8358e5bd64b76bb3b1e76923e7b51917dc66c39dbe602b64ea074fb73664"
       },
-      "path": "mods/SkyHanni-7.19.0-mc1.21.11.jar"
+      "path": "mods/SkyBlockPv-1.8.2-1.21.11.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/dIczrQAR/versions/yqVwo1Ok/SkyOcean-1.14.1-1.21.11.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/2IcmoyFE/SkyHanni-7.20.0-mc1.21.11.jar"
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
-      "fileSize": 10363454,
+      "fileSize": 39886733,
       "hashes": {
-        "sha1": "6d8d1ba00ffa25ab4410dae434bed046de18ae43",
-        "sha512": "20900981696b0eead607390a3293a554ce5f8001aaca33ed738e132e279d79a0ee6cca4b9f65885d3e00be3953af36d0d8037b06fbb5fa9cdaed61a50890ff27"
+        "sha1": "b2a2af897ac5f5740d24aef7d486b0ce337735a1",
+        "sha512": "1fc6f7d253560d5549f1c8464243c96138ba0d0b452cf730104ac9c75d366033f72967c0381fb4eeba2d67090d0f950322d0ef7653720a3049245b27d7277bf2"
       },
-      "path": "mods/SkyOcean-1.14.1-1.21.11.jar"
+      "path": "mods/SkyHanni-7.20.0-mc1.21.11.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/dIczrQAR/versions/rcC3USlJ/SkyOcean-1.15.1-1.21.11.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 10611730,
+      "hashes": {
+        "sha1": "cc493c99b8ec1485ca3594ffbb29f0e1fa8ba7ea",
+        "sha512": "336b7ec85f793711d03380cf93907699d02977637d491ae93b7e740decacd905cc3e0175303f828f94abdd0b4abb890ef5cbb2d6717a05ef05dd44bd66448b71"
+      },
+      "path": "mods/SkyOcean-1.15.1-1.21.11.jar"
     },
     {
       "downloads": [
@@ -532,18 +532,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/AANobbMI/versions/UddlN6L4/sodium-fabric-0.8.7%2Bmc1.21.11.jar"
+        "https://cdn.modrinth.com/data/AANobbMI/versions/x0XUezGL/sodium-fabric-0.8.12-beta.3%2Bmc1.21.11.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 1870358,
+      "fileSize": 1905525,
       "hashes": {
-        "sha1": "e8865210ba9a926fc206ab9e73f9d4988a81ff69",
-        "sha512": "d7f035d6112eaac92cf0f11e4426db631fca5a7115dd355c2126efee4255b648a0102552bbf7b22a7eae9203d08f8740435842bfddcd94e2434f51b57ee9c641"
+        "sha1": "97b252509ee8dd06eb176403d965ec2a34c62468",
+        "sha512": "e48966f2209ed750fd70b8fec3d2e19fd47b4cc60f435e21719d92f9918371e68f602a49a5fdcaa5e421e61c9db52848847b393ae58175fa9f97be3632ca3199"
       },
-      "path": "mods/sodium-fabric-0.8.7+mc1.21.11.jar"
+      "path": "mods/sodium-fabric-0.8.12-beta.3+mc1.21.11.jar"
     },
     {
       "downloads": [
