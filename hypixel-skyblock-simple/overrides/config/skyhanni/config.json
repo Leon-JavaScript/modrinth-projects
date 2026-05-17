@@ -645,7 +645,7 @@
     },
     "widenConfig": false,
     "titlePosition": {
-      "x": -82,
+      "x": 24,
       "y": 160,
       "scale": 1.0,
       "centerX": false,
@@ -1247,9 +1247,10 @@
       },
       "zorroCapeProtection": true
     },
-    "armorDropTracker": {
+    "rareCropTracker": {
       "enabled": false,
       "hideChat": false,
+      "maxDisplayLines": 5,
       "perTrackerConfig": {
         "trackerConfig": {
           "defaultDisplayMode": "REMEMBER_LAST",
@@ -1803,7 +1804,7 @@
     "copyMilestoneData": false,
     "showLogBookStats": true,
     "logBookStatsPos": {
-      "x": -265,
+      "x": -225,
       "y": 95,
       "scale": 1.0,
       "centerX": false,
@@ -5528,7 +5529,7 @@
       ]
     },
     "yearOfTheWitch": {
-      "stewHelper": true,
+      "stewHelper": false,
       "stewHelperPosition": {
         "x": 174,
         "y": 139,
@@ -5737,6 +5738,7 @@
       "hideAlphaAchievements": false,
       "parkour": false,
       "teleportPads": false,
+      "masterChef": true,
       "others": false
     },
     "playerMessage": {
@@ -6619,6 +6621,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 132,
+  "lastVersion": 133,
   "lastMinecraftVersion": "1.21.11"
 }
