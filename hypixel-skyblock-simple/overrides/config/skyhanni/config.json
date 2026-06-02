@@ -645,7 +645,7 @@
     },
     "widenConfig": false,
     "titlePosition": {
-      "x": 24,
+      "x": -82,
       "y": 160,
       "scale": 1.0,
       "centerX": false,
@@ -735,7 +735,12 @@
           "CULTIVATING",
           "REPLENISH",
           "COPPER_DYE",
-          "DYE_WILD_STRAWBERRY"
+          "DYE_WILD_STRAWBERRY",
+          "VISITORS_GRATITUDE",
+          "FARMING_CONTEST_DISPLAY",
+          "ASTRONAUT_PERSONALITY",
+          "FAST_FOOD_BARN_SKIN",
+          "JELLY_GREENHOUSE_SKIN"
         ],
         "coinsPerCopperPrice": 9000,
         "preventRefusingCopper": true,
@@ -1020,6 +1025,7 @@
       "enabled": true,
       "mousemat": false,
       "fishingRod": false,
+      "sunsGrasp": true,
       "excludeBarn": true,
       "attack": 0,
       "useItem": 1,
@@ -1597,6 +1603,7 @@
       "hideMissingFortuneWarnings": false,
       "showPestBonusFortune": false,
       "bonusFortuneChat": true,
+      "callPhillip": false,
       "bonusFortuneTitle": false,
       "sound": {
         "name": "fireworks.blast",
@@ -1789,6 +1796,9 @@
     "seeThroughWindow": {
       "seeThroughFarming": 100.0,
       "keybind": -1
+    },
+    "farmingToolkit": {
+      "replaceMenuIcons": true
     },
     "plotPrice": false,
     "burrowingSporesNotificationType": "TITLE",
@@ -2338,6 +2348,10 @@
       "odgerLocation": false,
       "loadFromNeuPV": true
     },
+    "wormholeFinder": {
+      "enabled": false,
+      "departureAlert": true
+    },
     "thunderSpark": {
       "highlight": false,
       "color": "0:255:255:255:255"
@@ -2353,6 +2367,18 @@
       "alertTime": 330,
       "winterIsland": true,
       "forStranded": true,
+      "pos": {
+        "x": 10,
+        "y": 10,
+        "scale": 1.0,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      }
+    },
+    "bobberTimer": {
+      "enabled": false,
+      "startOnLiquidTouch": true,
       "pos": {
         "x": 10,
         "y": 10,
@@ -4228,7 +4254,7 @@
         }
       },
       "addons": {
-        "enabled": false,
+        "enabled": true,
         "highlightNextClick": true,
         "nextColor": "0:255:85:255:85",
         "secondColor": "0:128:255:255:85",
@@ -4248,8 +4274,8 @@
           "centerY": true,
           "ignoreCustomScale": false
         },
-        "xpOverlay": false,
-        "ultraRareBookAlert": false
+        "xpOverlay": true,
+        "ultraRareBookAlert": true
       },
       "guardianReminder": true
     },
@@ -4937,7 +4963,7 @@
     "shiftClickBrewing": false,
     "stonkOfStonkPrice": true,
     "ministerInCalendar": false,
-    "hexAsColorInLore": false,
+    "hexAsColorInLore": true,
     "essenceShopHelper": false,
     "snakeGameKeybinds": false,
     "highlightActiveBeaconEffect": false,
@@ -5102,7 +5128,8 @@
           },
           "useUniversalConfig": false
         }
-      }
+      },
+      "muteBuggedSpade": true
     },
     "winter": {
       "frozenTreasureTracker": {
@@ -5440,6 +5467,19 @@
       },
       "doubleClickToStart": true,
       "tokenShopHelper": true
+    },
+    "feast": {
+      "displayCurrentCrops": false,
+      "fetchAutomatically": true,
+      "sharePolicy": "ASK",
+      "position": {
+        "x": 400,
+        "y": 10,
+        "scale": 1.0,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      }
     },
     "century": {
       "enableActiveTimer": true,
@@ -5855,7 +5895,7 @@
         "enabled": false,
         "color": "0:128:85:255:85"
       },
-      "hideAutopet": false,
+      "hideAutopet": true,
       "petItemDisplay": [
         "XP_SHARE",
         "TIER_BOOST"
@@ -5879,7 +5919,7 @@
       "betterWiki": {
         "enabled": false,
         "sbGuide": false,
-        "useUnofficial": false,
+        "useIndependent": true,
         "autoOpenWiki": false,
         "menuOpenWiki": false,
         "wikiKeybind": -1
@@ -6011,7 +6051,7 @@
         "feedbackMode": "GUI",
         "position": {
           "x": 200,
-          "y": 200,
+          "y": -166,
           "scale": 1.0,
           "centerX": false,
           "centerY": true,
@@ -6351,6 +6391,18 @@
     "gfsPiggyBank": false,
     "userLuck": true,
     "warnAboutPcTimeOffset": false,
+    "npcDayLimitTracker": {
+      "enabled": false,
+      "numberFormat": "SHORT",
+      "position": {
+        "x": 8,
+        "y": 520,
+        "scale": 1.0,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      }
+    },
     "coralFishHelper": true,
     "coralFishHelperPosition": {
       "x": 5,
@@ -6614,6 +6666,11 @@
     "hasPlayedBefore": true,
     "visualWordsImported": false,
     "contestSendingAsked": false,
+    "harvestFeastStorage": {
+      "harvestFeastSendingAsked": false,
+      "lastHarvestFeastSubmitYear": -1,
+      "lastHarvestFeastSubmitMonth": -1
+    },
     "trackerDisplayModes": {},
     "foundDianaBurrowLocations": [],
     "players": {},
@@ -6621,6 +6678,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 133,
+  "lastVersion": 134,
   "lastMinecraftVersion": "1.21.11"
 }
