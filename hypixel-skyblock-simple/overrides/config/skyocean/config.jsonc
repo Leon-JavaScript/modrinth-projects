@@ -423,10 +423,8 @@
                 "villager_profession_own": "RANDOM",
                 // Valid Values: RANDOM, NONE, ARMORER, BUTCHER, CARTOGRAPHER, CLERIC, FARMER, FISHERMAN, FLETCHER, LEATHERWORKER, LIBRARIAN, MASON, NITWIT, SHEPHERD, TOOLSMITH, WEAPONSMITH
                 "villager_profession_other": "RANDOM",
-                // Valid Values: RANDOM, ALWAYS, NEVER
-                "snow_golem_pumpkin_own": "RANDOM",
-                // Valid Values: RANDOM, ALWAYS, NEVER
-                "snow_golem_pumpkin_other": "RANDOM",
+                "snow_golem_block_own": "minecraft:air",
+                "snow_golem_block_other": "minecraft:air",
                 // Valid Values: RANDOM, NONE, LOW, MEDIUM, HIGH
                 "iron_golem_state_own": "RANDOM",
                 // Valid Values: RANDOM, NONE, LOW, MEDIUM, HIGH

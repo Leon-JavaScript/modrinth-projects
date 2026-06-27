@@ -1024,6 +1024,7 @@
     "keyBind": {
       "enabled": true,
       "mousemat": false,
+      "vacuum": false,
       "fishingRod": false,
       "sunsGrasp": true,
       "excludeBarn": true,
@@ -1644,6 +1645,18 @@
         "x": 445,
         "y": 225,
         "scale": 1.0,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      }
+    },
+    "mouseLock": {
+      "chatMessage": true,
+      "unlockOnTeleport": "ALWAYS",
+      "display": {
+        "x": 400,
+        "y": 200,
+        "scale": 0.8,
         "centerX": false,
         "centerY": true,
         "ignoreCustomScale": false
@@ -5471,7 +5484,7 @@
     "feast": {
       "displayCurrentCrops": false,
       "fetchAutomatically": true,
-      "sharePolicy": "ASK",
+      "sharePolicy": "AUTO",
       "position": {
         "x": 400,
         "y": 10,
@@ -5892,7 +5905,7 @@
         }
       },
       "highlightInMenu": {
-        "enabled": false,
+        "enabled": true,
         "color": "0:128:85:255:85"
       },
       "hideAutopet": true,
@@ -5910,6 +5923,7 @@
         "onlyBestFriends": false,
         "party": false,
         "guild": false,
+        "carryCustomer": false,
         "vipVisits": false,
         "gfsSack": false,
         "viewrecipeItems": false,
@@ -5918,7 +5932,7 @@
       },
       "betterWiki": {
         "enabled": false,
-        "sbGuide": false,
+        "skyblockGuide": false,
         "useIndependent": true,
         "autoOpenWiki": false,
         "menuOpenWiki": false,
@@ -6351,15 +6365,6 @@
     },
     "showLimboTimeInPlaytimeDetailed": false,
     "lesserOrbHider": false,
-    "lockMouseLookChatMessage": true,
-    "lockedMouseDisplay": {
-      "x": 400,
-      "y": 200,
-      "scale": 0.8,
-      "centerX": false,
-      "centerY": true,
-      "ignoreCustomScale": false
-    },
     "fixGhostEntities": false,
     "replaceRomanNumerals": false,
     "chargeBottleNotification": false,
@@ -6374,8 +6379,8 @@
       "fallbackCommand": "ec 1"
     },
     "customTodos": {
-      "enabled": true,
-      "separateGuis": true,
+      "enabled": false,
+      "separateGuis": false,
       "position": {
         "x": 150,
         "y": 200,
@@ -6418,7 +6423,8 @@
     "fixDoubleClicks": false,
     "fixColorParticles": false,
     "rainbowActionBar": false,
-    "achievementMessages": true
+    "achievementMessages": true,
+    "giftCleanDisplay": false
   },
   "dev": {
     "mainToggles": {
@@ -6545,6 +6551,8 @@
     },
     "fancyContributors": false,
     "contributorNametags": false,
+    "discoverContributorMessage": false,
+    "contributorMentionTracker": true,
     "flipContributors": false,
     "rotateContributors": false,
     "numberFormatOverride": false,
@@ -6576,6 +6584,7 @@
       "graph": {
         "enabled": false,
         "placeKey": 70,
+        "autoSelectNode": false,
         "selectKey": 2,
         "selectRaycastKey": -1,
         "connectKey": 67,
@@ -6667,9 +6676,9 @@
     "visualWordsImported": false,
     "contestSendingAsked": false,
     "harvestFeastStorage": {
-      "harvestFeastSendingAsked": false,
-      "lastHarvestFeastSubmitYear": -1,
-      "lastHarvestFeastSubmitMonth": -1
+      "harvestFeastSendingAsked": true,
+      "lastHarvestFeastSubmitYear": 496,
+      "lastHarvestFeastSubmitMonth": 8
     },
     "trackerDisplayModes": {},
     "foundDianaBurrowLocations": [],
@@ -6678,6 +6687,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 134,
-  "lastMinecraftVersion": "1.21.11"
+  "lastVersion": 136,
+  "lastMinecraftVersion": "26.1.2"
 }

@@ -84,7 +84,11 @@
     },
     {
       "soundId": "minecraft:entity.blaze.ambient",
-      "volume": 0.2
+      "volume": 0.15
+    },
+    {
+      "soundId": "minecraft:entity.blaze.burn",
+      "volume": 0.6
     },
     {
       "soundId": "minecraft:entity.blaze.shoot",

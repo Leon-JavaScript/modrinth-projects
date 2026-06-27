@@ -59,7 +59,8 @@
     "specialEffects": {
       "rareDungeonDropEffects": true,
       "rareDropEffects": true,
-      "rareDyeDropEffects": true
+      "rareDyeDropEffects": true,
+      "trophyDropEffects": true
     },
     "lockedSlots": [],
     "protectedItems": [],
@@ -1030,6 +1031,14 @@
         ]
       },
       "Harvest Feast Begins": {
+        "enabled": true,
+        "reminderTimes": []
+      },
+      "SkyBlock Anniversary": {
+        "enabled": true,
+        "reminderTimes": []
+      },
+      "Mayor Jerry": {
         "enabled": true,
         "reminderTimes": []
       }

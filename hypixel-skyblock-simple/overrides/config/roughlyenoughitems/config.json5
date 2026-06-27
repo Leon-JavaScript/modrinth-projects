@@ -158,6 +158,8 @@
 			"registerRecipesInAnotherThread": true,
 			"cachingFastEntryRendering": false,
 			"cachingDisplayLookup": true,
+			// Controls whether REI synthesizes recipe displays from the client's own data packs, for servers that do not sync recipe data. NEVER: off; AUTO: load locally as a fallback until the server syncs displays; ALWAYS: load locally even when the server provides displays.
+			"forceLocalRecipes": "AUTO",
 			"categorySettings": {
 				"filteringQuickCraftCategories": { },
 				"categoryOrdering": [
@@ -203,7 +205,8 @@
 			"shouldFilterDisplays": true,
 			"filteringRules": [
 				"{id:\"roughlyenoughitems:manual\",rule:{}}",
-				"{id:\"roughlyenoughitems:basic\",rule:{}}"
+				"{id:\"roughlyenoughitems:basic\",rule:{}}",
+				"{id:\"roughlyenoughitems:hidden_from_recipe_viewers\",rule:{}}"
 			]
 		}
 	}
