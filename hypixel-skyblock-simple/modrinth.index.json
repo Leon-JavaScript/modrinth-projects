@@ -1,24 +1,24 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "26.6.0",
+  "versionId": "26.6.1",
   "name": "Hypixel Skyblock [Simple]",
   "summary": "",
   "files": [
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/axe0DxiW/versions/42KZmnXS/aaron-mod-3.0.0%2B26.1.2.jar"
+        "https://cdn.modrinth.com/data/axe0DxiW/versions/Ka0HzLug/aaron-mod-3.0.1%2B26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 2859800,
+      "fileSize": 2540612,
       "hashes": {
-        "sha1": "c9ce0610d3878afdcb0d4693fe7f02e150dd15a7",
-        "sha512": "09475b3d4aa7e1e80ef07f65d7be6a8fb3dc070dd043dec402a11f17abadd79a228d4ed3c96ab2f06eb6a3305f09258ca635a58203f760abd33ba04f3fce7150"
+        "sha1": "ff3673b677afa4acd43a72b3f20c7372b9c2a8dc",
+        "sha512": "28ad07cf82fb20d3159b42be760e8e3336973fa7795792172965d7e4c1f3224e62fe2ec103b38478a46eda1f0aecb0683ab6f6e5cbed902ca816381e3f42e79f"
       },
-      "path": "mods/aaron-mod-3.0.0+26.1.2.jar"
+      "path": "mods/aaron-mod-3.0.1+26.1.2.jar"
     },
     {
       "downloads": [
@@ -41,7 +41,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 61928,
       "hashes": {
@@ -56,7 +56,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 717366,
       "hashes": {
@@ -67,18 +67,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/fc4wBpRx/versions/T5qQxwIH/Catharsis-1.0.0-beta.18-26.1.jar"
+        "https://cdn.modrinth.com/data/fc4wBpRx/versions/kmbSTFww/Catharsis-1.0.0-beta.20-26.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 5986815,
+      "fileSize": 6005571,
       "hashes": {
-        "sha1": "0cda49f56eb0bf3c7d5f1534f7324f38e23bbb5c",
-        "sha512": "79a7f80bded92f4fa5619e844d76499fa837ba5634888f054b40de87af2d67fd3b244c2db6667b48cbef501814aea5eff59b6cf39f43eeb9a5bd6722118cd483"
+        "sha1": "9099d0ed4f6980ee831c36c942f69cb8ced30451",
+        "sha512": "40608731d20ecc4506c43104d748dd24a76a1398ae0f808828017993fed178cff4f5b52462e6b18a965682d0c120d09a5d2cc396f8724432a9d0b7814d4c42ac"
       },
-      "path": "mods/Catharsis-1.0.0-beta.18-26.1.jar"
+      "path": "mods/Catharsis-1.0.0-beta.20-26.1.jar"
     },
     {
       "downloads": [
@@ -101,7 +101,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 85917,
       "hashes": {
@@ -116,7 +116,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 91237,
       "hashes": {
@@ -131,7 +131,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 1581987,
       "hashes": {
@@ -146,7 +146,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 53073245,
       "hashes": {
@@ -157,18 +157,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/P7dR8mSH/versions/WC1KT7Yg/fabric-api-0.153.0%2B26.1.2.jar"
+        "https://cdn.modrinth.com/data/P7dR8mSH/versions/lOQ4tyDD/fabric-api-0.154.2%2B26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 2504357,
+      "fileSize": 2514491,
       "hashes": {
-        "sha1": "5d984764e54f1f1db397d3f76429a0f15e591845",
-        "sha512": "4e31da3c796714d25ca079e5277980c5439bb09dcad33d1224cccdfec6000b776ba5d16323a9c312682e773bddedae75aa697a7c0f4ad2b77b5b11ba679b480a"
+        "sha1": "03e3870e2f4955faafb0b0076ae85175d7fa198f",
+        "sha512": "8e1b48a2bd10ddd6f1ea59a603a1f28255c2c2f9a2dda93fc196505dee0823eaded2da69d4f154ef654f9faa98e2340ed2b65557ec98637ffe888edc1072912e"
       },
-      "path": "mods/fabric-api-0.153.0+26.1.2.jar"
+      "path": "mods/fabric-api-0.154.2+26.1.2.jar"
     },
     {
       "downloads": [
@@ -191,14 +191,14 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 69569,
       "hashes": {
         "sha1": "53c22a0efa32c8c34470e7742e14d0e75b2cc90e",
         "sha512": "b20c20c34c6cb4f8758203a158fb099fbef1f293b42a93f12564158fe93041dc953e9d1e0c83f7d42fcbab17b3943554c56391af5ecdce77214f24c2b481b952"
       },
-      "path": "mods/fadeless-2.0.8-26.1.jar.disabled"
+      "path": "mods/fadeless-2.0.8-26.1.jar"
     },
     {
       "downloads": [
@@ -221,14 +221,14 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 1129616,
       "hashes": {
         "sha1": "945e6c2631931e3fa95b0f293a2a5ef9b5ca5c07",
         "sha512": "c39450da8e21481b9a09a6a719b4edc3d41df8e68a5782799a573eb12f6ac31130a796a3d82d11ad29b09941608f53dfe26f01927dbe8029762756cab9e75dbd"
       },
-      "path": "mods/freecam-fabric-1.4.1-beta.1+mc26.1.2.jar.disabled"
+      "path": "mods/freecam-fabric-1.4.1-beta.1+mc26.1.2.jar"
     },
     {
       "downloads": [
@@ -236,7 +236,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 103258,
       "hashes": {
@@ -247,33 +247,33 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/5ZwdcRci/versions/lRuSLf0Y/ImmediatelyFast-Fabric-1.15.2%2B26.1.2.jar"
+        "https://cdn.modrinth.com/data/5ZwdcRci/versions/xOA9hbpf/ImmediatelyFast-Fabric-1.15.3%2B26.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 304946,
+      "fileSize": 310057,
       "hashes": {
-        "sha1": "195bc6059dda0aac574906d035fae0b62a575a87",
-        "sha512": "46371d0958d705182e0945a0bd93b750a07a1f32a4f3189d85741804392137a47790d3bd0e341e7e9d5bf2783652598575ae1dc26f188aa9a71758f9d568e709"
+        "sha1": "0bc5865bcb7f2f09d85559a58fccddcfd335f44d",
+        "sha512": "b665037aee8e76e330f068f640b340b97ce8c0c0e940dfccda8a5b00f772dfa9b2d20594bb950e4f2595b359ad3c27190a4d998da28d4507a9747ab507980d11"
       },
-      "path": "mods/ImmediatelyFast-Fabric-1.15.2+26.1.2.jar"
+      "path": "mods/ImmediatelyFast-Fabric-1.15.3+26.1.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/mOgUt4GM/versions/p7gjPPpV/modmenu-18.0.0-beta.1.jar"
+        "https://cdn.modrinth.com/data/mOgUt4GM/versions/3rsoV1bk/modmenu-18.0.0.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 855297,
+      "fileSize": 857151,
       "hashes": {
-        "sha1": "52fff4a942dd42d4bdb6d149d0396cbf2ce69016",
-        "sha512": "b6a94b3f70fd4dd45f44a1edad6622a0de3ae57d9685bd0e97f1f928a8e07a62efd840174656f2cf189d7ca58a16760016d08bdf0a99286fe7df6289b10380dd"
+        "sha1": "0b5cd2531cd3506e431cd2d739da3abceed08ea6",
+        "sha512": "97c565fb980fcf5d735e5d15361ff64d1f72efd7a66b8653da436a6e6135b904a8e859782f25d4462d9cfdc636e2ff67f428fe895ab9ee7c2de80da8012c04c5"
       },
-      "path": "mods/modmenu-18.0.0-beta.1.jar"
+      "path": "mods/modmenu-18.0.0.jar"
     },
     {
       "downloads": [
@@ -281,7 +281,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 3773,
       "hashes": {
@@ -296,7 +296,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 361481,
       "hashes": {
@@ -337,18 +337,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/Bh37bMuy/versions/wkblahhj/reeses-sodium-options-fabric-2.2.0%2Bmc26.1.2.jar"
+        "https://cdn.modrinth.com/data/Bh37bMuy/versions/RHcE6mx4/reeses-sodium-options-fabric-2.2.2%2Bmc26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 235821,
+      "fileSize": 257107,
       "hashes": {
-        "sha1": "39d879d78d485eea318d2df304af0a58698475e8",
-        "sha512": "c34d26c4decc5f8091dc95998342a65bd7a6bbeda83c4b0dd59ef90d04157e9e7dc57c7ce8811c3d3923ed0396282c432ebeba6839815b79dde08d14b4ff867c"
+        "sha1": "7f14904b2c2699fa6ccc5a82b138bacad9659652",
+        "sha512": "c2bcfb5c2551714e00f0360aa31e05338e918f5ce9f9d458625acd79dc8d619ed1d789a50453551d39457fbf2b05bcd541dd52272417ccfba47ac1cd11ccaf15"
       },
-      "path": "mods/reeses-sodium-options-fabric-2.2.0+mc26.1.2.jar"
+      "path": "mods/reeses-sodium-options-fabric-2.2.2+mc26.1.2.jar"
     },
     {
       "downloads": [
@@ -356,7 +356,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 852112,
       "hashes": {
@@ -386,7 +386,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 7984616,
       "hashes": {
@@ -401,7 +401,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 2521839,
       "hashes": {
@@ -416,7 +416,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 79083,
       "hashes": {
@@ -427,93 +427,93 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/7OtCaJGB/skyblocker-6.5.3%2B26.1.2.jar"
+        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/n5H2yDJu/skyblocker-6.7.0-beta.1%2B26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 19129243,
+      "fileSize": 19230473,
       "hashes": {
-        "sha1": "3a9cbedf8297a86f51ddb3c4576b4803e3705b6e",
-        "sha512": "c56448ee8594dabb861daeab6af8cacc3b3526534e2fc69ccc443ce3d6618f996ad2441e39446bd4694834885a3cb4c41de42480d88b965dea91c56dabd4b73f"
+        "sha1": "cda2c6f93604a98ce4863540e76b26d8621255d1",
+        "sha512": "da24cebde22f34966e0c3d8560c13ed24053c5ae61d270a1292d1e40eed04fd710254fbeb74ab4d04ab7ecd946f25fb11d33d5adf4b1157e2bf9200442201b1f"
       },
-      "path": "mods/skyblocker-6.5.3+26.1.2.jar"
+      "path": "mods/skyblocker-6.7.0-beta.1+26.1.2.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/8yqXwFLl/versions/JKahuSG5/SkyBlockPv-1.8.4-26.1.jar"
+        "https://cdn.modrinth.com/data/8yqXwFLl/versions/W3jM7PJd/SkyBlockPv-1.8.6-26.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 11429833,
+      "fileSize": 10929990,
       "hashes": {
-        "sha1": "6ef38944a361d88f1b2b5d6556fdd260e1b68c4c",
-        "sha512": "cc409d8b309fbda13284c4c0663ba088f2af79bad4081b5b283c730176a440aef44bdc8ec84572f32def646103e47538c9e03cf0d69001c8ecd638c25e1139ef"
+        "sha1": "62ec253e5270fc81f79d9b842f858f4ea17e511f",
+        "sha512": "88877e6cdc0fcc663ba5e564c4ac2d09fdaf097033130d04c9c3243533816a847fc7aed9050bdaca878be9c28990867191988bbab70abb1210989f10885b63ff"
       },
-      "path": "mods/SkyBlockPv-1.8.4-26.1.jar"
+      "path": "mods/SkyBlockPv-1.8.6-26.1.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/LIzaC03Y/SkyHanni-7.27.0-mc26.1.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/hkY415Hz/SkyHanni-7.32.0-mc26.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 28477169,
+      "fileSize": 29238384,
       "hashes": {
-        "sha1": "27363ac311b1854436bc72e1c740f3257f83761d",
-        "sha512": "147721b871bf6b34b48c0912da71eb2f99b781fc784366bb34c22acd9c603725e949451167103e0a6a00baaa6e6532bb6adc69c62d7456ca83f320f34e0c598e"
+        "sha1": "e84a6eeb4993b466eba0e00b12af864cea5d5528",
+        "sha512": "999d4a588b3239b9276a2694b17f3aa2d7a8847f77ffb237c341092890b3f51cb7a35ea2578b42395f7ffbed0e969cc90a73032691b9dc576a6df5e6f968b569"
       },
-      "path": "mods/SkyHanni-7.27.0-mc26.1.jar"
+      "path": "mods/SkyHanni-7.32.0-mc26.1.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/dIczrQAR/versions/ntms0IvC/SkyOcean-1.16.1-26.1.jar"
+        "https://cdn.modrinth.com/data/dIczrQAR/versions/Pmo99Box/SkyOcean-1.17.0-26.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 10616835,
+      "fileSize": 10277748,
       "hashes": {
-        "sha1": "b6dc8ba577d2940c4157835a24af4df1ed29ed90",
-        "sha512": "b24bab05a64dfb22db30ab51f9b70f04dfbe96be7a52f842e46b18d45fc5fb77f5d08564d1874e2bf0be6eb2df9206e34a2f5a65b3e7db200d3b63c0bdaba70e"
+        "sha1": "007d576b79df448fe684c7fc87f5ec25a9306a86",
+        "sha512": "c1b6b86cbeecf2174b11bfb44e8c596d39a067ba26ecd084c83973bb63af00da5df3f5d31844b844303ac487aa1f570628a42eb0043bb45091167e83e3687382"
       },
-      "path": "mods/SkyOcean-1.16.1-26.1.jar"
+      "path": "mods/SkyOcean-1.17.0-26.1.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/PtjYWJkn/versions/1bz3AMCV/sodium-extra-fabric-0.8.7%2Bmc26.1.1.jar"
+        "https://cdn.modrinth.com/data/PtjYWJkn/versions/5SQcopfI/sodium-extra-fabric-0.9.1%2Bmc26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 401602,
+      "fileSize": 450817,
       "hashes": {
-        "sha1": "457ea5643de4e537eb44fc117d88886d52cdebf9",
-        "sha512": "aed5ab19ca13c9e77d16140506d4cf83fbe15bd77fe76276f67fe8f7157ec591e9b8a65ab4176f2a880b58172634b54a5b369db40201a84618acfcc488d14ba0"
+        "sha1": "dc6c4e1d5147ff41a65e7bb042091a77c88ea3cd",
+        "sha512": "94e0e3b5c982f423b306531c92959c9f151a9dbcda44c1d6f8a52aeec24bfed97b557ac0643eaa54b0423e4621177e15c84b77083079e96c5d86f678cff98472"
       },
-      "path": "mods/sodium-extra-fabric-0.8.7+mc26.1.1.jar"
+      "path": "mods/sodium-extra-fabric-0.9.1+mc26.1.2.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/AANobbMI/versions/NPVnpcnt/sodium-fabric-0.9.1-beta.2%2Bmc26.1.2.jar"
+        "https://cdn.modrinth.com/data/AANobbMI/versions/vf7UgZpC/sodium-fabric-0.9.1%2Bmc26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 1884608,
+      "fileSize": 1889595,
       "hashes": {
-        "sha1": "54ddb02fb46b0a88055f1de9b14d0ffc2ca8f675",
-        "sha512": "c4106bee4758d1de2d42ec815a5e74121776ba324bdf208ade32ffa5a1abf0fcd80e9150ed2faf25e15eefa09e22f829531af72665d975760dd55f4735ee22a7"
+        "sha1": "cdb5ab59dc05840c5fc762c3821570c6fa02a8dc",
+        "sha512": "bf7e242a4df5a70be567ad58e262eea7db54b92333994331b57dc13f2ed36e22d1cf6609e4e76582d3173d5ffdcde9534441164bc9b70560f3d764affcc16ad3"
       },
-      "path": "mods/sodium-fabric-0.9.1-beta.2+mc26.1.2.jar"
+      "path": "mods/sodium-fabric-0.9.1+mc26.1.2.jar"
     },
     {
       "downloads": [
@@ -521,7 +521,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 72555,
       "hashes": {
@@ -536,7 +536,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 141935,
       "hashes": {
@@ -551,7 +551,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 89530,
       "hashes": {
@@ -581,7 +581,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 561967,
       "hashes": {
@@ -664,6 +664,21 @@
         "sha512": "acd2d2123023178340fcf97f3f2621570207da178ddf21f54a3be89e97c365941bdacbc8af8d95a6df730c4c0b8f51cc5bd752aeffe8dd4e56d49b436e22b4b7"
       },
       "path": "resourcepacks/Low Fire.zip"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/eiWiefXD/versions/n5CUffw7/SkyBlock%20Legacy.zip"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 959942,
+      "hashes": {
+        "sha1": "5f6f47ec3d3ebf9eae8672abbe155392ce1dbdcb",
+        "sha512": "40a0a50cc9804d9f4cd9361cc0897d9a26548f6018ebc9d2cfe142dcda0066d567fb67c0f3f3b2d05d16aedfc8b64cbd47963c3427d7a48be23bc66d4274a0dd"
+      },
+      "path": "resourcepacks/SkyBlock Legacy.zip"
     }
   ],
   "dependencies": {

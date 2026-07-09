@@ -60,7 +60,8 @@
       "rareDungeonDropEffects": true,
       "rareDropEffects": true,
       "rareDyeDropEffects": true,
-      "trophyDropEffects": true
+      "trophyDropEffects": true,
+      "displayItemName": true
     },
     "lockedSlots": [],
     "protectedItems": [],
@@ -88,6 +89,9 @@
     "showCustomizeButton": true,
     "showConfigButton": false,
     "trueQuiverCount": true,
+    "skyblockInventoryScreen": {
+      "openEquipmentToStatsPage": false
+    },
     "chestValue": {
       "enableChestValue": true,
       "color": "DARK_GREEN",
@@ -143,6 +147,8 @@
       "enableBarsRift": true,
       "riftHealthHP": false,
       "enableVanillaStyleManaBar": false,
+      "enableVanillaStyleManaBarBlinking": true,
+      "useHungerBarSprites": false,
       "intelligenceDisplay": "ORIGINAL",
       "barPositions": {
         "healthBarPosition": "LAYER1",
@@ -174,6 +180,7 @@
     },
     "smoothAOTE": {
       "predictive": false,
+      "thirdPerson": true,
       "enableWeirdTransmission": false,
       "enableInstantTransmission": false,
       "enableEtherTransmission": false,
@@ -328,6 +335,10 @@
     },
     "greatSpookEvent": {
       "enableMathTeacherHelper": true
+    },
+    "centuryRaffle": {
+      "enableRaffleTaskHighlight": true,
+      "enableRaffleRewardHighlight": true
     }
   },
   "dungeons": {
@@ -579,6 +590,7 @@
     "glacite": {
       "coldOverlay": true,
       "fossilSolver": true,
+      "solveFossilMuncher": true,
       "enableCorpseFinder": true,
       "enableParsingChatCorpseFinder": true,
       "autoShareCorpses": false,
@@ -611,7 +623,9 @@
     },
     "plotsWidget": {
       "enabled": true,
-      "closeScreenOnPlotClick": false
+      "closeScreenOnPlotClick": false,
+      "x": 0,
+      "y": 0
     },
     "visitorHelper": {
       "enabled": false,

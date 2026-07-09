@@ -52,5 +52,6 @@
         "sound_id": "minecraft:entity.arrow.hit_player"
       }
     }
-  ]
+  ],
+  "version": 10
 }
