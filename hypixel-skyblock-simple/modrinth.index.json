@@ -198,7 +198,7 @@
         "sha1": "53c22a0efa32c8c34470e7742e14d0e75b2cc90e",
         "sha512": "b20c20c34c6cb4f8758203a158fb099fbef1f293b42a93f12564158fe93041dc953e9d1e0c83f7d42fcbab17b3943554c56391af5ecdce77214f24c2b481b952"
       },
-      "path": "mods/fadeless-2.0.8-26.1.jar"
+      "path": "mods/fadeless-2.0.8-26.1.jar.disabled"
     },
     {
       "downloads": [
@@ -228,7 +228,7 @@
         "sha1": "945e6c2631931e3fa95b0f293a2a5ef9b5ca5c07",
         "sha512": "c39450da8e21481b9a09a6a719b4edc3d41df8e68a5782799a573eb12f6ac31130a796a3d82d11ad29b09941608f53dfe26f01927dbe8029762756cab9e75dbd"
       },
-      "path": "mods/freecam-fabric-1.4.1-beta.1+mc26.1.2.jar"
+      "path": "mods/freecam-fabric-1.4.1-beta.1+mc26.1.2.jar.disabled"
     },
     {
       "downloads": [
