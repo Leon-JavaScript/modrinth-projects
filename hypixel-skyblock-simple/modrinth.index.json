@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "26.6.1",
+  "versionId": "26.6.2",
   "name": "Hypixel Skyblock [Simple]",
   "summary": "",
   "files": [
@@ -11,7 +11,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 2540612,
       "hashes": {
@@ -71,7 +71,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 6005571,
       "hashes": {
@@ -251,7 +251,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 310057,
       "hashes": {
@@ -266,7 +266,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 857151,
       "hashes": {
@@ -337,18 +337,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/Bh37bMuy/versions/RHcE6mx4/reeses-sodium-options-fabric-2.2.2%2Bmc26.1.2.jar"
+        "https://cdn.modrinth.com/data/Bh37bMuy/versions/laVM31w1/reeses-sodium-options-fabric-2.2.3%2Bmc26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 257107,
+      "fileSize": 259487,
       "hashes": {
-        "sha1": "7f14904b2c2699fa6ccc5a82b138bacad9659652",
-        "sha512": "c2bcfb5c2551714e00f0360aa31e05338e918f5ce9f9d458625acd79dc8d619ed1d789a50453551d39457fbf2b05bcd541dd52272417ccfba47ac1cd11ccaf15"
+        "sha1": "d16f65fec7555be684b8bc923eed05e1b95e6edd",
+        "sha512": "abf9935a392dd1181c731e0cfbbec2e1d105067b057ded8b4fb54e827003708565a0bddddd215bda9583d08a2323c13964a148e132b522c8045beee62f7a1e63"
       },
-      "path": "mods/reeses-sodium-options-fabric-2.2.2+mc26.1.2.jar"
+      "path": "mods/reeses-sodium-options-fabric-2.2.3+mc26.1.2.jar"
     },
     {
       "downloads": [
@@ -431,7 +431,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 19230473,
       "hashes": {
@@ -442,63 +442,63 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/8yqXwFLl/versions/W3jM7PJd/SkyBlockPv-1.8.6-26.1.jar"
+        "https://cdn.modrinth.com/data/8yqXwFLl/versions/3l3K8t0y/SkyBlockPv-1.8.7-26.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 10929990,
+      "fileSize": 11001215,
       "hashes": {
-        "sha1": "62ec253e5270fc81f79d9b842f858f4ea17e511f",
-        "sha512": "88877e6cdc0fcc663ba5e564c4ac2d09fdaf097033130d04c9c3243533816a847fc7aed9050bdaca878be9c28990867191988bbab70abb1210989f10885b63ff"
+        "sha1": "0b555552a579880f7bd4ceb29f4fae0f214efdf7",
+        "sha512": "c3c06eb243384590f5f3998d61cce8396938f4e7aff5be0cb9899552b5c1bf00b9e303b84fbebb8fafcbd2b6bc079d65a34eae33d6178e696c8dcd872b6fd8e1"
       },
-      "path": "mods/SkyBlockPv-1.8.6-26.1.jar"
+      "path": "mods/SkyBlockPv-1.8.7-26.1.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/hkY415Hz/SkyHanni-7.32.0-mc26.1.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/d8SLvpH3/SkyHanni-7.33.0-mc26.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 29238384,
+      "fileSize": 28675067,
       "hashes": {
-        "sha1": "e84a6eeb4993b466eba0e00b12af864cea5d5528",
-        "sha512": "999d4a588b3239b9276a2694b17f3aa2d7a8847f77ffb237c341092890b3f51cb7a35ea2578b42395f7ffbed0e969cc90a73032691b9dc576a6df5e6f968b569"
+        "sha1": "76fe7398d0a3538d63e9766885b5ecaaff354f75",
+        "sha512": "89a0784289fd69c2883748460a3abd0b15bfee7fc2ab0a09154b7e6d3384b36941a8839ea819c0ad5c5d868fc03c88c5f2f7653d1022d1908deba91717ebcb56"
       },
-      "path": "mods/SkyHanni-7.32.0-mc26.1.jar"
+      "path": "mods/SkyHanni-7.33.0-mc26.1.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/dIczrQAR/versions/Pmo99Box/SkyOcean-1.17.0-26.1.jar"
+        "https://cdn.modrinth.com/data/dIczrQAR/versions/7tQZq1IL/SkyOcean-1.17.1-26.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 10277748,
+      "fileSize": 10354429,
       "hashes": {
-        "sha1": "007d576b79df448fe684c7fc87f5ec25a9306a86",
-        "sha512": "c1b6b86cbeecf2174b11bfb44e8c596d39a067ba26ecd084c83973bb63af00da5df3f5d31844b844303ac487aa1f570628a42eb0043bb45091167e83e3687382"
+        "sha1": "bfa14dab2de0a4be11a032a92a8af83ed5fb4afe",
+        "sha512": "889087d96db96cb0890c5715ae7f2967ae6466719eadbf6ee350ed5957ddb4914f7a0f24cac7234aeaddbecec69128b9856e0a0832b9d90545a71fe9d568ef14"
       },
-      "path": "mods/SkyOcean-1.17.0-26.1.jar"
+      "path": "mods/SkyOcean-1.17.1-26.1.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/PtjYWJkn/versions/5SQcopfI/sodium-extra-fabric-0.9.1%2Bmc26.1.2.jar"
+        "https://cdn.modrinth.com/data/PtjYWJkn/versions/q7UnsNa0/sodium-extra-fabric-0.9.3%2Bmc26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 450817,
+      "fileSize": 477705,
       "hashes": {
-        "sha1": "dc6c4e1d5147ff41a65e7bb042091a77c88ea3cd",
-        "sha512": "94e0e3b5c982f423b306531c92959c9f151a9dbcda44c1d6f8a52aeec24bfed97b557ac0643eaa54b0423e4621177e15c84b77083079e96c5d86f678cff98472"
+        "sha1": "630f6fc8646aa50b77cfa92e0c94f7276f40039a",
+        "sha512": "7fa74b440e5c39efdc7898db0c7d91427d1d842dbb4c87744c6c65252e235aa12c3c75788b700dda6d8dc633dd733af8d4e105a14fda2ac10bc3102a37476c1d"
       },
-      "path": "mods/sodium-extra-fabric-0.9.1+mc26.1.2.jar"
+      "path": "mods/sodium-extra-fabric-0.9.3+mc26.1.2.jar"
     },
     {
       "downloads": [
@@ -506,7 +506,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 1889595,
       "hashes": {
