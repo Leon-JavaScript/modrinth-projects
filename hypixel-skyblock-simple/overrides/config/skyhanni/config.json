@@ -3264,6 +3264,7 @@
         "ignoreCustomScale": false
       },
       "showWhenPickup": true,
+      "alwaysShow": false,
       "perTrackerConfig": {
         "trackerConfig": {
           "itemTracker": {
@@ -4478,6 +4479,23 @@
         "slot9": 57
       }
     },
+    "customLoadout": {
+      "keybinds": {
+        "slotKeybindsToggle": false,
+        "slot1": 49,
+        "slot2": 50,
+        "slot3": 51,
+        "slot4": 52,
+        "slot5": 53,
+        "slot6": 54,
+        "slot7": 55,
+        "slot8": 56,
+        "slot9": 57,
+        "slot10": -1,
+        "slot11": -1,
+        "slot12": -1
+      }
+    },
     "chocolateFactory": {
       "enabled": false,
       "statsDisplay": false,
@@ -4798,7 +4816,8 @@
       "enchantmentsCap": 7,
       "starMaterialCap": 3,
       "exactPrice": false,
-      "armor": false,
+      "armor": true,
+      "equipment": true,
       "ignoreHelmetSkins": false,
       "ignoreArmorDyes": false,
       "ignoreRunes": false,
@@ -6439,7 +6458,16 @@
     },
     "reminders": {
       "autoDeleteReminders": false,
-      "interval": 5.0
+      "interval": 5.0,
+      "showHud": false,
+      "hudPosition": {
+        "x": 10,
+        "y": -130,
+        "scale": 1.0,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      }
     },
     "lastServers": {
       "enabled": false,
@@ -6593,6 +6621,7 @@
     "fastFairySouls": false,
     "spiderRelicPathfinder": false,
     "gfsPiggyBank": false,
+    "moveInsertIntoSackButton": false,
     "userLuck": true,
     "warnAboutPcTimeOffset": false,
     "npcDayLimitTracker": {

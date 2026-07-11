@@ -9,13 +9,13 @@
     "/v": "/visit"
   },
   "keyBindings": {
-    "key.keyboard.keypad.9": "/is",
-    "key.keyboard.keypad.6": "/warp garden",
+    "key.keyboard.f": "/stats",
     "key.keyboard.z": "/wardrobe",
+    "key.keyboard.keypad.9": "/is",
+    "key.keyboard.keypad.8": "/warp hub",
+    "key.keyboard.keypad.6": "/warp garden",
     "key.keyboard.keypad.7": "/warp forge",
     "key.keyboard.keypad.1": "/warp dungeon_hub",
-    "key.keyboard.x": "/pets",
-    "key.keyboard.f": "/stats",
-    "key.keyboard.keypad.8": "/warp hub"
+    "key.keyboard.x": "/pets"
   }
 }

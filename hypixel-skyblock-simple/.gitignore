@@ -44,4 +44,5 @@ overrides/config/skyhanni/vacuum_cache.json
 overrides/config/skyhanni/visual_words.json
 overrides/config/skyocean/data/*-*-*-*-*
 overrides/config/sodium-fingerprint.json
+overrides/usercache.json
 debug-profile.json
