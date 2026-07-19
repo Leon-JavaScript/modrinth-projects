@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "26.6.2",
+  "versionId": "26.6.3",
   "name": "Hypixel Skyblock [Simple]",
   "summary": "",
   "files": [
@@ -22,18 +22,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/lhGA9TYQ/versions/fe6U0jSg/architectury-fabric-20.0.7.jar"
+        "https://cdn.modrinth.com/data/lhGA9TYQ/versions/bh2npsZ5/architectury-fabric-20.0.9.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 586725,
+      "fileSize": 585491,
       "hashes": {
-        "sha1": "0d860c9e9cb5c44fb638a0f92dedd0c66bc12901",
-        "sha512": "440f904211cf4889d8a9f39b544556b485052cdf746caef061a4765dcc51a50b654d2c0c0257a836c48ba54d4eb8c7af1d47f87249cb39b623d4a09af34cc11c"
+        "sha1": "48e9f7a5bc803a209c728122dc594ad5e44c9cae",
+        "sha512": "56b51e647fea5aca76cae727b5fcf0514bfa0a516ed0795cdd4b71bcac14f9fd0f9deb10069898f4944c7da20901c51329fe2e036fbba92446b8f9d8f7a9d6f2"
       },
-      "path": "mods/architectury-fabric-20.0.7.jar"
+      "path": "mods/architectury-fabric-20.0.9.jar"
     },
     {
       "downloads": [
@@ -142,48 +142,48 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/k2ZPuTBm/versions/E4ULGCsl/Essential_1-4-0-3_fabric_26-1-2.jar"
+        "https://cdn.modrinth.com/data/k2ZPuTBm/versions/vBfqaCxf/Essential_1-4-1_fabric_26-1-2.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 53073245,
+      "fileSize": 53080982,
       "hashes": {
-        "sha1": "116c4263a234d4b8dacde4c5ce1b0ee5aec1e05f",
-        "sha512": "c852ce2752022beaf9fcb2b6c348e659cb4bed3eabf1efaf50ebc7cbcada1cda5a1f5fa1f8db7104cc7f440d6a35593225387ae7a64f45970d99ea54b6191539"
+        "sha1": "425f8fec4912b2f4973e9cda430a47da4f666615",
+        "sha512": "da196b451ce9a93d22675c0bae5324fd194b006094cce0a7ed44601ec5b7e8f9a9a5a2c710c240914cb1482acda24f07036150765d42c2e467e05dae03afbf01"
       },
-      "path": "mods/Essential_1-4-0-3_fabric_26-1-2.jar"
+      "path": "mods/Essential_1-4-1_fabric_26-1-2.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/P7dR8mSH/versions/lOQ4tyDD/fabric-api-0.154.2%2B26.1.2.jar"
+        "https://cdn.modrinth.com/data/P7dR8mSH/versions/uLkEd5dr/fabric-api-0.155.2%2B26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 2514491,
+      "fileSize": 2520724,
       "hashes": {
-        "sha1": "03e3870e2f4955faafb0b0076ae85175d7fa198f",
-        "sha512": "8e1b48a2bd10ddd6f1ea59a603a1f28255c2c2f9a2dda93fc196505dee0823eaded2da69d4f154ef654f9faa98e2340ed2b65557ec98637ffe888edc1072912e"
+        "sha1": "5fe5204ccc96a17340570db66a5b4127b8176246",
+        "sha512": "e07d2e525037e3ce2d6fa18ddc9d4970263a85fd0718fdbd41a1a42c93ec861307d0f5d1461f020ff941bdd5b981a82b5717ee2d6b5c400124bf0171fb21e998"
       },
-      "path": "mods/fabric-api-0.154.2+26.1.2.jar"
+      "path": "mods/fabric-api-0.155.2+26.1.2.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/Ha28R6CL/versions/Pd0xrHCw/fabric-language-kotlin-1.13.12%2Bkotlin.2.4.0.jar"
+        "https://cdn.modrinth.com/data/Ha28R6CL/versions/bdhiINYC/fabric-language-kotlin-1.13.13%2Bkotlin.2.4.10.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 8076848,
+      "fileSize": 8076363,
       "hashes": {
-        "sha1": "2bc17bb4275cc70a12e4ac35d139a71a30845720",
-        "sha512": "ca238ee480dfb237062200fd300be493d022e0837b6998c15807e01488b2a30d5ba4731e5c6d05a5333719c8923a1cb84c06fd6fa45aa88ced492ddb5b40906f"
+        "sha1": "620cb137a9dc69ce86f3114f19d9eedab16366f5",
+        "sha512": "9a63c35a550b0362b7b25ff045d93709c7b0dae08c89076cba422813fdfb9e5f5dd021ed3afac9f82e74e95b88c249e8f68b240717151540ca3e88cc27fb9c77"
       },
-      "path": "mods/fabric-language-kotlin-1.13.12+kotlin.2.4.0.jar"
+      "path": "mods/fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar"
     },
     {
       "downloads": [
@@ -217,18 +217,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/XeEZ3fK2/versions/jnMRzUap/freecam-fabric-1.4.1-beta.1%2Bmc26.1.2.jar"
+        "https://cdn.modrinth.com/data/XeEZ3fK2/versions/CcMkhJUK/freecam-fabric-1.4.1-beta.2%2Bmc26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 1129616,
+      "fileSize": 1354376,
       "hashes": {
-        "sha1": "945e6c2631931e3fa95b0f293a2a5ef9b5ca5c07",
-        "sha512": "c39450da8e21481b9a09a6a719b4edc3d41df8e68a5782799a573eb12f6ac31130a796a3d82d11ad29b09941608f53dfe26f01927dbe8029762756cab9e75dbd"
+        "sha1": "d7c704a2594ceda1223fad5b9192c6d432430f04",
+        "sha512": "75cf63aba505b769ce73a99a4fedb268966dc2db6d63c84bb62fc01846e0792e4bbed6d5096cc16002ad65fca66a164eef9d1f6b4e79bbe993d1f45f07c5e9e1"
       },
-      "path": "mods/freecam-fabric-1.4.1-beta.1+mc26.1.2.jar.disabled"
+      "path": "mods/freecam-fabric-1.4.1-beta.2+mc26.1.2.jar.disabled"
     },
     {
       "downloads": [
@@ -341,7 +341,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 259487,
       "hashes": {
@@ -427,18 +427,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/n5H2yDJu/skyblocker-6.7.0-beta.1%2B26.1.2.jar"
+        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/F12eJYBF/skyblocker-6.7.0%2B26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 19230473,
+      "fileSize": 19272861,
       "hashes": {
-        "sha1": "cda2c6f93604a98ce4863540e76b26d8621255d1",
-        "sha512": "da24cebde22f34966e0c3d8560c13ed24053c5ae61d270a1292d1e40eed04fd710254fbeb74ab4d04ab7ecd946f25fb11d33d5adf4b1157e2bf9200442201b1f"
+        "sha1": "054966bdc9017cd333870b85ff69345ef3b5d265",
+        "sha512": "31c385dea879db838617350a2ea6920f8da5bbe62052a92b15ebea94860c71537918a05852b624b2fb39bc9b10e83ea0915bdd59cf726abd2826f0227c0d1691"
       },
-      "path": "mods/skyblocker-6.7.0-beta.1+26.1.2.jar"
+      "path": "mods/skyblocker-6.7.0+26.1.2.jar"
     },
     {
       "downloads": [
@@ -446,7 +446,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 11001215,
       "hashes": {
@@ -457,18 +457,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/d8SLvpH3/SkyHanni-7.33.0-mc26.1.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/aSU4DlpP/SkyHanni-7.35.0-mc26.1.jar"
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
-      "fileSize": 28675067,
+      "fileSize": 28704797,
       "hashes": {
-        "sha1": "76fe7398d0a3538d63e9766885b5ecaaff354f75",
-        "sha512": "89a0784289fd69c2883748460a3abd0b15bfee7fc2ab0a09154b7e6d3384b36941a8839ea819c0ad5c5d868fc03c88c5f2f7653d1022d1908deba91717ebcb56"
+        "sha1": "b6718edb7d62e11bfeffc1bad1aa80fdb8874ddf",
+        "sha512": "7eda4b7f4f021b150ae852d4fac4009545e05464bdca0c2fb8f5cffc1de0aac674643f51966289791c34705be4df0a1d84a04bc572c01c6c02bfe443f9ffbfb9"
       },
-      "path": "mods/SkyHanni-7.33.0-mc26.1.jar"
+      "path": "mods/SkyHanni-7.35.0-mc26.1.jar"
     },
     {
       "downloads": [
@@ -476,7 +476,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 10354429,
       "hashes": {
@@ -491,7 +491,7 @@
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "fileSize": 477705,
       "hashes": {
@@ -622,16 +622,16 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/khMbd0K1/versions/bE0Ccf6W/FurSky%20Reborn.cats.zip"
+        "https://cdn.modrinth.com/data/khMbd0K1/versions/ZvrKZR97/FurSky%20Reborn.cats.zip"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 2378121,
+      "fileSize": 2358634,
       "hashes": {
-        "sha1": "72c7c4891fa99de6188cfc90fd5b162d3ae03498",
-        "sha512": "bcbdb0adfa7eeb5d280173b120d0f9a9c5043bf6051555c7ac26d98369c8aac0bc7aa347a0162a280bbd6b0acc7f826d63d5f27937f701cebb390f06b7b97e0d"
+        "sha1": "08a6873bfd402d57ffbbff1e4b2d6a6340c8da6d",
+        "sha512": "77ef397021a4a56f51b14ae4961e612d8ea002db82222bce168f03ba8382ead12bba8e64da70750ac5537dea6574c354190eeba42a07b19b4b211cc22f62e6de"
       },
       "path": "resourcepacks/FurSky Reborn.cats.zip"
     },
@@ -667,16 +667,16 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/eiWiefXD/versions/n5CUffw7/SkyBlock%20Legacy.zip"
+        "https://cdn.modrinth.com/data/eiWiefXD/versions/PiQGzH29/SkyBlock%20Legacy.zip"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 959942,
+      "fileSize": 1126677,
       "hashes": {
-        "sha1": "5f6f47ec3d3ebf9eae8672abbe155392ce1dbdcb",
-        "sha512": "40a0a50cc9804d9f4cd9361cc0897d9a26548f6018ebc9d2cfe142dcda0066d567fb67c0f3f3b2d05d16aedfc8b64cbd47963c3427d7a48be23bc66d4274a0dd"
+        "sha1": "56d693b99394b8f644d588a78d195fa16110070c",
+        "sha512": "598a64e93f713c5f1eb05f44d8f8c6fb8e52fb07603f5fd244651c317c08de81411e7f32d3d22016b7a41377eab4cc29f675cde0dfe675dc7a795da43511bcaa"
       },
       "path": "resourcepacks/SkyBlock Legacy.zip"
     }

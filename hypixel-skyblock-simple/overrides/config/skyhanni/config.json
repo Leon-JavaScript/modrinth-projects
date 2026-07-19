@@ -597,6 +597,7 @@
     },
     "beaconPower": false,
     "beaconPowerStat": true,
+    "beaconPowerCompressStat": false,
     "beaconPowerPosition": {
       "x": 10,
       "y": 10,
@@ -645,7 +646,7 @@
     },
     "widenConfig": false,
     "titlePosition": {
-      "x": 46,
+      "x": 217,
       "y": 160,
       "scale": 1.0,
       "centerX": false,
@@ -2133,7 +2134,8 @@
           "color": "0:255:85:255:255"
         },
         "snakeHelper": {
-          "highlight": false
+          "highlight": false,
+          "solo": true
         }
       },
       "colosseum": {
@@ -3019,6 +3021,7 @@
         "centerY": true,
         "ignoreCustomScale": false
       },
+      "showLandmarks": true,
       "autoCommission": false,
       "campfireKey": -1,
       "travelScroll": false,
@@ -4373,6 +4376,7 @@
         },
         "enabled": false,
         "reforgeStonesOnlyHex": true,
+        "blockNonBasicReforge": true,
         "showDiff": false,
         "hideChat": false
       }
@@ -4494,6 +4498,13 @@
         "slot10": -1,
         "slot11": -1,
         "slot12": -1
+      },
+      "highlighting": {
+        "enabled": true,
+        "currentlyEquipped": true,
+        "equippedColor": "0:255:85:255:85",
+        "favorites": false,
+        "favoriteColor": "0:255:255:255:85"
       }
     },
     "chocolateFactory": {
@@ -5553,6 +5564,7 @@
     },
     "feast": {
       "displayCurrentCrops": false,
+      "showOutsideGarden": false,
       "fetchAutomatically": true,
       "sharePolicy": "AUTO",
       "position": {
@@ -6459,6 +6471,7 @@
     "reminders": {
       "autoDeleteReminders": false,
       "interval": 5.0,
+      "showTitle": true,
       "showHud": false,
       "hudPosition": {
         "x": 10,
@@ -6907,7 +6920,7 @@
     "contestSendingAsked": false,
     "harvestFeastStorage": {
       "harvestFeastSendingAsked": true,
-      "lastHarvestFeastSubmitYear": 499,
+      "lastHarvestFeastSubmitYear": 502,
       "lastHarvestFeastSubmitMonth": 7
     },
     "trackerDisplayModes": {},

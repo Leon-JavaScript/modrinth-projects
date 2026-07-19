@@ -68,10 +68,10 @@
       "scale": 1.0
     },
     "chromaText": {
+      "enableChromaText": true,
       "chromaSize": 100,
       "chromaSpeed": 4.0,
-      "chromaSaturation": 0.75,
-      "canDisableChromaPack": false
+      "chromaSaturation": 0.75
     },
     "seasonal": {
       "decemberChristmasChests": false
