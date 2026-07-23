@@ -577,6 +577,14 @@
           "centerX": false,
           "centerY": true,
           "ignoreCustomScale": false
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "scale": 1.0,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
         }
       ]
     },
@@ -778,6 +786,17 @@
         "pos": {
           "x": 5,
           "y": 20,
+          "scale": 1.0,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        }
+      },
+      "charmed": {
+        "enabled": false,
+        "position": {
+          "x": 180,
+          "y": 200,
           "scale": 1.0,
           "centerX": false,
           "centerY": true,
@@ -1038,7 +1057,10 @@
       "jump": 32,
       "sneak": 340
     },
-    "noRodBreak": true,
+    "noBreakItems": [
+      "FISHING_ROD",
+      "SPRAYONATOR"
+    ],
     "optimalSpeeds": {
       "showOnHUD": false,
       "warning": false,
@@ -1509,16 +1531,7 @@
         }
       },
       "spray": {
-        "pestWhenSelector": false,
         "drawPlotsBorderWhenInHands": false,
-        "position": {
-          "x": 315,
-          "y": -200,
-          "scale": 2.3,
-          "centerX": false,
-          "centerY": true,
-          "ignoreCustomScale": false
-        },
         "displayEnabled": false,
         "showNotSprayed": false,
         "expiryNotification": false,
@@ -1597,7 +1610,8 @@
         "centerX": false,
         "centerY": true,
         "ignoreCustomScale": false
-      }
+      },
+      "phantomleafSolver": true
     },
     "farmingFortunes": {
       "display": false,
@@ -2994,6 +3008,9 @@
           "centerY": true,
           "ignoreCustomScale": false
         }
+      },
+      "organDonorAccessoryConfig": {
+        "muteWhenAllFound": true
       }
     },
     "notifications": {
@@ -3155,10 +3172,10 @@
       "muteBreakingOnGalatea": false
     },
     "starlynContest": {
-      "agathaCouponProfitEnabled": false,
+      "starlynCouponProfitEnabled": false,
       "compactResults": false,
       "compactPersonalBest": false,
-      "agathaCouponProfitPos": {
+      "starlynCouponProfitPos": {
         "x": 206,
         "y": 158,
         "scale": 1.0,
@@ -3171,7 +3188,7 @@
       "enabled": false,
       "suggestToEnable": true
     },
-    "moongladeBeacon": {
+    "foragingBeacon": {
       "enabled": false,
       "useMiddleClick": true,
       "preventOverClicking": true,
@@ -3784,7 +3801,9 @@
       "highlightNukekebi": false,
       "drawLineToNukekebi": false,
       "phaseDisplay": false,
-      "hideParticles": false
+      "hideParticles": false,
+      "lineToBoss": false,
+      "slayerLineWidth": 3
     },
     "blazes": {
       "hellion": {
@@ -4312,6 +4331,11 @@
           "centerY": true,
           "ignoreCustomScale": false
         },
+        "highlightPairs": true,
+        "collectedColor": "0:128:85:255:85",
+        "matchedColor": "0:128:255:170:0",
+        "seenColor": "0:128:255:255:85",
+        "powerupColor": "0:128:170:0:170",
         "xpOverlay": true,
         "ultraRareBookAlert": true
       },
@@ -5027,6 +5051,7 @@
     "shiftClickBrewing": false,
     "stonkOfStonkPrice": true,
     "ministerInCalendar": false,
+    "oringoPetInCalendar": true,
     "hexAsColorInLore": true,
     "essenceShopHelper": false,
     "snakeGameKeybinds": false,
@@ -6161,7 +6186,7 @@
         "call": false
       },
       "betterWiki": {
-        "enabled": false,
+        "enabled": true,
         "skyblockGuide": false,
         "useIndependent": true,
         "autoOpenWiki": false,
@@ -6930,6 +6955,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 138,
+  "lastVersion": 139,
   "lastMinecraftVersion": "26.1.2"
 }

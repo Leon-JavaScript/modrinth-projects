@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "26.6.3",
+  "versionId": "26.6.4",
   "name": "Hypixel Skyblock [Simple]",
   "summary": "",
   "files": [
@@ -442,48 +442,48 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/8yqXwFLl/versions/3l3K8t0y/SkyBlockPv-1.8.7-26.1.jar"
+        "https://cdn.modrinth.com/data/8yqXwFLl/versions/DR5Vyetm/SkyBlockPv-1.8.8-26.1.jar"
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
-      "fileSize": 11001215,
+      "fileSize": 11077680,
       "hashes": {
-        "sha1": "0b555552a579880f7bd4ceb29f4fae0f214efdf7",
-        "sha512": "c3c06eb243384590f5f3998d61cce8396938f4e7aff5be0cb9899552b5c1bf00b9e303b84fbebb8fafcbd2b6bc079d65a34eae33d6178e696c8dcd872b6fd8e1"
+        "sha1": "9459c5192fb1c16615a0b053c5bb0a86e9ec5e9d",
+        "sha512": "930edacfd5d8c182fe0d1615745517b0ae309cb98a9eb5b0e507e458958543da1b6b62ddd77b42f920d64d04e63668f25f9725464f06726157d18f4838290755"
       },
-      "path": "mods/SkyBlockPv-1.8.7-26.1.jar"
+      "path": "mods/SkyBlockPv-1.8.8-26.1.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/aSU4DlpP/SkyHanni-7.35.0-mc26.1.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/KDMcHWLn/SkyHanni-7.37.0-mc26.1.jar"
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
-      "fileSize": 28704797,
+      "fileSize": 28759628,
       "hashes": {
-        "sha1": "b6718edb7d62e11bfeffc1bad1aa80fdb8874ddf",
-        "sha512": "7eda4b7f4f021b150ae852d4fac4009545e05464bdca0c2fb8f5cffc1de0aac674643f51966289791c34705be4df0a1d84a04bc572c01c6c02bfe443f9ffbfb9"
+        "sha1": "ee470862c639beb760d8f68ce3df0c8f57feb6b2",
+        "sha512": "1cbe756bc1cea870d3d630ba867d3689b55ec63111ad3480371dbe452f363753e877cf73c3f3037bb999aedc044829e7558fb567be40af1dab03d9ca44f256da"
       },
-      "path": "mods/SkyHanni-7.35.0-mc26.1.jar"
+      "path": "mods/SkyHanni-7.37.0-mc26.1.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/dIczrQAR/versions/7tQZq1IL/SkyOcean-1.17.1-26.1.jar"
+        "https://cdn.modrinth.com/data/dIczrQAR/versions/wwN6ghcO/SkyOcean-1.17.2-26.1.jar"
       ],
       "env": {
         "client": "required",
-        "server": "unsupported"
+        "server": "required"
       },
-      "fileSize": 10354429,
+      "fileSize": 10376313,
       "hashes": {
-        "sha1": "bfa14dab2de0a4be11a032a92a8af83ed5fb4afe",
-        "sha512": "889087d96db96cb0890c5715ae7f2967ae6466719eadbf6ee350ed5957ddb4914f7a0f24cac7234aeaddbecec69128b9856e0a0832b9d90545a71fe9d568ef14"
+        "sha1": "c4179f580b4cafa86bc0c0cf95d073e191b11861",
+        "sha512": "02dcff865279155f576c914addf544c4a1e7d0d2c05799050ef674a7d58d7bb751a6649bca93353ac6a06352f81b79d2bee52aa8940d66609160c651cdd9e3e0"
       },
-      "path": "mods/SkyOcean-1.17.1-26.1.jar"
+      "path": "mods/SkyOcean-1.17.2-26.1.jar"
     },
     {
       "downloads": [
@@ -562,18 +562,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/1eAoo2KR/versions/A6V2zTVY/yet_another_config_lib_v3-3.9.5%2B26.1-fabric.jar"
+        "https://cdn.modrinth.com/data/1eAoo2KR/versions/svTkvBec/yet_another_config_lib_v3-3.9.6%2B26.1-fabric.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 1121083,
+      "fileSize": 1121084,
       "hashes": {
-        "sha1": "dd0b7f266eced755bb48d5213df309f07d71de5b",
-        "sha512": "e0016a590339b6819100d28a4e4f04ac0a13c119ac6b2d5589b57763e5c828b75345d3eb159148b2d8c94e1d92706dc33489fa41244cf5f02e6b745a942789d0"
+        "sha1": "5841b45d43a693f745bff4ab9ac4d01ab9789594",
+        "sha512": "d1efe6c248d89477d707749d9e8eb4c555e892ad23cb3ac0ba45bbe59d5c166b8dde554e7de5d1cf95c185d749e58537b376a8128cfdc4deea60266418d5b122"
       },
-      "path": "mods/yet_another_config_lib_v3-3.9.5+26.1-fabric.jar"
+      "path": "mods/yet_another_config_lib_v3-3.9.6+26.1-fabric.jar"
     },
     {
       "downloads": [
