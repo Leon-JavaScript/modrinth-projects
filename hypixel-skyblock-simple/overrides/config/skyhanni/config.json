@@ -654,7 +654,7 @@
     },
     "widenConfig": false,
     "titlePosition": {
-      "x": 217,
+      "x": 24,
       "y": 160,
       "scale": 1.0,
       "centerX": false,
@@ -3712,6 +3712,24 @@
         "LANTERN",
         "UMBERELLA"
       ],
+      "deployableReminder": {
+        "enabled": false,
+        "warningTypes": [
+          "SLAYER",
+          "TROPHY_FISHING",
+          "MINESHAFT"
+        ],
+        "warningDelay": 5,
+        "warningDuration": 3.0,
+        "warningPosition": {
+          "x": 10,
+          "y": 10,
+          "scale": 1.0,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        }
+      },
       "position": {
         "x": -160,
         "y": -70,
@@ -6945,8 +6963,8 @@
     "contestSendingAsked": false,
     "harvestFeastStorage": {
       "harvestFeastSendingAsked": true,
-      "lastHarvestFeastSubmitYear": 502,
-      "lastHarvestFeastSubmitMonth": 7
+      "lastHarvestFeastSubmitYear": 504,
+      "lastHarvestFeastSubmitMonth": 9
     },
     "trackerDisplayModes": {},
     "foundDianaBurrowLocations": [],
