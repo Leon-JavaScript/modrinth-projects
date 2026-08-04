@@ -114,7 +114,8 @@
       "enabled": false,
       "storagesPerRow": 3,
       "backpackWidth": 9,
-      "rememberSearch": false
+      "rememberSearch": false,
+      "rememberOpened": false
     },
     "radialMenu": {
       "enabled": false,
@@ -1064,6 +1065,22 @@
         "reminderTimes": []
       },
       "Mayor Jerry": {
+        "enabled": true,
+        "reminderTimes": []
+      },
+      "Jerry\u0027s Workshop": {
+        "enabled": true,
+        "reminderTimes": []
+      },
+      "Mayor Election": {
+        "enabled": true,
+        "reminderTimes": []
+      },
+      "Harvest Feast": {
+        "enabled": true,
+        "reminderTimes": []
+      },
+      "Hoppity\u0027s Hunt": {
         "enabled": true,
         "reminderTimes": []
       }

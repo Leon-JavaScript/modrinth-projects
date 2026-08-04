@@ -114,7 +114,8 @@
             "RIFT",
             "ESSENCE",
             "ACTIVE_TABLIST_EVENTS",
-            "REDSTONE"
+            "REDSTONE",
+            "SAFARI"
           ],
           "showAllActiveEvents": true
         },
@@ -654,7 +655,7 @@
     },
     "widenConfig": false,
     "titlePosition": {
-      "x": 24,
+      "x": -82,
       "y": 160,
       "scale": 1.0,
       "centerX": false,
@@ -3326,6 +3327,10 @@
         "enabled": false,
         "color": "0:255:255:0:255"
       },
+      "hideonsun": {
+        "enabled": true,
+        "color": "0:255:255:0:255"
+      },
       "invisibug": {
         "enabled": true,
         "color": "0:255:0:255:255"
@@ -3345,8 +3350,8 @@
       "confirmFusionKeybind": -1
     },
     "huntrapMisclick": false,
-    "hideonleafFinder": false,
-    "nextHideonleafKeybind": -1,
+    "shulkerFinder": false,
+    "nextShulkerKeybind": -1,
     "fusionDisplay": false,
     "fusionDisplayPosition": {
       "x": 30,
@@ -4007,7 +4012,16 @@
     "cocoonTitle": false,
     "cocoonDing": false,
     "spawnParticleHider": [],
-    "damageSplashHider": false
+    "damageSplashHider": false,
+    "gummyWarning": true,
+    "gummyWarningPosition": {
+      "x": 2,
+      "y": 100,
+      "scale": 1.0,
+      "centerX": false,
+      "centerY": true,
+      "ignoreCustomScale": false
+    }
   },
   "dungeon": {
     "clickedBlocks": {
@@ -6344,7 +6358,8 @@
           "centerY": true,
           "ignoreCustomScale": false
         },
-        "chatUpdateInterval": "PERFECT"
+        "chatUpdateInterval": "PERFECT",
+        "startFromEye": true
       },
       "allowInstantNavigation": true,
       "includeSmallAreas": false
@@ -6590,6 +6605,7 @@
       "replacePercentages": false,
       "replaceRiftSeconds": true
     },
+    "glowingDroppedItems": false,
     "boopParty": {
       "boopParty": false,
       "boopPartyBingo": false
@@ -6973,6 +6989,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 139,
+  "lastVersion": 140,
   "lastMinecraftVersion": "26.1.2"
 }
