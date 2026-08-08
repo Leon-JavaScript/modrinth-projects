@@ -3168,7 +3168,7 @@
         "onlyHoldingAxe": true,
         "compact": false
       },
-      "compactSweepDetails": false,
+      "compactSweepDetails": true,
       "muteBreaking": false,
       "muteBreakingOnGalatea": false
     },
