@@ -3190,13 +3190,13 @@
       "suggestToEnable": true
     },
     "foragingBeacon": {
-      "enabled": false,
+      "enabled": true,
       "useMiddleClick": true,
       "preventOverClicking": true,
       "beaconAlert": false,
       "displayPosition": {
-        "x": -300,
-        "y": 140,
+        "x": -217,
+        "y": 139,
         "scale": 1.0,
         "centerX": false,
         "centerY": true,
