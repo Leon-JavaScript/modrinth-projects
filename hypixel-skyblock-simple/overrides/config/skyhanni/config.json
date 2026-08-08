@@ -3170,7 +3170,7 @@
       },
       "compactSweepDetails": true,
       "muteBreaking": false,
-      "muteBreakingOnGalatea": false
+      "muteBreakingOnGalatea": true
     },
     "starlynContest": {
       "starlynCouponProfitEnabled": false,
