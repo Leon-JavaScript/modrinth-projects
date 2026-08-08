@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "general": {
     "enableTips": false,
     "acceptReparty": true,
@@ -286,30 +286,6 @@
       "enableFishingTimer": false,
       "hideOtherPlayersRods": true,
       "enableFishingHud": false,
-      "fishingHudEnabledLocations": [
-        "PRIVATE_ISLAND",
-        "GARDEN",
-        "HUB",
-        "THE_FARMING_ISLAND",
-        "THE_PARK",
-        "SPIDERS_DEN",
-        "BLAZING_FORTRESS",
-        "THE_END",
-        "CRIMSON_ISLE",
-        "GOLD_MINE",
-        "DEEP_CAVERNS",
-        "DWARVEN_MINES",
-        "BACKWATER_BAYOU",
-        "DUNGEON_HUB",
-        "WINTER_ISLAND",
-        "THE_RIFT",
-        "DARK_AUCTION",
-        "CRYSTAL_HOLLOWS",
-        "DUNGEON",
-        "KUUDRAS_HOLLOW",
-        "GALATEA",
-        "UNKNOWN"
-      ],
       "enableSeaCreatureCounter": false,
       "fishingHookDisplay": "HUD",
       "onlyShowHudInBarn": true,
@@ -478,6 +454,9 @@
     "princeMessage": {
       "sendPrinceMessage": true
     },
+    "batMessage": {
+      "sendBatMessage": true
+    },
     "doorHighlight": {
       "enableDoorHighlight": true,
       "doorHighlightType": "OUTLINED_HIGHLIGHT"
@@ -512,8 +491,7 @@
     }
   },
   "foraging": {
-    "galatea": {
-      "enableForestNodeHelper": true,
+    "moongladeMarsh": {
       "solveForestTemplePuzzle": true,
       "enableLushlilacHighlighter": false,
       "enableSeaLumiesHighlighter": false,
@@ -521,6 +499,11 @@
       "enableTreeBreakProgress": false,
       "enableTunerSolver": true,
       "enableSweepDetailsWidget": false
+    },
+    "torrhusCanyon": {
+      "solveDesertTemplePuzzles": true,
+      "enableRubyVeilshroomHighlighter": true,
+      "enableHoneyhiveHighlighter": true
     },
     "sweepOverlay": {
       "enableSweepOverlay": true,
@@ -652,7 +635,7 @@
     "huntingBox": {
       "enabled": true
     },
-    "huntingMobs": {
+    "moongladeMobs": {
       "silencePhantoms": true,
       "highlightHideonleaf": true,
       "hideonleafGlowColor": -256,
@@ -660,6 +643,34 @@
       "shellwiseGlowColor": -38881,
       "highlightCoralot": true,
       "coralotGlowColor": -16776961
+    },
+    "torrhusMobs": {
+      "highlightHideonsun": true,
+      "hideonsunHighlightColor": -16711681,
+      "highlightBlueJay": true,
+      "blueJayHighlightColor": -16711936
+    },
+    "safari": {
+      "silencePhantoms": true
+    },
+    "cavernBiome": {
+      "highlightRockmiteMounds": true,
+      "rockmiteMoundHighlightColor": -6635315
+    },
+    "forestBiome": {
+      "highlightHideonfloor": true,
+      "hideonfloorHighlightColor": -65281
+    },
+    "hauntedBiome": {
+      "highlightDuplico": true,
+      "duplicoHighlightColor": -65536
+    },
+    "icyBiome": {
+      "hideColdOverlay": false
+    },
+    "floorDrops": {
+      "highlightFloorDrops": true,
+      "floorDropHighlightColor": -425955
     },
     "lassoHud": {
       "enabled": true

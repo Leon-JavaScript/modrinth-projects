@@ -655,7 +655,7 @@
     },
     "widenConfig": false,
     "titlePosition": {
-      "x": -82,
+      "x": 46,
       "y": 160,
       "scale": 1.0,
       "centerX": false,
@@ -3258,10 +3258,19 @@
         "useUniversalConfig": false
       }
     },
+    "honeyhiveReminder": {
+      "enabled": true,
+      "queenBeeNotification": true,
+      "reminderOutsideTorrhus": false
+    },
     "mutePhantoms": false,
     "muteFusionMachine": true
   },
   "hunting": {
+    "safari": {
+      "namesInCenter": false,
+      "hideyhoFinder": true
+    },
     "shardTracker": {
       "enabled": false,
       "position": {
@@ -6989,6 +6998,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 140,
+  "lastVersion": 141,
   "lastMinecraftVersion": "26.1.2"
 }

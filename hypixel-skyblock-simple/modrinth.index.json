@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "26.6.6",
+  "versionId": "26.6.7",
   "name": "Hypixel Skyblock [Simple]",
   "summary": "",
   "files": [
@@ -442,48 +442,48 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/Mxwml9Jp/skyblocker-6.8.2%2B26.1.2.jar"
+        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/gdjWjyXv/skyblocker-6.9.0%2B26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 19337777,
+      "fileSize": 19370495,
       "hashes": {
-        "sha1": "261470cb7f5984e9c4da65ce6452376d5e635c04",
-        "sha512": "6bfa06ffc6a65db0cbc55a6701d101992cb2f17addc91f2b06f07ac16bb044ae81755a72bece8b361f708228930849680ff088172ec7e0d5d872454136786943"
+        "sha1": "8e1541a4c7c02af7a76c436fbb884d58afa21d25",
+        "sha512": "f94f8c438c6615e6d0380e441a639261cbb5107b2bac982095bfc2d05462a1afbfc8ce44b429d7623672ac56858c677ac36cc584f8fb3cef01160cfa0b1b7d43"
       },
-      "path": "mods/skyblocker-6.8.2+26.1.2.jar"
+      "path": "mods/skyblocker-6.9.0+26.1.2.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/8yqXwFLl/versions/DR5Vyetm/SkyBlockPv-1.8.8-26.1.jar"
+        "https://cdn.modrinth.com/data/8yqXwFLl/versions/iVpdy3W0/SkyBlockPv-1.8.9-26.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 11077680,
+      "fileSize": 11112115,
       "hashes": {
-        "sha1": "9459c5192fb1c16615a0b053c5bb0a86e9ec5e9d",
-        "sha512": "930edacfd5d8c182fe0d1615745517b0ae309cb98a9eb5b0e507e458958543da1b6b62ddd77b42f920d64d04e63668f25f9725464f06726157d18f4838290755"
+        "sha1": "25d6d4a048bdea75d3fbb7f07ae710d717daa2d7",
+        "sha512": "2f5cd56a86537d63dafec0bee1f59910a23881f2778f13f51773ac2ca5d7ec4b9d7b61effb5f67a0ceaa07c9429e24c3ab101f7ed4ac53dd46a2178c1a3f58c2"
       },
-      "path": "mods/SkyBlockPv-1.8.8-26.1.jar"
+      "path": "mods/SkyBlockPv-1.8.9-26.1.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/jYnNuJvA/SkyHanni-7.41.0-mc26.1.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/Jk33EqTC/SkyHanni-7.43.0-mc26.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 29390739,
+      "fileSize": 29819457,
       "hashes": {
-        "sha1": "885a78027a354cff3730c5bfaa295d9f390c84da",
-        "sha512": "cc839df8a7f16f4c5a093d3547d4268695b91c7bc7b69571d59f94484212e144b8cc8d6d9dee792eb313a3e849a788334bd1970d6952555291ddc9b2c0bf2fdc"
+        "sha1": "3403b534927495580bc41253f676179f8a6a6824",
+        "sha512": "0722dd4e1279cf3d901f122785d0ebaaf1abac3b198447d5eaf8679aa2fd303c81025e8e9f836c2258943066f30f7fcdf7aad3149fb076779b47296f1f43012f"
       },
-      "path": "mods/SkyHanni-7.41.0-mc26.1.jar"
+      "path": "mods/SkyHanni-7.43.0-mc26.1.jar"
     },
     {
       "downloads": [
@@ -517,18 +517,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/AANobbMI/versions/7XdPQMOk/sodium-fabric-0.9.2-alpha.3%2Bmc26.1.2.jar"
+        "https://cdn.modrinth.com/data/AANobbMI/versions/5FMvNu0I/sodium-fabric-0.9.2-alpha.4%2Bmc26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 1935568,
+      "fileSize": 1936354,
       "hashes": {
-        "sha1": "92bfaf504b8fecfb4f7f0054802bd79c34356c64",
-        "sha512": "3e03691df54f922df2999df1cfd25fbc661d396c46c6ce970e5106936195108e4eca8f43658a80c93742b61dc0666cbc05d8fa9c0ec564915634af1aef049043"
+        "sha1": "85e6b194a891f90c6b84c34adaac19a793cc8d2f",
+        "sha512": "f0b3a7adf52ccbc71a04a0a373966e338f5c45996d7db992cfdf51dee6e1917fab5922972f58f85baa0faea06e6b9fa89c221119f996ab8b723c91c83396f5b5"
       },
-      "path": "mods/sodium-fabric-0.9.2-alpha.3+mc26.1.2.jar"
+      "path": "mods/sodium-fabric-0.9.2-alpha.4+mc26.1.2.jar"
     },
     {
       "downloads": [
