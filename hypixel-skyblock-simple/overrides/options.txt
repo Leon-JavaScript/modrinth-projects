@@ -63,7 +63,7 @@ damageTiltStrength:0.5
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/EssentialUI 26.1.zip","file/Low Fire.zip"]
+resourcePacks:["vanilla","file/Low Fire.zip","file/EssentialUI.zip"]
 incompatibleResourcePacks:[]
 lastServer:stuck.hypixel.net
 lang:en_us
@@ -271,7 +271,7 @@ key_keybind.name.EMOTE_SLOT_8:key.keyboard.unknown
 key_keybind.name.ZOOM:key.keyboard.unknown
 soundCategory_master:0.3
 soundCategory_music:0.0
-soundCategory_record:0.25
+soundCategory_record:0.3
 soundCategory_weather:0.1
 soundCategory_block:0.2
 soundCategory_hostile:0.5

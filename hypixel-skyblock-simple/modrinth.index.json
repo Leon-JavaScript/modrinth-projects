@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "26.6.7",
+  "versionId": "26.6.8",
   "name": "Hypixel Skyblock [Simple]",
   "summary": "",
   "files": [
@@ -442,18 +442,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/gdjWjyXv/skyblocker-6.9.0%2B26.1.2.jar"
+        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/CRU7bWnn/skyblocker-6.9.1%2B26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 19370495,
+      "fileSize": 19371476,
       "hashes": {
-        "sha1": "8e1541a4c7c02af7a76c436fbb884d58afa21d25",
-        "sha512": "f94f8c438c6615e6d0380e441a639261cbb5107b2bac982095bfc2d05462a1afbfc8ce44b429d7623672ac56858c677ac36cc584f8fb3cef01160cfa0b1b7d43"
+        "sha1": "1f2c02e95f115c746cbfbb963c902ade8bc475a5",
+        "sha512": "d568f9a19dc852aa9a54e54fcbcbf4b3a44b26ce8abe44016f6697eb6ae98687ec0354dc7feda43b2deb44e59fcc1e450fbbfab8c35b174b292c55016b9b8026"
       },
-      "path": "mods/skyblocker-6.9.0+26.1.2.jar"
+      "path": "mods/skyblocker-6.9.1+26.1.2.jar"
     },
     {
       "downloads": [
@@ -472,18 +472,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/Jk33EqTC/SkyHanni-7.43.0-mc26.1.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/ME91JJhe/SkyHanni-7.46.0-mc26.1.jar"
       ],
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
-      "fileSize": 29819457,
+      "fileSize": 29967779,
       "hashes": {
-        "sha1": "3403b534927495580bc41253f676179f8a6a6824",
-        "sha512": "0722dd4e1279cf3d901f122785d0ebaaf1abac3b198447d5eaf8679aa2fd303c81025e8e9f836c2258943066f30f7fcdf7aad3149fb076779b47296f1f43012f"
+        "sha1": "9aac8783efc80f956f7ab9a3816949b1a9e23483",
+        "sha512": "540fe2c79b3beee1feab8dbce44e35935ccacc306c0dcd4a05ecce028a2c453a65f5986952c77a6e49f6b3dd14065b74c6c677c22b718d34bef39dbd90ef847b"
       },
-      "path": "mods/SkyHanni-7.43.0-mc26.1.jar"
+      "path": "mods/SkyHanni-7.46.0-mc26.1.jar"
     },
     {
       "downloads": [

@@ -655,7 +655,7 @@
     },
     "widenConfig": false,
     "titlePosition": {
-      "x": 46,
+      "x": 24,
       "y": 160,
       "scale": 1.0,
       "centerX": false,
@@ -4252,6 +4252,8 @@
     "bazaar": {
       "purchaseHelper": false,
       "orderHelper": false,
+      "hideOrderOwner": false,
+      "hideTradePartners": false,
       "bestSellMethod": false,
       "bestSellMethodPos": {
         "x": 394,
@@ -5026,6 +5028,7 @@
       "hideMaxed": true,
       "onlyNotUnlocked": false,
       "includeHuntingBox": true,
+      "includeBazaarOrders": true,
       "onlyCurrentInventory": false,
       "displaySortingMethod": "PRICE_TO_NEXT_TIER",
       "overlayPriceSource": "INSTANT_BUY",
@@ -5041,8 +5044,8 @@
         "ignoreCustomScale": false
       },
       "huntingBoxValuePosition": {
-        "x": 174,
-        "y": 139,
+        "x": 5,
+        "y": 30,
         "scale": 1.0,
         "centerX": false,
         "centerY": true,
@@ -5071,6 +5074,10 @@
         "centerY": true,
         "ignoreCustomScale": false
       }
+    },
+    "npcTrade": {
+      "highlightAffordable": true,
+      "costBreakdown": true
     },
     "itemNumberAsStackSize": [
       "NEW_YEAR_CAKE",
@@ -6229,7 +6236,6 @@
       "betterWiki": {
         "enabled": true,
         "skyblockGuide": false,
-        "useIndependent": true,
         "autoOpenWiki": false,
         "menuOpenWiki": false,
         "wikiKeybind": -1
@@ -6888,7 +6894,12 @@
         "filterCommandAmbiguity": true,
         "filterNarratorError": true,
         "filterMixinMessages": true,
-        "filterUnknownTeam": true
+        "filterUnknownTeam": true,
+        "filterUnknownPassengers": true,
+        "filterMissingTextureReferences": true,
+        "filterAtlasCreated": true,
+        "filterExistingTeam": true,
+        "filterChunkSectionsUbo": true
       }
     },
     "devTool": {
@@ -6998,6 +7009,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 141,
+  "lastVersion": 143,
   "lastMinecraftVersion": "26.1.2"
 }

@@ -491,6 +491,7 @@
     }
   },
   "foraging": {
+    "enableTreeFelledNotification": false,
     "moongladeMarsh": {
       "solveForestTemplePuzzle": true,
       "enableLushlilacHighlighter": false,
@@ -651,7 +652,9 @@
       "blueJayHighlightColor": -16711936
     },
     "safari": {
-      "silencePhantoms": true
+      "silencePhantoms": true,
+      "highlightSparklingCritters": false,
+      "sparklingCritterHighlightColor": -28672
     },
     "cavernBiome": {
       "highlightRockmiteMounds": true,
@@ -663,7 +666,10 @@
     },
     "hauntedBiome": {
       "highlightDuplico": true,
-      "duplicoHighlightColor": -65536
+      "duplicoHighlightColor": -65536,
+      "highlightBloodbat": true,
+      "bloodbatHighlightColor": -4194560,
+      "ignoreSlotLockingForShiningCoins": false
     },
     "icyBiome": {
       "hideColdOverlay": false
