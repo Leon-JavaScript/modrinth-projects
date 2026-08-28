@@ -655,7 +655,7 @@
     },
     "widenConfig": false,
     "titlePosition": {
-      "x": 24,
+      "x": 106,
       "y": 160,
       "scale": 1.0,
       "centerX": false,
@@ -2173,7 +2173,7 @@
           "enabled": false,
           "showModifiers": false,
           "highlightRealBoss": false,
-          "highlightFakeBoss": true,
+          "highlightFakeBoss": false,
           "position": {
             "x": -256,
             "y": 140,
@@ -2355,7 +2355,7 @@
         "enabled": false,
         "displayDesign": "DETAILED_WITH_ICON",
         "nametag": true,
-        "highlight": true,
+        "highlight": false,
         "throwRodWarning": false,
         "throwRodWarningTime": 20,
         "position": {
@@ -3154,7 +3154,10 @@
       "currentWhispers": false
     },
     "trees": {
-      "cleanView": false,
+      "cleanView": {
+        "hideTreeBlocks": true,
+        "hideRuneEffects": false
+      },
       "progress": {
         "enabled": false,
         "position": {
@@ -3337,7 +3340,7 @@
         "color": "0:255:255:0:255"
       },
       "hideonsun": {
-        "enabled": true,
+        "enabled": false,
         "color": "0:255:255:0:255"
       },
       "invisibug": {
@@ -4891,6 +4894,7 @@
       "showTooltip": false,
       "hotkey": -1,
       "alwaysEnabled": true,
+      "hoverDelay": 500,
       "enchantmentsCap": 7,
       "starMaterialCap": 3,
       "exactPrice": false,
@@ -6997,6 +7001,7 @@
     "hasPlayedBefore": true,
     "visualWordsImported": false,
     "contestSendingAsked": false,
+    "graphEditorTutorialAcknowledged": false,
     "harvestFeastStorage": {
       "harvestFeastSendingAsked": true,
       "lastHarvestFeastSubmitYear": 504,
@@ -7009,6 +7014,6 @@
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 143,
+  "lastVersion": 144,
   "lastMinecraftVersion": "26.1.2"
 }

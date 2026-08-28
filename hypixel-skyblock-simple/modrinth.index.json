@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "26.6.8",
+  "versionId": "26.6.9",
   "name": "Hypixel Skyblock [Simple]",
   "summary": "",
   "files": [
@@ -232,18 +232,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/XeEZ3fK2/versions/OCN0bjq1/freecam-fabric-1.4.1-beta.3%2Bmc26.1.2.jar"
+        "https://cdn.modrinth.com/data/XeEZ3fK2/versions/73gs9spC/freecam-fabric-1.4.1-rc.1%2Bmc26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 1362278,
+      "fileSize": 1362943,
       "hashes": {
-        "sha1": "3b258af71d1d8345e40d59d2b6aacf818add9a83",
-        "sha512": "14fda679009e10157a9d569c74d83598448bc605cb6e6f5835280ade1dfb4f1122d27b609983d774eba77707b3227467ba30c42bb645577051c83681c7791214"
+        "sha1": "9855ba8dc78e43b5513d7f46979fa5c9205a91e2",
+        "sha512": "709ae4daea6a21914d3a0eccb2068fca34a0c47c0476bbd5d1077e1e3d99fce28c67453e145f7538955a755f29ba8bccfe5843056efa144cf4ec603d4a9ff398"
       },
-      "path": "mods/freecam-fabric-1.4.1-beta.3+mc26.1.2.jar.disabled"
+      "path": "mods/freecam-fabric-1.4.1-rc.1+mc26.1.2.jar.disabled"
     },
     {
       "downloads": [
@@ -472,18 +472,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/ME91JJhe/SkyHanni-7.46.0-mc26.1.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/tQUWPVzg/SkyHanni-7.51.0-mc26.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 29967779,
+      "fileSize": 29965967,
       "hashes": {
-        "sha1": "9aac8783efc80f956f7ab9a3816949b1a9e23483",
-        "sha512": "540fe2c79b3beee1feab8dbce44e35935ccacc306c0dcd4a05ecce028a2c453a65f5986952c77a6e49f6b3dd14065b74c6c677c22b718d34bef39dbd90ef847b"
+        "sha1": "69fd588c3f9196cc166c233c6df3fa02eacca8ea",
+        "sha512": "a8f767a7ba762921d35a91e0a324c9f8ac39340e0b4ca7cf023a24fdadcc1726e71fdc04a5619645a9c24ae7ee694194efabf6d88e35961a49c97e6c9d4d1b7d"
       },
-      "path": "mods/SkyHanni-7.46.0-mc26.1.jar"
+      "path": "mods/SkyHanni-7.51.0-mc26.1.jar"
     },
     {
       "downloads": [
