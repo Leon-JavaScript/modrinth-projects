@@ -10,7 +10,7 @@ forceUnicodeFont:false
 japaneseGlyphVariants:false
 fov:0.5
 fovEffectScale:0.5
-darknessEffectScale:1.0
+darknessEffectScale:0.0
 glintSpeed:0.5
 glintStrength:0.75
 graphicsPreset:"custom"
