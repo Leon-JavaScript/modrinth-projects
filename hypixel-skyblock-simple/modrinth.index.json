@@ -22,18 +22,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/lhGA9TYQ/versions/hNxqF6r7/architectury-fabric-20.0.12.jar"
+        "https://cdn.modrinth.com/data/lhGA9TYQ/versions/M6dXGbTC/architectury-fabric-20.1.13.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 585817,
+      "fileSize": 620913,
       "hashes": {
-        "sha1": "bd3c9d7dce7fed0bbf3db8d7d1f49bedc5ff2091",
-        "sha512": "d8f8ecbc8f4769e9c225d5c7eb9aac0c66fdcaae92bd1e1dea74282b2d24337c7a5bb63ecf3b1465bb639ab15f10b394a7df6e283ba36791bdab377bda8e6383"
+        "sha1": "f44db89324bd4d80b03e25c973621ad7e6bd0a45",
+        "sha512": "bf9cf6e35ef6df6640b2b69ec3ca2e144a8e451160126b0e4697eff6e155c788c6c9903adfb1dd9deaa647bf0f36ef409b20903c7b3208d20658e560cf6d16a6"
       },
-      "path": "mods/architectury-fabric-20.0.12.jar"
+      "path": "mods/architectury-fabric-20.1.13.jar"
     },
     {
       "downloads": [
@@ -157,33 +157,33 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/P7dR8mSH/versions/uLkEd5dr/fabric-api-0.155.2%2B26.1.2.jar"
+        "https://cdn.modrinth.com/data/P7dR8mSH/versions/3dM0X6ou/fabric-api-0.155.3%2B26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 2520724,
+      "fileSize": 2521340,
       "hashes": {
-        "sha1": "5fe5204ccc96a17340570db66a5b4127b8176246",
-        "sha512": "e07d2e525037e3ce2d6fa18ddc9d4970263a85fd0718fdbd41a1a42c93ec861307d0f5d1461f020ff941bdd5b981a82b5717ee2d6b5c400124bf0171fb21e998"
+        "sha1": "16c30dfcceaed1ac3b6ac84cbd348a906dc5093e",
+        "sha512": "fa0308b42e9cd0dc3ff946f246d199d74547e0c946d7e3c9780a2537155307baf25129f69bd1349273babf879ffb4608b7e4af0740938f9c0f7b371b1c67d6ca"
       },
-      "path": "mods/fabric-api-0.155.2+26.1.2.jar"
+      "path": "mods/fabric-api-0.155.3+26.1.2.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/Ha28R6CL/versions/bdhiINYC/fabric-language-kotlin-1.13.13%2Bkotlin.2.4.10.jar"
+        "https://cdn.modrinth.com/data/Ha28R6CL/versions/eRRZzGMc/fabric-language-kotlin-1.14.1%2Bkotlin.2.4.20.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 8076363,
+      "fileSize": 8142858,
       "hashes": {
-        "sha1": "620cb137a9dc69ce86f3114f19d9eedab16366f5",
-        "sha512": "9a63c35a550b0362b7b25ff045d93709c7b0dae08c89076cba422813fdfb9e5f5dd021ed3afac9f82e74e95b88c249e8f68b240717151540ca3e88cc27fb9c77"
+        "sha1": "62ae40a31b689b52fde399f2143d547a631e942c",
+        "sha512": "91404f87774466ce8604aafea791d8cc97b603bc310dce17c8188f94f7783cca6dc14fc726ce871ca317bfe9033c199d8d858d51284106a00754e952147703b8"
       },
-      "path": "mods/fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar"
+      "path": "mods/fabric-language-kotlin-1.14.1+kotlin.2.4.20.jar"
     },
     {
       "downloads": [
@@ -232,18 +232,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/XeEZ3fK2/versions/73gs9spC/freecam-fabric-1.4.1-rc.1%2Bmc26.1.2.jar"
+        "https://cdn.modrinth.com/data/XeEZ3fK2/versions/RystERKE/freecam-fabric-1.4.1%2Bmc26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 1362943,
+      "fileSize": 1362940,
       "hashes": {
-        "sha1": "9855ba8dc78e43b5513d7f46979fa5c9205a91e2",
-        "sha512": "709ae4daea6a21914d3a0eccb2068fca34a0c47c0476bbd5d1077e1e3d99fce28c67453e145f7538955a755f29ba8bccfe5843056efa144cf4ec603d4a9ff398"
+        "sha1": "f0a9fbd2a1d8eee22679c9182b466cc8094283a3",
+        "sha512": "f27f17a4847fa3ba8f1db3b187b5ad6d3b49c5945b56266859733e027c3ccebaa9d831f2904d75db062047beac46f6fc60681c823460aff4e77accb6f56abe48"
       },
-      "path": "mods/freecam-fabric-1.4.1-rc.1+mc26.1.2.jar.disabled"
+      "path": "mods/freecam-fabric-1.4.1+mc26.1.2.jar.disabled"
     },
     {
       "downloads": [
@@ -442,18 +442,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/CRU7bWnn/skyblocker-6.9.1%2B26.1.2.jar"
+        "https://cdn.modrinth.com/data/y6DuFGwJ/versions/KbYW1eox/skyblocker-6.10.2%2B26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 19371476,
+      "fileSize": 19610414,
       "hashes": {
-        "sha1": "1f2c02e95f115c746cbfbb963c902ade8bc475a5",
-        "sha512": "d568f9a19dc852aa9a54e54fcbcbf4b3a44b26ce8abe44016f6697eb6ae98687ec0354dc7feda43b2deb44e59fcc1e450fbbfab8c35b174b292c55016b9b8026"
+        "sha1": "8e19bb1c19750dc38e8478db8872e730ef9b66a2",
+        "sha512": "94772fedf8da689b99a6efffcdc65d222389e843f0bbaf4c01671c5cb8aa7875597d4a53dc9504e12a1be73c29f4cdf6c712fcedc5f0d2576ded4742a758c479"
       },
-      "path": "mods/skyblocker-6.9.1+26.1.2.jar"
+      "path": "mods/skyblocker-6.10.2+26.1.2.jar"
     },
     {
       "downloads": [
@@ -472,18 +472,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/byNkmv5G/versions/tQUWPVzg/SkyHanni-7.51.0-mc26.1.jar"
+        "https://cdn.modrinth.com/data/byNkmv5G/versions/oOFwRQYU/SkyHanni-7.55.0-mc26.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 29965967,
+      "fileSize": 30165190,
       "hashes": {
-        "sha1": "69fd588c3f9196cc166c233c6df3fa02eacca8ea",
-        "sha512": "a8f767a7ba762921d35a91e0a324c9f8ac39340e0b4ca7cf023a24fdadcc1726e71fdc04a5619645a9c24ae7ee694194efabf6d88e35961a49c97e6c9d4d1b7d"
+        "sha1": "2ed3503f2f4ee8671931376a126e01f3a9c8db68",
+        "sha512": "c58ee3e8f5d57474b020d8f1fe6632c4da0c67adda2afe9a92e36082da36428b971dd56a8fb74981c2158002d98bb842cec234212b5c4a36183cead8ee4b129a"
       },
-      "path": "mods/SkyHanni-7.51.0-mc26.1.jar"
+      "path": "mods/SkyHanni-7.55.0-mc26.1.jar"
     },
     {
       "downloads": [
@@ -517,18 +517,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/AANobbMI/versions/5FMvNu0I/sodium-fabric-0.9.2-alpha.4%2Bmc26.1.2.jar"
+        "https://cdn.modrinth.com/data/AANobbMI/versions/l25R3slV/sodium-fabric-0.9.2-beta.1%2Bmc26.1.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 1936354,
+      "fileSize": 1936367,
       "hashes": {
-        "sha1": "85e6b194a891f90c6b84c34adaac19a793cc8d2f",
-        "sha512": "f0b3a7adf52ccbc71a04a0a373966e338f5c45996d7db992cfdf51dee6e1917fab5922972f58f85baa0faea06e6b9fa89c221119f996ab8b723c91c83396f5b5"
+        "sha1": "748fe4e32e5b7c286bba45f9ba15d0ed74c34939",
+        "sha512": "e43553b48894d2725a4b5b38c0d98f19fbe149af4cb24f0b4f0adaa3f7196e76b8c5b89b78335ccd7cce13d97543320e41a037a1d16d9744579275245ad5e94f"
       },
-      "path": "mods/sodium-fabric-0.9.2-alpha.4+mc26.1.2.jar"
+      "path": "mods/sodium-fabric-0.9.2-beta.1+mc26.1.2.jar"
     },
     {
       "downloads": [
@@ -682,22 +682,22 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/eiWiefXD/versions/RUHBnkOA/SkyBlock%20Legacy.zip"
+        "https://cdn.modrinth.com/data/eiWiefXD/versions/UfU7LVhm/SkyBlock%20Legacy.zip"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 4789734,
+      "fileSize": 4954467,
       "hashes": {
-        "sha1": "6cb862850ff1b6c65e1818d4b35042257822e5a9",
-        "sha512": "9722fa5cf35bb55c13e9a54af4c43cf17ccd735df024fa423226538bbbd86e7c552a007ad256f00a48269066822bb364149d3872d201039b0e9adc650845a331"
+        "sha1": "11d7529a13c9c539d5d82b61f87d4c6d8b6163fb",
+        "sha512": "e209e06c0257a4f7c6fbad6f08b996ed7b0d0bbba591e9c74ccc22bd37a8352f43524318b317acdf6745384f82f69e70c0ce7548bddf872e0d8039b8fa38d496"
       },
       "path": "resourcepacks/SkyBlock Legacy.zip"
     }
   ],
   "dependencies": {
-    "fabric-loader": "0.19.3",
+    "fabric-loader": "0.19.5",
     "minecraft": "26.1.2"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "general": {
     "enableTips": false,
     "acceptReparty": true,
@@ -142,9 +142,7 @@
       "displayIcons": true,
       "compactWidgets": false,
       "enableHudBackground": true,
-      "effectsFromFooter": false,
-      "defaultPositioning": "CENTERED",
-      "nameSorting": "DEFAULT"
+      "defaultPositioning": "CENTERED"
     },
     "fancyAuctionHouse": {
       "enabled": false,
@@ -201,6 +199,7 @@
     "searchOverlay": {
       "enableBazaar": true,
       "enableAuctionHouse": true,
+      "enableIronmanAuctionHouse": false,
       "enableMuseum": true,
       "keepPreviousSearches": false,
       "maxSuggestions": 3,
@@ -248,13 +247,6 @@
     "gyroOverlay": {
       "gyroOverlayMode": "OFF",
       "gyroOverlayColor": 2138445204
-    },
-    "itemPickup": {
-      "enabled": false,
-      "sackNotifications": false,
-      "showItemName": true,
-      "lifeTime": 3,
-      "splitNotifications": false
     }
   },
   "helpers": {
@@ -283,12 +275,8 @@
     },
     "fishing": {
       "enableFishingHelper": true,
-      "enableFishingTimer": false,
       "hideOtherPlayersRods": true,
-      "enableFishingHud": false,
-      "enableSeaCreatureCounter": false,
       "fishingHookDisplay": "HUD",
-      "onlyShowHudInBarn": true,
       "timerLength": 340,
       "seaCreatureTimerNotification": true,
       "seaCreatureCapNotification": true,
@@ -297,6 +285,7 @@
     "fairySouls": {
       "enableFairySoulsHelper": false,
       "highlightFoundSouls": true,
+      "highlightOnBingo": true,
       "highlightOnlyNearbySouls": false
     },
     "chocolateFactory": {
@@ -341,7 +330,6 @@
     "starredMobBoundingBoxes": true,
     "highlightDoorKeys": true,
     "allowDroppingProtectedItems": true,
-    "dungeonSplits": false,
     "hideSoulweaverSkulls": true,
     "dungeonMap": {
       "enableMap": true,
@@ -497,9 +485,7 @@
       "enableLushlilacHighlighter": false,
       "enableSeaLumiesHighlighter": false,
       "seaLumiesMinimumCount": 3,
-      "enableTreeBreakProgress": false,
-      "enableTunerSolver": true,
-      "enableSweepDetailsWidget": false
+      "enableTunerSolver": true
     },
     "torrhusCanyon": {
       "solveDesertTemplePuzzles": true,
@@ -541,9 +527,8 @@
     "commissionHighlight": true,
     "callMismyla": true,
     "redialOnBadSignal": true,
-    "enablePickobulusHelper": true,
     "pickobulusHelper": {
-      "enablePickobulusHud": false,
+      "enablePickobulusHelper": true,
       "hideHudOnCooldown": false
     },
     "dwarvenMines": {
@@ -557,7 +542,6 @@
       "nucleusWaypoints": false,
       "chestHighlighter": true,
       "chestHighlightColor": -2147483393,
-      "enablePowderTracker": false,
       "countNaturalChestsInTracker": true,
       "powderTrackerFilter": []
     },
@@ -598,14 +582,6 @@
     }
   },
   "farming": {
-    "farmingHud": {
-      "enabled": false,
-      "counter": true,
-      "coins": true,
-      "type": "BOTH",
-      "includeSeedsPrice": true,
-      "experience": true
-    },
     "pestHighlighter": {
       "enabled": true,
       "vinylHighlighter": true,
@@ -677,9 +653,6 @@
     "floorDrops": {
       "highlightFloorDrops": true,
       "floorDropHighlightColor": -425955
-    },
-    "lassoHud": {
-      "enabled": true
     }
   },
   "otherLocations": {
@@ -701,13 +674,8 @@
     "end": {
       "enableEnderNodeHelper": true,
       "enderNodeWaypointType": "OUTLINED_HIGHLIGHT",
-      "hudEnabled": false,
-      "zealotKillsEnabled": true,
-      "protectorLocationEnabled": true,
       "waypoint": true,
-      "muteEndermanSounds": true,
-      "x": 10,
-      "y": 10
+      "muteEndermanSounds": true
     },
     "spidersDen": {
       "relics": {
@@ -775,7 +743,7 @@
     "hideHeal": "PASS",
     "hideAOTE": "FILTER",
     "hideImplosion": "FILTER",
-    "hideSpiritSceptre": "PASS",
+    "hideSpiritSceptre": "FILTER",
     "hideMoltenWave": "PASS",
     "hideAds": "FILTER",
     "hideTeleportPad": "PASS",
@@ -789,6 +757,7 @@
     "hideDeath": "PASS",
     "hideMana": false,
     "hideDungeonBreaker": "PASS",
+    "hideCritterCapture": "PASS",
     "chatRuleConfig": {
       "announcementLength": 60
     }
