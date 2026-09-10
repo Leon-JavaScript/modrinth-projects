@@ -5978,8 +5978,8 @@
       ]
     },
     "rareDropMessages": {
-      "petRarity": false,
-      "enchantedBook": false,
+      "petRarity": true,
+      "enchantedBook": true,
       "enchantedBookMissingMessage": false
     },
     "dungeonFilteredMessageTypes": [],
