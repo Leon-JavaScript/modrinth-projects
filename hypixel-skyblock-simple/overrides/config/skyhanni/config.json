@@ -5054,7 +5054,7 @@
       "displaySortingMethod": "PRICE_TO_NEXT_TIER",
       "overlayPriceSource": "INSTANT_BUY",
       "tierAsStackSize": false,
-      "highlightDisabledAttributes": false,
+      "highlightDisabledAttributes": true,
       "huntingBoxValue": false,
       "displayPosition": {
         "x": 174,
