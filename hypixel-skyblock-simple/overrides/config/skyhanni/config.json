@@ -2706,6 +2706,21 @@
         "ignoreCustomScale": false
       }
     },
+    "fallenStarCult": {
+      "enabled": true,
+      "onlyShowWhen": [
+        "IN_CULT_ROOM",
+        "WEARING_HELMET"
+      ],
+      "position": {
+        "x": -180,
+        "y": 40,
+        "scale": 1.0,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      }
+    },
     "darkMonolith": {
       "tracker": false,
       "trackerPosition": {
