@@ -3162,7 +3162,7 @@
         "centerY": true,
         "ignoreCustomScale": false
       },
-      "levelStackSize": false,
+      "levelStackSize": true,
       "tokenStackSize": false,
       "whispersSpent": false,
       "whispersSpentDesign": "NUMBER_AND_PERCENTAGE",
