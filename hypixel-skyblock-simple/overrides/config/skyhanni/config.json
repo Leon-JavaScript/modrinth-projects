@@ -3288,7 +3288,26 @@
   "hunting": {
     "safari": {
       "namesInCenter": false,
-      "hideyhoFinder": true
+      "hideyhoFinder": true,
+      "checklist": {
+        "enabled": false,
+        "runDisplay": "ONLY_CURRENT",
+        "hideCaught": true,
+        "showIcons": true,
+        "position": {
+          "x": 80,
+          "y": 100,
+          "scale": 1.0,
+          "centerX": false,
+          "centerY": true,
+          "ignoreCustomScale": false
+        }
+      },
+      "critterCapsules": {
+        "flyingMode": "NEVER",
+        "closeDistance": 2.0,
+        "hideOnGround": false
+      }
     },
     "shardTracker": {
       "enabled": false,
@@ -5097,8 +5116,8 @@
       }
     },
     "npcTrade": {
-      "highlightAffordable": true,
-      "costBreakdown": true
+      "highlightAffordable": false,
+      "costBreakdown": false
     },
     "hubSelector": {
       "enabled": true,
