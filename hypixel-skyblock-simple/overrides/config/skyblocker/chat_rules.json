@@ -33,7 +33,7 @@
     },
     {
       "name": "Mining Ability Alert",
-      "enabled": false,
+      "enabled": true,
       "partialMatch": true,
       "regex": false,
       "ignoreCase": true,
