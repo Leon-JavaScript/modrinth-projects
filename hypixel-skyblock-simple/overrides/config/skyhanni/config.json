@@ -5195,7 +5195,7 @@
       }
     },
     "diana": {
-      "highlightRareMobs": false,
+      "highlightRareMobs": true,
       "color": "0:127:85:255:255",
       "guess": true,
       "beaconDistance": 10.0,
@@ -5204,16 +5204,23 @@
       "burrowsNearbyDetection": true,
       "lineToNext": true,
       "guessFromArrow": true,
+      "burrowCustomization": {
+        "startBurrowColor": "0:255:85:255:85",
+        "mobBurrowColor": "0:255:255:85:85",
+        "treasureBurrowColor": "0:255:255:170:0",
+        "shouldRenderAsFullBlock": "FULL",
+        "burrowOutlineWidth": 1.0
+      },
       "warnOnFail": true,
       "warnOnChainComp": true,
       "renderSubGuesses": false,
       "clearOnWorldChange": false,
       "burrowNearestWarp": true,
-      "keyBindWarp": -1,
+      "keyBindWarp": 91,
       "warpDistanceDifference": 10,
       "warpGuiPosition": {
-        "x": 327,
-        "y": 125,
+        "x": -260,
+        "y": 35,
         "scale": 2.6,
         "centerX": false,
         "centerY": true,
@@ -5250,7 +5257,7 @@
         }
       },
       "dianaProfitTracker": {
-        "enabled": false,
+        "enabled": true,
         "perTrackerConfig": {
           "trackerConfig": {
             "itemTracker": {
@@ -5285,7 +5292,7 @@
         "position": {
           "x": 20,
           "y": 20,
-          "scale": 1.0,
+          "scale": 0.9,
           "centerX": false,
           "centerY": true,
           "ignoreCustomScale": false
@@ -5295,8 +5302,8 @@
         "enabled": false,
         "position": {
           "x": 20,
-          "y": 20,
-          "scale": 1.0,
+          "y": -170,
+          "scale": 0.9,
           "centerX": false,
           "centerY": true,
           "ignoreCustomScale": false
