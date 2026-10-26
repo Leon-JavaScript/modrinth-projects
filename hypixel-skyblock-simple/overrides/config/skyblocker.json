@@ -173,13 +173,14 @@
       "lineWidth": 5.0,
       "allowSkippingWaypoints": true,
       "allowGoingBackwards": true,
-      "waypointActivationRadius": 2.0,
+      "waypointActivationRadius": 3.0,
       "enableChatWaypoints": true
     },
     "teleportOverlay": {
       "enableTeleportOverlays": true,
       "showWhenInAir": false,
       "teleportOverlayColor": 2131296404,
+      "highlightType": "HIGHLIGHT",
       "enableWeirdTransmission": false,
       "enableInstantTransmission": false,
       "enableEtherTransmission": true,
