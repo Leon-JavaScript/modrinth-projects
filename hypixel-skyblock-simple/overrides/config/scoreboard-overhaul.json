@@ -1,6 +1,7 @@
 {
     "isEnabled": true,
-    "isAlwaysVisible": false,
+    "isAlwaysVisible": true,
+    "hideOnF3": true,
     "showOnUpdate": true,
     "showDuration": 8,
     "showVolume": 1.0,

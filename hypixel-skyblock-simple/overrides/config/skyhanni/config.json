@@ -655,7 +655,7 @@
     },
     "widenConfig": false,
     "titlePosition": {
-      "x": 24,
+      "x": 217,
       "y": 160,
       "scale": 1.0,
       "centerX": false,
@@ -1430,7 +1430,8 @@
         "noPestTitle": false,
         "teleportHotkey": -1,
         "alwaysTp": false,
-        "backToGarden": false
+        "backToGarden": false,
+        "ignoreSinglePestPlots": false
       },
       "pestWaypoint": {
         "enabled": true,
@@ -2425,6 +2426,7 @@
     "fishingHookDisplay": {
       "enabled": false,
       "customAlertText": "\u0026c\u0026l!!!",
+      "customReelInTime": 0.0,
       "hideArmorStand": true,
       "position": {
         "x": -475,
@@ -2949,14 +2951,15 @@
       "glacitePowderStack": false
     },
     "glaciteMineshaft": {
-      "mineshaftWaypoints": {
-        "enabled": false,
-        "entranceLocation": false,
-        "ladderLocation": false
-      },
-      "corpseLocator": {
-        "enabled": false,
-        "autoSendLocation": false
+      "waypointsConfig": {
+        "types": {
+          "entrance": false,
+          "ladder": false,
+          "foundCorpse": false,
+          "lootedCorpse": false
+        },
+        "autoShareCorpses": false,
+        "shareCorpseKeybind": -1
       },
       "corpseTracker": {
         "enabled": false,
@@ -3001,7 +3004,6 @@
           "ignoreCustomScale": false
         }
       },
-      "shareWaypointLocation": -1,
       "mineshaftDetectionConfig": {
         "mineshaftDetection": false,
         "sendTypeToPartyChat": false,
@@ -3232,7 +3234,7 @@
         "centerY": true,
         "ignoreCustomScale": false
       },
-      "compactGiftChats": true,
+      "displayTreeGifts": "COMPACT_GIFT",
       "compactGiftBonusDropsList": [
         "UNCOMMON_DROPS",
         "ENCHANTED_BOOKS",
@@ -3765,7 +3767,7 @@
         "UMBERELLA"
       ],
       "deployableReminder": {
-        "enabled": false,
+        "enabled": true,
         "warningTypes": [
           "SLAYER",
           "TROPHY_FISHING",
@@ -3801,11 +3803,8 @@
         "text": "\u00264Broodmother has spawned!"
       },
       "imminentWarning": false,
-      "stages": [
-        "SLAIN",
-        "ALIVE"
-      ],
       "stageOnJoin": false,
+      "slainMessage": true,
       "hideSlainWhenNearby": false,
       "countdownPosition": {
         "x": 10,
@@ -5466,9 +5465,7 @@
       "hoppityCallWarning": {
         "enabled": false,
         "hoppityCallSound": "note.pling",
-        "flashColor": "0:127:0:238:255",
-        "ensureCoins": false,
-        "coinThreshold": 5000000
+        "flashColor": "0:127:0:238:255"
       },
       "eventSummary": {
         "enabled": true,
@@ -5818,6 +5815,19 @@
         "ignoreCustomScale": false
       },
       "stewHighlighter": true
+    },
+    "stonksAuction": {
+      "countdown": false,
+      "oneMinuteWarning": true,
+      "newRoundAlert": true,
+      "countdownPosition": {
+        "x": 15,
+        "y": 30,
+        "scale": 1.0,
+        "centerX": false,
+        "centerY": true,
+        "ignoreCustomScale": false
+      }
     },
     "lobbyWaypoints": {
       "easterEgg": {
@@ -6834,7 +6844,7 @@
     "repo": {
       "repoAutoUpdate": true,
       "location": {
-        "user": "hannibal002",
+        "user": "SkyHanniStudios",
         "repoName": "SkyHanni-REPO",
         "branch": "main"
       },
@@ -6871,6 +6881,7 @@
       "copyItemDataCompressed": -1,
       "copyRngMeter": false,
       "copyBestiaryData": false,
+      "copySacksItems": false,
       "highlightMissingRepo": false,
       "logRepoErrors": false,
       "printMissingBazaarItems": false,
@@ -7083,16 +7094,19 @@
     "graphEditorTutorialAcknowledged": false,
     "harvestFeastStorage": {
       "harvestFeastSendingAsked": true,
-      "lastHarvestFeastSubmitYear": 513,
-      "lastHarvestFeastSubmitMonth": 2
+      "lastHarvestFeastSubmitYear": 519,
+      "lastHarvestFeastSubmitMonth": 9
     },
-    "trackerDisplayModes": {},
+    "trackerDisplayModes": {
+      "Diana Profit Tracker": "MAYOR",
+      "Mythological Creature Tracker": "MAYOR"
+    },
     "foundDianaBurrowLocations": [],
     "players": {},
     "blacklistedUsers": [],
     "reminders": {},
     "testRenderablePositions": {}
   },
-  "lastVersion": 146,
-  "lastMinecraftVersion": "26.1.2"
+  "lastVersion": 149,
+  "lastMinecraftVersion": "26.2"
 }

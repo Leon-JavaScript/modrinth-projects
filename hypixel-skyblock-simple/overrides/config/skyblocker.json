@@ -305,7 +305,8 @@
     "bazaar": {
       "enableBazaarHelper": true,
       "enableReorderHelper": true,
-      "enableOrderTracker": true
+      "enableOrderTracker": true,
+      "enableBazaarMax": true
     },
     "itemPrice": {
       "enableItemPriceLookup": true
@@ -620,7 +621,9 @@
       "highlightShellwise": true,
       "shellwiseGlowColor": -38881,
       "highlightCoralot": true,
-      "coralotGlowColor": -16776961
+      "coralotGlowColor": -16776961,
+      "highlightInvisibug": true,
+      "invisibugGlowColor": -16711681
     },
     "torrhusMobs": {
       "highlightHideonsun": true,
@@ -631,7 +634,9 @@
     "safari": {
       "silencePhantoms": true,
       "highlightSparklingCritters": false,
-      "sparklingCritterHighlightColor": -28672
+      "sparklingCritterHighlightColor": -28672,
+      "critterCapsuleHelper": false,
+      "critterCapsuleHelperColor": -16711936
     },
     "cavernBiome": {
       "highlightRockmiteMounds": true,
@@ -746,6 +751,7 @@
     "hideImplosion": "FILTER",
     "hideSpiritSceptre": "FILTER",
     "hideMoltenWave": "PASS",
+    "hideRareCrops": "PASS",
     "hideAds": "FILTER",
     "hideTeleportPad": "PASS",
     "hideCombo": "FILTER",

@@ -14,7 +14,7 @@
 	"showPingInTab": false,
 	"removePingShadow": false,
 	"scalePingDisplay": false,
-	"hideFalsePing": false,
+	"hideFalsePing": true,
 	"tabScale": 0.9,
 	"moveTabDown": 0.0,
 	"moveTabHorizontal": 0.0,
