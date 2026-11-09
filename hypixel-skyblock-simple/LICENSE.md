@@ -8,6 +8,6 @@ No part of this work may be copied, reproduced, modified, distributed, published
 
 Unauthorized use, reproduction, or redistribution of this material is strictly prohibited.
 
-**License:** All Rights Reserved (ARR)
+**License:** All Rights Reserved (ARR)  
 **Copyright Owner:** Leon-JavaScript  
 **Year:** 2026
